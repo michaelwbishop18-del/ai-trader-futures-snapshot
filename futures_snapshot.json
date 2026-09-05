@@ -2,7 +2,7 @@
   "TRANSMITTED": false,
   "databento_live": false,
   "dataset": "GLBX.MDP3",
-  "generated_at": "2026-09-04T23:32:39.592005+00:00",
+  "generated_at": "2026-09-05T01:52:53.531584+00:00",
   "health": {
     "all_instruments_live": false,
     "coverage_status": "unavailable",
@@ -35,8 +35,8 @@
       "SIL": "unavailable"
     },
     "live_count": 0,
-    "quote_age_seconds": 22.576,
-    "stale_reason": "MES:incomplete_live_quote(missing=bid,ask,last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MET:incomplete_live_quote(missing=last); MCA:incomplete_live_quote(missing=bid,ask,last); MSL:incomplete_live_quote(missing=last); MXP:incomplete_live_quote(missing=last); MXL:incomplete_live_quote(missing=last); MLN:incomplete_live_quote(missing=bid,ask,last); M6E:incomplete_live_quote(missing=bid,ask,last); M6A:incomplete_live_quote(missing=bid,ask,last); M6B:incomplete_live_quote(missing=bid,ask,last); MCD:incomplete_live_quote(missing=bid,ask,last); MSF:incomplete_live_quote(missing=bid,ask,last); 6J:incomplete_live_quote(missing=bid,ask,last); 6N:incomplete_live_quote(missing=bid,ask,last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=bid,ask,last); MNG:incomplete_live_quote(missing=bid,ask,last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=bid,ask,last)",
+    "quote_age_seconds": 22.987,
+    "stale_reason": "MES:incomplete_live_quote(missing=bid,ask,last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MET:incomplete_live_quote(missing=last); MCA:incomplete_live_quote(missing=bid,ask,last); MSL:incomplete_live_quote(missing=last); MXP:incomplete_live_quote(missing=last); MXL:incomplete_live_quote(missing=last); MLN:incomplete_live_quote(missing=last); M6E:incomplete_live_quote(missing=bid,ask,last); M6A:incomplete_live_quote(missing=bid,ask,last); M6B:incomplete_live_quote(missing=bid,ask,last); MCD:incomplete_live_quote(missing=bid,ask,last); MSF:incomplete_live_quote(missing=bid,ask,last); 6J:incomplete_live_quote(missing=bid,ask,last); 6N:incomplete_live_quote(missing=bid,ask,last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=bid,ask,last); MNG:incomplete_live_quote(missing=bid,ask,last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=bid,ask,last)",
     "unavailable_count": 24,
     "unavailable_symbols": [
       "MES",
@@ -319,11 +319,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MBTU6",
-      "age_seconds": 21.633,
-      "ask": 79945.0,
+      "age_seconds": 0.0,
+      "ask": 79830.0,
       "asset_group": "crypto",
       "atr": null,
-      "bid": 79910.0,
+      "bid": 79805.0,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -348,10 +348,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": 35.0,
+      "spread": 25.0,
       "stale": true,
       "stale_reason": "incomplete_live_quote(missing=last)",
-      "timestamp": "2026-09-04T23:33:33.558278113+00:00"
+      "timestamp": "2026-09-05T01:54:11.486504071+00:00"
     },
     "MCA": {
       "actionable_blockers": [
@@ -524,11 +524,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "METU6",
-      "age_seconds": 22.576,
-      "ask": 2462.0,
+      "age_seconds": 17.062,
+      "ask": 2461.5,
       "asset_group": "crypto",
       "atr": null,
-      "bid": 2460.0,
+      "bid": 2459.5,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -556,7 +556,7 @@
       "spread": 2.0,
       "stale": true,
       "stale_reason": "incomplete_live_quote(missing=last)",
-      "timestamp": "2026-09-04T23:33:32.615445005+00:00"
+      "timestamp": "2026-09-05T01:53:54.422590595+00:00"
     },
     "MGC": {
       "actionable_blockers": [
@@ -647,11 +647,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MLNU6",
-      "age_seconds": null,
-      "ask": null,
+      "age_seconds": 10.313,
+      "ask": 11.685,
       "asset_group": "crypto",
       "atr": null,
-      "bid": null,
+      "bid": 11.67,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -676,10 +676,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": null,
+      "spread": 0.015000000000000568,
       "stale": true,
-      "stale_reason": "incomplete_live_quote(missing=bid,ask,last)",
-      "timestamp": null
+      "stale_reason": "incomplete_live_quote(missing=last)",
+      "timestamp": "2026-09-05T01:54:01.171682427+00:00"
     },
     "MNG": {
       "actionable_blockers": [
@@ -811,11 +811,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MSLU6",
-      "age_seconds": 4.206,
-      "ask": 101.95,
+      "age_seconds": 21.967,
+      "ask": 102.0,
       "asset_group": "crypto",
       "atr": null,
-      "bid": 101.75,
+      "bid": 101.8,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -843,7 +843,7 @@
       "spread": 0.20000000000000284,
       "stale": true,
       "stale_reason": "incomplete_live_quote(missing=last)",
-      "timestamp": "2026-09-04T23:33:50.985601613+00:00"
+      "timestamp": "2026-09-05T01:53:49.518325517+00:00"
     },
     "MXL": {
       "actionable_blockers": [
@@ -852,11 +852,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MXLU6",
-      "age_seconds": 0.016,
-      "ask": 0.1807,
+      "age_seconds": 22.987,
+      "ask": 0.1805,
       "asset_group": "crypto",
       "atr": null,
-      "bid": 0.1804,
+      "bid": 0.1802,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -884,7 +884,7 @@
       "spread": 0.0002999999999999947,
       "stale": true,
       "stale_reason": "incomplete_live_quote(missing=last)",
-      "timestamp": "2026-09-04T23:33:55.175091203+00:00"
+      "timestamp": "2026-09-05T01:53:48.498236201+00:00"
     },
     "MXP": {
       "actionable_blockers": [
@@ -893,11 +893,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MXPU6",
-      "age_seconds": 4.222,
-      "ask": 1.4055,
+      "age_seconds": 10.076,
+      "ask": 1.4045,
       "asset_group": "crypto",
       "atr": null,
-      "bid": 1.4035,
+      "bid": 1.4025,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -925,7 +925,7 @@
       "spread": 0.0020000000000000018,
       "stale": true,
       "stale_reason": "incomplete_live_quote(missing=last)",
-      "timestamp": "2026-09-04T23:33:50.969186751+00:00"
+      "timestamp": "2026-09-05T01:54:01.409323041+00:00"
     },
     "MYM": {
       "actionable_blockers": [
@@ -1053,7 +1053,7 @@
   },
   "live_execution": false,
   "market_status": "WEEKEND_CLOSED",
-  "quote_age_seconds": 22.576,
+  "quote_age_seconds": 22.987,
   "read_only": true,
   "scorecard_scan": {
     "actionable_candidate_count": 0,
@@ -1094,7 +1094,7 @@
     ],
     "workflow": "full_universe_scan_then_rank_then_deep_analyze_finalists"
   },
-  "stale_reason": "MES:incomplete_live_quote(missing=bid,ask,last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MET:incomplete_live_quote(missing=last); MCA:incomplete_live_quote(missing=bid,ask,last); MSL:incomplete_live_quote(missing=last); MXP:incomplete_live_quote(missing=last); MXL:incomplete_live_quote(missing=last); MLN:incomplete_live_quote(missing=bid,ask,last); M6E:incomplete_live_quote(missing=bid,ask,last); M6A:incomplete_live_quote(missing=bid,ask,last); M6B:incomplete_live_quote(missing=bid,ask,last); MCD:incomplete_live_quote(missing=bid,ask,last); MSF:incomplete_live_quote(missing=bid,ask,last); 6J:incomplete_live_quote(missing=bid,ask,last); 6N:incomplete_live_quote(missing=bid,ask,last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=bid,ask,last); MNG:incomplete_live_quote(missing=bid,ask,last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=bid,ask,last)",
+  "stale_reason": "MES:incomplete_live_quote(missing=bid,ask,last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MET:incomplete_live_quote(missing=last); MCA:incomplete_live_quote(missing=bid,ask,last); MSL:incomplete_live_quote(missing=last); MXP:incomplete_live_quote(missing=last); MXL:incomplete_live_quote(missing=last); MLN:incomplete_live_quote(missing=last); M6E:incomplete_live_quote(missing=bid,ask,last); M6A:incomplete_live_quote(missing=bid,ask,last); M6B:incomplete_live_quote(missing=bid,ask,last); MCD:incomplete_live_quote(missing=bid,ask,last); MSF:incomplete_live_quote(missing=bid,ask,last); 6J:incomplete_live_quote(missing=bid,ask,last); 6N:incomplete_live_quote(missing=bid,ask,last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=bid,ask,last); MNG:incomplete_live_quote(missing=bid,ask,last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=bid,ask,last)",
   "universe": {
     "databento_mapping": "root identity; continuous ROOT.c.0",
     "instrument_count": 24,
