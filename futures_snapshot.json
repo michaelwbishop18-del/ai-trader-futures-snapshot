@@ -2,7 +2,7 @@
   "TRANSMITTED": false,
   "databento_live": false,
   "dataset": "GLBX.MDP3",
-  "generated_at": "2026-09-09T21:22:04.015934+00:00",
+  "generated_at": "2026-09-09T21:59:08.037011+00:00",
   "health": {
     "all_instruments_live": false,
     "coverage_status": "unavailable",
@@ -22,8 +22,8 @@
       "SIL": "unavailable"
     },
     "live_count": 0,
-    "quote_age_seconds": 0.007,
-    "stale_reason": "MES:incomplete_live_quote(missing=bid,ask,last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=bid,ask,last); MNG:incomplete_live_quote(missing=bid,ask,last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=bid,ask,last)",
+    "quote_age_seconds": 22.683,
+    "stale_reason": "MES:incomplete_live_quote(missing=last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=last); MNG:incomplete_live_quote(missing=last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=last)",
     "unavailable_count": 11,
     "unavailable_symbols": [
       "MES",
@@ -88,11 +88,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MBTU6",
-      "age_seconds": 0.007,
-      "ask": 78330.0,
+      "age_seconds": 4.34,
+      "ask": 78245.0,
       "asset_group": "crypto",
       "atr": null,
-      "bid": 78255.0,
+      "bid": 78180.0,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -117,10 +117,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": 75.0,
+      "spread": 65.0,
       "stale": true,
       "stale_reason": "incomplete_live_quote(missing=last)",
-      "timestamp": "2026-09-09T21:21:48.863898+00:00"
+      "timestamp": "2026-09-09T21:58:47.918245+00:00"
     },
     "MCL": {
       "actionable_blockers": [
@@ -129,11 +129,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MCLV6",
-      "age_seconds": null,
-      "ask": null,
+      "age_seconds": 0.029,
+      "ask": 96.36,
       "asset_group": "energy",
       "atr": null,
-      "bid": null,
+      "bid": 96.79,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -158,10 +158,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": null,
+      "spread": -0.4300000000000068,
       "stale": true,
-      "stale_reason": "incomplete_live_quote(missing=bid,ask,last)",
-      "timestamp": null
+      "stale_reason": "incomplete_live_quote(missing=last)",
+      "timestamp": "2026-09-09T21:58:52.228798+00:00"
     },
     "MES": {
       "actionable_blockers": [
@@ -170,11 +170,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MESU6",
-      "age_seconds": null,
-      "ask": null,
+      "age_seconds": 2.764,
+      "ask": 7611.0,
       "asset_group": "stock_index",
       "atr": null,
-      "bid": null,
+      "bid": 7685.0,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -199,10 +199,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": null,
+      "spread": -74.0,
       "stale": true,
-      "stale_reason": "incomplete_live_quote(missing=bid,ask,last)",
-      "timestamp": null
+      "stale_reason": "incomplete_live_quote(missing=last)",
+      "timestamp": "2026-09-09T21:58:49.494237+00:00"
     },
     "MGC": {
       "actionable_blockers": [
@@ -293,11 +293,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "MNGV6",
-      "age_seconds": null,
-      "ask": null,
+      "age_seconds": 5.979,
+      "ask": 2.819,
       "asset_group": "energy",
       "atr": null,
-      "bid": null,
+      "bid": 2.82,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -322,10 +322,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": null,
+      "spread": -0.0009999999999998899,
       "stale": true,
-      "stale_reason": "incomplete_live_quote(missing=bid,ask,last)",
-      "timestamp": null
+      "stale_reason": "incomplete_live_quote(missing=last)",
+      "timestamp": "2026-09-09T21:58:46.279048+00:00"
     },
     "MNQ": {
       "actionable_blockers": [
@@ -416,11 +416,11 @@
       ],
       "actionable_data_ready": false,
       "active_contract": "RBV6",
-      "age_seconds": null,
-      "ask": null,
+      "age_seconds": 22.683,
+      "ask": 3.246,
       "asset_group": "energy",
       "atr": null,
-      "bid": null,
+      "bid": 3.2095,
       "completed_5m_bar_age_seconds": null,
       "completed_5m_bar_health": "unavailable",
       "context_source": null,
@@ -445,10 +445,10 @@
       "session_low": null,
       "session_vwap": null,
       "source": "unavailable",
-      "spread": null,
+      "spread": 0.0365000000000002,
       "stale": true,
-      "stale_reason": "incomplete_live_quote(missing=bid,ask,last)",
-      "timestamp": null
+      "stale_reason": "incomplete_live_quote(missing=last)",
+      "timestamp": "2026-09-09T21:58:29.574881+00:00"
     },
     "SIL": {
       "actionable_blockers": [
@@ -494,7 +494,7 @@
   },
   "live_execution": false,
   "market_status": "GLOBEX_MAINTENANCE",
-  "quote_age_seconds": 0.007,
+  "quote_age_seconds": 22.683,
   "read_only": true,
   "scorecard_scan": {
     "actionable_candidate_count": 0,
@@ -522,7 +522,7 @@
     ],
     "workflow": "full_universe_scan_then_rank_then_deep_analyze_finalists"
   },
-  "stale_reason": "MES:incomplete_live_quote(missing=bid,ask,last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=bid,ask,last); MNG:incomplete_live_quote(missing=bid,ask,last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=bid,ask,last)",
+  "stale_reason": "MES:incomplete_live_quote(missing=last); MNQ:incomplete_live_quote(missing=bid,ask,last); M2K:incomplete_live_quote(missing=bid,ask,last); MYM:incomplete_live_quote(missing=bid,ask,last); MBT:incomplete_live_quote(missing=last); MGC:incomplete_live_quote(missing=bid,ask,last); SIL:incomplete_live_quote(missing=bid,ask,last); MCL:incomplete_live_quote(missing=last); MNG:incomplete_live_quote(missing=last); MHG:incomplete_live_quote(missing=bid,ask,last); RB:incomplete_live_quote(missing=last)",
   "universe": {
     "databento_mapping": "root identity; liquidity-aware ROOT.c.0/ROOT.v.0",
     "instrument_count": 11,
