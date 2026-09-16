@@ -7,21 +7,21 @@
         "structure_below_0.55"
       ],
       "components": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.1,
         "parent_rvol": 0.3026315789473685,
-        "relative_strength_breadth": 0.7111111111111111,
-        "stop_target_geometry": 0.6722222222229297,
-        "structure": 0.534205486198695,
+        "relative_strength_breadth": 0.5583333333333333,
+        "stop_target_geometry": 0.7138888888881814,
+        "structure": 0.52,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.6
       },
       "contract": "MESU6",
       "contributions": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.5,
         "parent_rvol": 3.026,
-        "relative_strength_breadth": 10.667,
-        "stop_target_geometry": 6.722,
-        "structure": 16.026,
+        "relative_strength_breadth": 8.375,
+        "stop_target_geometry": 7.139,
+        "structure": 15.6,
         "tbbo_order_flow": 0.0,
         "trend_regime": 12.0
       },
@@ -29,7 +29,7 @@
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": true,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -37,43 +37,43 @@
         },
         "supplemental_missing_zero_credit": [
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "long",
-      "directional_alignment": 56.3,
+      "directional_alignment": 54.0,
       "entry_watch": {
         "action": "BUY",
-        "activation": 7600.0,
-        "activation_rule_5m": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
-        "entry_high": 7600.0,
-        "entry_low": 7599.75,
+        "activation": 7599.5,
+        "activation_rule_5m": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
+        "entry_high": 7599.5,
+        "entry_low": 7599.25,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
         "stop": 7597.75
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.10",
+          "basis=oil inflation plus hawkish rate expectations"
         ],
         "parent_rvol": [
           "parent_rvol_5m=0.80"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.56",
-          "family_breadth=1.00"
+          "directional_rs=0.50",
+          "family_breadth=0.67"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.32",
+          "risk_atr=1.01",
           "volume_factor=0.55"
         ],
         "structure": [
           "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
-          "bar_close_location=0.57",
-          "vwap_extension_atr=1.18"
+          "bar_close_location=0.00",
+          "vwap_extension_atr=0.40"
         ],
         "tbbo_order_flow": [
           "tbbo_stale_or_unverified_zero_credit"
@@ -87,15 +87,15 @@
         ]
       },
       "geometry": {
-        "activation": 7600.0,
-        "activation_rule_5m": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
+        "activation": 7599.5,
+        "activation_rule_5m": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
         "blockers": [],
-        "do_not_enter_boundary": 7600.5,
-        "entry_high": 7600.0,
-        "entry_low": 7599.75,
+        "do_not_enter_boundary": 7600.0,
+        "entry_high": 7599.5,
+        "entry_low": 7599.25,
         "low_volume_extra_confirmation": true,
-        "risk_atr": 1.3222222222216562,
-        "risk_per_unit": 2.125,
+        "risk_atr": 1.011111111110545,
+        "risk_per_unit": 1.625,
         "scale_percentages": [
           40,
           35,
@@ -104,9 +104,9 @@
         "stop": 7597.75,
         "structural_invalidation": "latest_5m_low",
         "targets": [
-          7601.75,
-          7604.0,
-          7607.25
+          7600.75,
+          7602.5,
+          7605.0
         ],
         "volatility_buffer": 0.5
       },
@@ -114,23 +114,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 7599.25,
-        "bid": 7599.0,
+        "ask": 7598.5,
+        "bid": 7598.0,
         "completed_5m": {
-          "age_seconds": 51.965,
-          "close": 7599.250000000001,
+          "age_seconds": 93.906,
+          "close": 7598.250000000001,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
-          "high": 7600.000000000001,
+          "high": 7599.500000000001,
           "low": 7598.250000000001,
-          "open": 7599.500000000001,
+          "open": 7599.250000000001,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 134.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 62.0
         },
-        "last": 7599.25,
+        "last": 7598.0,
         "maintenance_close": 7596.5,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -139,9 +139,9 @@
         "prior_high": 7633.25,
         "prior_low": 7576.75,
         "prior_vwap": 7599.416319635381,
-        "quote_age_seconds": 0.273,
-        "quote_timestamp_utc": "2026-09-16T00:20:22.436914+00:00",
-        "relative_strength_rank": 5,
+        "quote_age_seconds": 2.489,
+        "quote_timestamp_utc": "2026-09-16T00:26:06.552991+00:00",
+        "relative_strength_rank": 6,
         "session_open": 7596.75,
         "session_vwap": 7597.354255621976,
         "technical": {
@@ -160,7 +160,7 @@
           "rsi_5m_14": 55.00330767453643,
           "rsi_5m_delta": -5.016738488151553,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1260.140716,
+          "tbbo_age_seconds": 1601.659304,
           "tbbo_aggressor_delta": -0.06358381502890173,
           "tbbo_pressure": 0.021921564359358197,
           "tbbo_source": "databento_tbbo",
@@ -181,11 +181,11 @@
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 10.62,
+        "per_contract_risk_dollars": 8.12,
         "per_contract_target_dollars": [
-          9.38,
-          20.62,
-          36.88
+          6.88,
+          15.62,
+          28.12
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -212,11 +212,11 @@
         },
         "primary": {
           "action": "BUY",
-          "condition": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
+          "condition": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
           "direction": "long"
         }
       },
-      "score": 48.4,
+      "score": 46.6,
       "sentiment": {
         "near_term": "BULLISH",
         "near_term_flip": "reassess below 7597.35 on completed 5m close; RSI must lose 50 and turn down",
@@ -230,7 +230,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 7599.25,
+        "last": 7598.0,
         "near_term_bearish_below": 7596.75,
         "near_term_bias": "BULLISH",
         "near_term_bullish_above": 7597.5,
@@ -253,29 +253,29 @@
         "trend_regime_below_0.45"
       ],
       "components": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.9,
         "parent_rvol": 0.634020618556701,
-        "relative_strength_breadth": 0.6388888888888888,
-        "stop_target_geometry": 0.8730225441979891,
-        "structure": 0.6222222222222222,
+        "relative_strength_breadth": 0.39,
+        "stop_target_geometry": 0.9022988505748799,
+        "structure": 0.7631035686655923,
         "tbbo_order_flow": 0.0,
-        "trend_regime": 0.35
+        "trend_regime": 0.22
       },
       "contract": "MNQU6",
       "contributions": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 4.5,
         "parent_rvol": 6.34,
-        "relative_strength_breadth": 9.583,
-        "stop_target_geometry": 8.73,
-        "structure": 18.667,
+        "relative_strength_breadth": 5.85,
+        "stop_target_geometry": 9.023,
+        "structure": 22.893,
         "tbbo_order_flow": 0.0,
-        "trend_regime": 7.0
+        "trend_regime": 4.4
       },
       "deep_coverage": {
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": true,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -283,75 +283,74 @@
         },
         "supplemental_missing_zero_credit": [
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
-      "direction": "long",
-      "directional_alignment": 58.0,
+      "direction": "short",
+      "directional_alignment": 62.6,
       "entry_watch": {
-        "action": "BUY",
-        "activation": 28991.25,
-        "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
-        "entry_high": 28991.75,
-        "entry_low": 28990.0,
+        "action": "SELL",
+        "activation": 28977.5,
+        "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
+        "entry_high": 28978.75,
+        "entry_low": 28977.0,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
-        "stop": 28981.0
+        "stop": 28987.5
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.90",
+          "basis=duration sensitivity to higher yields and hawkish Fed pricing"
         ],
         "parent_rvol": [
           "parent_rvol_5m=1.13"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.44",
-          "family_breadth=1.00"
+          "directional_rs=0.60",
+          "family_breadth=0.00"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.25",
+          "risk_atr=1.23",
           "volume_factor=1.00"
         ],
         "structure": [
           "vwap_aligned",
           "session_open_aligned",
+          "prior_close_aligned",
           "completed_5m_direction_aligned",
-          "bar_close_location=0.69",
-          "vwap_extension_atr=0.18"
+          "bar_close_location=0.88",
+          "vwap_extension_atr=0.52"
         ],
         "tbbo_order_flow": [
           "tbbo_stale_or_unverified_zero_credit"
         ],
         "trend_regime": [
-          "ema20_slope_aligned",
-          "ema50_slope_aligned",
           "vwap_path_aligned",
-          "4h_return_aligned=0.0007"
+          "60m_return_aligned=-0.0001"
         ]
       },
       "geometry": {
-        "activation": 28991.25,
-        "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
+        "activation": 28977.5,
+        "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
         "blockers": [],
-        "do_not_enter_boundary": 28994.25,
-        "entry_high": 28991.75,
-        "entry_low": 28990.0,
+        "do_not_enter_boundary": 28974.5,
+        "entry_high": 28978.75,
+        "entry_low": 28977.0,
         "low_volume_extra_confirmation": false,
-        "risk_atr": 1.2515819646416086,
-        "risk_per_unit": 9.875,
+        "risk_atr": 1.228160919540096,
+        "risk_per_unit": 9.625,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 28981.0,
-        "structural_invalidation": "session_vwap",
+        "stop": 28987.5,
+        "structural_invalidation": "latest_5m_high",
         "targets": [
-          28999.25,
-          29010.5,
-          29025.5
+          28969.75,
+          28958.5,
+          28944.25
         ],
         "volatility_buffer": 1.1651785714285714
       },
@@ -359,23 +358,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 28984.75,
-        "bid": 28984.0,
+        "ask": 28978.25,
+        "bid": 28977.5,
         "completed_5m": {
-          "age_seconds": 51.965,
-          "close": 28987.0,
+          "age_seconds": 93.906,
+          "close": 28979.25,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
-          "high": 28991.25,
-          "low": 28977.75,
-          "open": 28985.25,
+          "high": 28986.25,
+          "low": 28978.25,
+          "open": 28985.5,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 395.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 316.0
         },
-        "last": 28983.75,
+        "last": 28978.25,
         "maintenance_close": 28986.75,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -384,9 +383,9 @@
         "prior_high": 29199.25,
         "prior_low": 28919.0,
         "prior_vwap": 29053.76378578334,
-        "quote_age_seconds": 2.944,
-        "quote_timestamp_utc": "2026-09-16T00:20:19.765220+00:00",
-        "relative_strength_rank": 6,
+        "quote_age_seconds": 0.176,
+        "quote_timestamp_utc": "2026-09-16T00:26:08.865782+00:00",
+        "relative_strength_rank": 7,
         "session_open": 28981.25,
         "session_vwap": 28982.318068667515,
         "technical": {
@@ -405,7 +404,7 @@
           "rsi_5m_14": 52.27148556444093,
           "rsi_5m_delta": -6.1494188721378364,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1259.111108,
+          "tbbo_age_seconds": 1599.664122,
           "tbbo_aggressor_delta": 0.11956521739130435,
           "tbbo_pressure": -0.020247663252267924,
           "tbbo_source": "databento_tbbo",
@@ -422,15 +421,15 @@
         "reason": "insufficient_independent_calibration_below_100"
       },
       "publishable": false,
-      "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond session_vwap.",
+      "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 19.75,
+        "per_contract_risk_dollars": 19.25,
         "per_contract_target_dollars": [
-          16.75,
-          39.25,
-          69.25
+          16.25,
+          38.75,
+          67.25
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -439,7 +438,7 @@
       "scenario_map": {
         "failure": {
           "action": "REJECT SETUP",
-          "condition": "price violates session_vwap before confirmation"
+          "condition": "price violates latest_5m_high before confirmation"
         },
         "key_levels": {
           "maintenance_close": 28986.75,
@@ -452,32 +451,32 @@
         },
         "opposite": {
           "action": "REANALYZE",
-          "condition": "requires separate completed 5m acceptance beyond the opposite structure; current long plan does not authorize an automatic reversal",
-          "direction": "short"
+          "condition": "requires separate completed 5m acceptance beyond the opposite structure; current short plan does not authorize an automatic reversal",
+          "direction": "long"
         },
         "primary": {
-          "action": "BUY",
-          "condition": "completed 5m close at/above 28991.2; then 1m hold/retest",
-          "direction": "long"
+          "action": "SELL",
+          "condition": "completed 5m close at/below 28977.5; then 1m hold/retest",
+          "direction": "short"
         }
       },
-      "score": 50.3,
+      "score": 53.0,
       "sentiment": {
-        "near_term": "NEUTRAL",
-        "near_term_flip": "bullish above 28984.4 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
-        "short_term": "NEUTRAL",
-        "short_term_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close",
-        "trading_week": "NEUTRAL",
-        "trading_week_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close"
+        "near_term": "BEARISH",
+        "near_term_flip": "reassess above 28982.3 on completed 5m close; RSI must reclaim 50 and turn up",
+        "short_term": "BEARISH",
+        "short_term_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close",
+        "trading_week": "BEARISH",
+        "trading_week_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close"
       },
       "setup_type": "TREND CONTINUATION RETEST",
       "stage": "DEEP_ANALYSIS",
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 28983.75,
+        "last": 28978.25,
         "near_term_bearish_below": 28981.25,
-        "near_term_bias": "NEUTRAL",
+        "near_term_bias": "BEARISH",
         "near_term_bullish_above": 28984.5,
         "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
         "overnight_high": 28995.75,
@@ -487,8 +486,251 @@
         "session_open": 28981.25,
         "session_vwap": 28982.25,
         "short_term_bearish_below": 28983.5,
-        "short_term_bias": "NEUTRAL",
+        "short_term_bias": "BEARISH",
         "short_term_bullish_above": 29007.75,
+        "short_term_confirmation": "completed 15m close beyond the boundary"
+      }
+    },
+    {
+      "TRANSMITTED": false,
+      "blockers": [
+        "structure_below_0.55",
+        "trend_regime_below_0.45"
+      ],
+      "components": {
+        "macro_catalyst": 0.15,
+        "parent_rvol": 0.19999999999999996,
+        "relative_strength_breadth": 0.825,
+        "stop_target_geometry": 0.8221405228758409,
+        "structure": 0.5,
+        "tbbo_order_flow": 0.0,
+        "trend_regime": 0.12
+      },
+      "contract": "MBTU6",
+      "contributions": {
+        "macro_catalyst": 0.75,
+        "parent_rvol": 2.0,
+        "relative_strength_breadth": 12.375,
+        "stop_target_geometry": 8.221,
+        "structure": 15.0,
+        "tbbo_order_flow": 0.0,
+        "trend_regime": 2.4
+      },
+      "deep_coverage": {
+        "missing_required": [],
+        "required_complete": true,
+        "supplemental_available": {
+          "macro_catalyst": true,
+          "parent_rvol_5m": true,
+          "rsi_divergence_5m": true,
+          "tbbo_aggressor_delta": false,
+          "tbbo_pressure": false
+        },
+        "supplemental_missing_zero_credit": [
+          "tbbo_pressure",
+          "tbbo_aggressor_delta"
+        ]
+      },
+      "direction": "long",
+      "directional_alignment": 54.5,
+      "entry_watch": {
+        "action": "BUY",
+        "activation": 75875.0,
+        "activation_rule_5m": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+        "entry_high": 75880.0,
+        "entry_low": 75860.0,
+        "note": "Conditional watch only; revalidate current deep status before entry.",
+        "status": "POTENTIAL_ENTRY",
+        "stop": 75735.0
+      },
+      "evidence": {
+        "macro_catalyst": [
+          "macro_alignment=0.15",
+          "basis=stronger dollar and higher-rate risk-off regime"
+        ],
+        "parent_rvol": [
+          "parent_rvol_5m=0.70"
+        ],
+        "relative_strength_breadth": [
+          "directional_rs=1.00",
+          "family_breadth=0.50"
+        ],
+        "stop_target_geometry": [
+          "risk_atr=1.20",
+          "volume_factor=0.55"
+        ],
+        "structure": [
+          "vwap_aligned",
+          "session_open_aligned",
+          "completed_5m_direction_aligned",
+          "bar_close_location=1.00",
+          "vwap_extension_atr=3.14"
+        ],
+        "tbbo_order_flow": [
+          "tbbo_stale_or_unverified_zero_credit"
+        ],
+        "trend_regime": [
+          "vwap_path_aligned"
+        ]
+      },
+      "geometry": {
+        "activation": 75875.0,
+        "activation_rule_5m": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+        "blockers": [],
+        "do_not_enter_boundary": 75915.0,
+        "entry_high": 75880.0,
+        "entry_low": 75860.0,
+        "low_volume_extra_confirmation": true,
+        "risk_atr": 1.2022875816993273,
+        "risk_per_unit": 135.0,
+        "scale_percentages": [
+          40,
+          35,
+          25
+        ],
+        "stop": 75735.0,
+        "structural_invalidation": "latest_5m_low",
+        "targets": [
+          75985.0,
+          76140.0,
+          76340.0
+        ],
+        "volatility_buffer": 16.392857142857142
+      },
+      "grade": "D",
+      "guidance": null,
+      "live_execution": false,
+      "market": {
+        "ask": 75870.0,
+        "bid": 75860.0,
+        "completed_5m": {
+          "age_seconds": 93.906,
+          "close": 75870.0,
+          "complete": true,
+          "end": "2026-09-16T00:25:00+00:00",
+          "fresh": true,
+          "health": "recent",
+          "high": 75870.0,
+          "low": 75755.0,
+          "open": 75820.0,
+          "source": "databento_live_ohlcv_1m",
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 169.0
+        },
+        "last": 75865.0,
+        "maintenance_close": 75965.0,
+        "opening_range_high": null,
+        "opening_range_low": null,
+        "overnight_high": 75990.0,
+        "overnight_low": 75120.0,
+        "prior_high": 79010.0,
+        "prior_low": 74930.0,
+        "prior_vwap": 76566.00743120644,
+        "quote_age_seconds": 4.196,
+        "quote_timestamp_utc": "2026-09-16T00:26:04.846130+00:00",
+        "relative_strength_rank": 1,
+        "session_open": 75480.0,
+        "session_vwap": 75521.65232263047,
+        "technical": {
+          "atr_5m": 109.28571428571429,
+          "ema20_15m": 75913.55079850371,
+          "ema20_5m": 75728.79351394027,
+          "ema20_5m_slope": -6.715106730553089,
+          "ema50_15m": 76410.6831722404,
+          "ema50_5m": 75855.37523955802,
+          "ema50_5m_slope": -7.770417941137566,
+          "micro_rvol_5m": 0.5470588235294118,
+          "parent_rvol_5m": 0.7,
+          "range_atr": 7.9607843137254894,
+          "return_4h": -0.006107973203730466,
+          "return_60m": -0.0005283666864803749,
+          "rsi_5m_14": 46.00143702635287,
+          "rsi_5m_delta": -2.1270080760689396,
+          "rsi_divergence_5m": "none",
+          "tbbo_age_seconds": 1610.723397,
+          "tbbo_aggressor_delta": 0.3939393939393939,
+          "tbbo_pressure": -0.39310944355638866,
+          "tbbo_source": "databento_tbbo",
+          "trend_efficiency": 0.3037542662116041,
+          "volume_regime": "low"
+        }
+      },
+      "probabilities": {
+        "ev": null,
+        "p_stop": null,
+        "p_t1": null,
+        "p_t2": null,
+        "p_t3": null,
+        "reason": "insufficient_independent_calibration_below_100"
+      },
+      "publishable": false,
+      "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_low.",
+      "read_only": true,
+      "risk_disclosure": {
+        "full_bag_pnl": null,
+        "per_contract_risk_dollars": 13.5,
+        "per_contract_target_dollars": [
+          11.5,
+          27.0,
+          47.0
+        ],
+        "reason": "broker_margin_and_approved_contract_count_not_verified",
+        "stress_risk": null
+      },
+      "root": "MBT",
+      "scenario_map": {
+        "failure": {
+          "action": "REJECT SETUP",
+          "condition": "price violates latest_5m_low before confirmation"
+        },
+        "key_levels": {
+          "maintenance_close": 75965.0,
+          "opening_range_high": null,
+          "opening_range_low": null,
+          "overnight_high": 75990.0,
+          "overnight_low": 75120.0,
+          "prior_vwap": 76566.00743120644,
+          "vwap": 75521.65232263047
+        },
+        "opposite": {
+          "action": "REANALYZE",
+          "condition": "requires separate completed 5m acceptance beyond the opposite structure; current long plan does not authorize an automatic reversal",
+          "direction": "short"
+        },
+        "primary": {
+          "action": "BUY",
+          "condition": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+          "direction": "long"
+        }
+      },
+      "score": 40.7,
+      "sentiment": {
+        "near_term": "NEUTRAL",
+        "near_term_flip": "bullish above 75728.8 with RSI >50/rising; bearish below 75480 with RSI <50/falling",
+        "short_term": "BEARISH",
+        "short_term_flip": "weakens above 75913.6; bullish above 76410.7 on completed 15m close",
+        "trading_week": "BEARISH",
+        "trading_week_flip": "weakens above 75913.6; bullish above 76410.7 on completed 15m close"
+      },
+      "setup_type": "TREND CONTINUATION RETEST",
+      "stage": "DEEP_ANALYSIS",
+      "status": "DISQUALIFIED",
+      "tactical_horizon": "INTRADAY",
+      "watch_map": {
+        "last": 75865.0,
+        "near_term_bearish_below": 75480.0,
+        "near_term_bias": "NEUTRAL",
+        "near_term_bullish_above": 75730.0,
+        "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
+        "overnight_high": 75990.0,
+        "overnight_low": 75120.0,
+        "prior_high": 79010.0,
+        "prior_low": 74930.0,
+        "session_open": 75480.0,
+        "session_vwap": 75520.0,
+        "short_term_bearish_below": 75915.0,
+        "short_term_bias": "BEARISH",
+        "short_term_bullish_above": 76410.0,
         "short_term_confirmation": "completed 15m close beyond the boundary"
       }
     },
@@ -496,21 +738,21 @@
       "TRANSMITTED": false,
       "blockers": [],
       "components": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.75,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 0.6805555555555556,
-        "stop_target_geometry": 0.7984813084111985,
-        "structure": 0.584284298335479,
+        "relative_strength_breadth": 0.6950000000000001,
+        "stop_target_geometry": 0.9561915887849156,
+        "structure": 0.5616640537315122,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.85
       },
       "contract": "MGCV6",
       "contributions": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 3.75,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 10.208,
-        "stop_target_geometry": 7.985,
-        "structure": 17.529,
+        "relative_strength_breadth": 10.425,
+        "stop_target_geometry": 9.562,
+        "structure": 16.85,
         "tbbo_order_flow": 0.0,
         "trend_regime": 17.0
       },
@@ -518,7 +760,7 @@
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": false,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -527,44 +769,44 @@
         "supplemental_missing_zero_credit": [
           "parent_rvol_5m",
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "short",
-      "directional_alignment": 80.2,
+      "directional_alignment": 80.4,
       "entry_watch": {
         "action": "SELL",
-        "activation": 4288.6,
-        "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
-        "entry_high": 4289.1,
-        "entry_low": 4288.4,
+        "activation": 4289.7,
+        "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
+        "entry_high": 4290.2,
+        "entry_low": 4289.5,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
-        "stop": 4292.8
+        "stop": 4293.3
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.75",
+          "basis=safe-haven support conflicts with stronger dollar and yields"
         ],
         "parent_rvol": [
           "parent_rvol_unavailable_zero_credit"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.78",
+          "directional_rs=0.80",
           "family_breadth=0.50"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.31",
+          "risk_atr=1.11",
           "volume_factor=1.00"
         ],
         "structure": [
           "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
-          "bar_close_location=0.11",
+          "bar_close_location=0.29",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.11"
+          "vwap_extension_atr=1.66"
         ],
         "tbbo_order_flow": [
           "tbbo_stale_or_unverified_zero_credit"
@@ -580,26 +822,26 @@
         ]
       },
       "geometry": {
-        "activation": 4288.6,
-        "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
+        "activation": 4289.7,
+        "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
         "blockers": [],
-        "do_not_enter_boundary": 4287.4,
-        "entry_high": 4289.1,
-        "entry_low": 4288.4,
+        "do_not_enter_boundary": 4288.6,
+        "entry_high": 4290.2,
+        "entry_low": 4289.5,
         "low_volume_extra_confirmation": false,
-        "risk_atr": 1.311214953271041,
-        "risk_per_unit": 4.050000000000182,
+        "risk_atr": 1.1149532710279324,
+        "risk_per_unit": 3.449999999999818,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 4292.8,
+        "stop": 4293.3,
         "structural_invalidation": "latest_5m_high",
         "targets": [
-          4285.3,
-          4280.6,
-          4274.6
+          4286.9,
+          4283.0,
+          4277.8
         ],
         "volatility_buffer": 0.4585714285714305
       },
@@ -607,23 +849,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 4292.0,
-        "bid": 4291.0,
+        "ask": 4292.5,
+        "bid": 4290.0,
         "completed_5m": {
-          "age_seconds": 51.965,
+          "age_seconds": 93.906,
           "close": 4291.900000000001,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
-          "high": 4292.3,
-          "low": 4288.6,
-          "open": 4289.2,
+          "high": 4292.8,
+          "low": 4289.7,
+          "open": 4291.8,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 95.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 70.0
         },
-        "last": 4291.7,
+        "last": 4290.0,
         "maintenance_close": 4299.9,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -632,9 +874,9 @@
         "prior_high": 4324.1,
         "prior_low": 4268.0,
         "prior_vwap": 4296.970634196551,
-        "quote_age_seconds": 10.654,
-        "quote_timestamp_utc": "2026-09-16T00:20:12.055365+00:00",
-        "relative_strength_rank": 8,
+        "quote_age_seconds": 6.485,
+        "quote_timestamp_utc": "2026-09-16T00:26:02.557480+00:00",
+        "relative_strength_rank": 9,
         "session_open": 4299.9,
         "session_vwap": 4295.089174352218,
         "technical": {
@@ -653,7 +895,7 @@
           "rsi_5m_14": 37.07091055377097,
           "rsi_5m_delta": -0.3200676028623164,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1263.10555,
+          "tbbo_age_seconds": 1602.046883,
           "tbbo_aggressor_delta": -0.46107784431137727,
           "tbbo_pressure": -0.0321262929510352,
           "tbbo_source": "databento_tbbo",
@@ -674,11 +916,11 @@
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 40.5,
+        "per_contract_risk_dollars": 34.5,
         "per_contract_target_dollars": [
-          34.5,
-          81.5,
-          141.5
+          29.5,
+          68.5,
+          120.5
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -705,25 +947,25 @@
         },
         "primary": {
           "action": "SELL",
-          "condition": "completed 5m close at/below 4288.6; then 1m hold/retest",
+          "condition": "completed 5m close at/below 4289.7; then 1m hold/retest",
           "direction": "short"
         }
       },
-      "score": 52.7,
+      "score": 57.6,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 4295.09 on completed 5m close; RSI must reclaim 50 and turn up",
-        "short_term": "BEARISH",
-        "short_term_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close",
-        "trading_week": "BEARISH",
-        "trading_week_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close"
+        "short_term": "NEUTRAL",
+        "short_term_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close",
+        "trading_week": "NEUTRAL",
+        "trading_week_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close"
       },
       "setup_type": "TREND CONTINUATION RETEST",
       "stage": "DEEP_ANALYSIS",
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 4291.7,
+        "last": 4290.0,
         "near_term_bearish_below": 4294.1,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 4299.9,
@@ -735,7 +977,7 @@
         "session_open": 4299.9,
         "session_vwap": 4295.1,
         "short_term_bearish_below": 4297.6,
-        "short_term_bias": "BEARISH",
+        "short_term_bias": "NEUTRAL",
         "short_term_bullish_above": 4299.9,
         "short_term_confirmation": "completed 15m close beyond the boundary"
       }
@@ -746,29 +988,29 @@
         "trend_regime_below_0.45"
       ],
       "components": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.15,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 0.5055555555555555,
-        "stop_target_geometry": 0.26750000000008256,
-        "structure": 0.7658823529411883,
+        "relative_strength_breadth": 0.45499999999999996,
+        "stop_target_geometry": 0.547499999999815,
+        "structure": 0.640000000000019,
         "tbbo_order_flow": 0.0,
-        "trend_regime": 0.42
+        "trend_regime": 0.3
       },
       "contract": "SILZ6",
       "contributions": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.75,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 7.583,
-        "stop_target_geometry": 2.675,
-        "structure": 22.976,
+        "relative_strength_breadth": 6.825,
+        "stop_target_geometry": 5.475,
+        "structure": 19.2,
         "tbbo_order_flow": 0.0,
-        "trend_regime": 8.4
+        "trend_regime": 6.0
       },
       "deep_coverage": {
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": false,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -777,12 +1019,11 @@
         "supplemental_missing_zero_credit": [
           "parent_rvol_5m",
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "long",
-      "directional_alignment": 77.6,
+      "directional_alignment": 68.5,
       "entry_watch": {
         "action": "BUY",
         "activation": 64.25,
@@ -791,38 +1032,37 @@
         "entry_low": 64.245,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
-        "stop": 64.17
+        "stop": 64.175
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.15",
+          "basis=stronger dollar and rates outweigh safe-haven support"
         ],
         "parent_rvol": [
           "parent_rvol_unavailable_zero_credit"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.78",
+          "directional_rs=0.70",
           "family_breadth=0.00"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.74",
+          "risk_atr=1.51",
           "volume_factor=1.00"
         ],
         "structure": [
-          "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
           "completed_5m_direction_aligned",
-          "bar_close_location=0.88",
-          "vwap_extension_atr=0.02"
+          "bar_close_location=0.83",
+          "vwap_extension_atr=0.31"
         ],
         "tbbo_order_flow": [
           "tbbo_stale_or_unverified_zero_credit"
         ],
         "trend_regime": [
           "ema20_ema50_path_aligned",
-          "ema50_slope_aligned",
-          "vwap_path_aligned"
+          "ema50_slope_aligned"
         ]
       },
       "geometry": {
@@ -833,19 +1073,19 @@
         "entry_high": 64.25,
         "entry_low": 64.245,
         "low_volume_extra_confirmation": false,
-        "risk_atr": 1.7359999999999338,
-        "risk_per_unit": 0.07750000000000057,
+        "risk_atr": 1.512000000000148,
+        "risk_per_unit": 0.07250000000000512,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 64.17,
-        "structural_invalidation": "session_open",
+        "stop": 64.175,
+        "structural_invalidation": "latest_5m_low",
         "targets": [
-          64.315,
-          64.4,
-          64.52
+          64.31,
+          64.395,
+          64.5
         ],
         "volatility_buffer": 0.01
       },
@@ -853,23 +1093,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 64.245,
-        "bid": 64.235,
+        "ask": 64.22,
+        "bid": 64.21,
         "completed_5m": {
-          "age_seconds": 51.965,
+          "age_seconds": 93.906,
           "close": 64.24000000000001,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
           "high": 64.25,
-          "low": 64.165,
-          "open": 64.19500000000001,
+          "low": 64.19,
+          "open": 64.235,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 76.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 29.0
         },
-        "last": 64.24,
+        "last": 64.225,
         "maintenance_close": 64.185,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -878,9 +1118,9 @@
         "prior_high": 64.47,
         "prior_low": 63.035,
         "prior_vwap": 63.86803141898559,
-        "quote_age_seconds": 29.023,
-        "quote_timestamp_utc": "2026-09-16T00:19:53.686564+00:00",
-        "relative_strength_rank": 3,
+        "quote_age_seconds": 8.854,
+        "quote_timestamp_utc": "2026-09-16T00:26:00.187775+00:00",
+        "relative_strength_rank": 4,
         "session_open": 64.18,
         "session_vwap": 64.2390464970154,
         "technical": {
@@ -899,7 +1139,7 @@
           "rsi_5m_14": 45.67845217442187,
           "rsi_5m_delta": -2.524094319405478,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1259.915814,
+          "tbbo_age_seconds": 1600.691276,
           "tbbo_aggressor_delta": -0.08571428571428572,
           "tbbo_pressure": -0.03948439620081411,
           "tbbo_source": "databento_tbbo",
@@ -916,15 +1156,15 @@
         "reason": "insufficient_independent_calibration_below_100"
       },
       "publishable": false,
-      "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond session_open.",
+      "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_low.",
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 77.5,
+        "per_contract_risk_dollars": 72.5,
         "per_contract_target_dollars": [
-          67.5,
-          152.5,
-          272.5
+          62.5,
+          147.5,
+          252.5
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -933,7 +1173,7 @@
       "scenario_map": {
         "failure": {
           "action": "REJECT SETUP",
-          "condition": "price violates session_open before confirmation"
+          "condition": "price violates latest_5m_low before confirmation"
         },
         "key_levels": {
           "maintenance_close": 64.185,
@@ -955,7 +1195,7 @@
           "direction": "long"
         }
       },
-      "score": 41.6,
+      "score": 38.2,
       "sentiment": {
         "near_term": "NEUTRAL",
         "near_term_flip": "bullish above 64.239 with RSI >50/rising; bearish below 64.18 with RSI <50/falling",
@@ -969,7 +1209,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 64.24,
+        "last": 64.225,
         "near_term_bearish_below": 64.18,
         "near_term_bias": "NEUTRAL",
         "near_term_bullish_above": 64.24,
@@ -994,9 +1234,9 @@
       "components": {
         "macro_catalyst": 0.0,
         "parent_rvol": 0.2448275862068966,
-        "relative_strength_breadth": 0.9277777777777777,
+        "relative_strength_breadth": 1.0,
         "stop_target_geometry": 0.0,
-        "structure": 0.7333333333333331,
+        "structure": 0.5500000000000027,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.6
       },
@@ -1004,9 +1244,9 @@
       "contributions": {
         "macro_catalyst": 0.0,
         "parent_rvol": 2.448,
-        "relative_strength_breadth": 13.917,
+        "relative_strength_breadth": 15.0,
         "stop_target_geometry": 0.0,
-        "structure": 22.0,
+        "structure": 16.5,
         "tbbo_order_flow": 0.0,
         "trend_regime": 12.0
       },
@@ -1014,7 +1254,7 @@
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": true,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -1022,12 +1262,11 @@
         },
         "supplemental_missing_zero_credit": [
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "short",
-      "directional_alignment": 74.7,
+      "directional_alignment": 60.8,
       "entry_watch": {
         "action": null,
         "activation_rule_5m": null,
@@ -1041,13 +1280,14 @@
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.00",
+          "basis=Saudi loadings halt and Libya outages tighten immediate supply"
         ],
         "parent_rvol": [
           "parent_rvol_5m=0.74"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.89",
+          "directional_rs=1.00",
           "family_breadth=1.00"
         ],
         "stop_target_geometry": [
@@ -1057,9 +1297,8 @@
           "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
-          "completed_5m_direction_aligned",
-          "bar_close_location=0.61",
-          "vwap_extension_atr=6.43",
+          "bar_close_location=0.25",
+          "vwap_extension_atr=6.03",
           "named_level_acceptance"
         ],
         "tbbo_order_flow": [
@@ -1082,23 +1321,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 104.92,
-        "bid": 104.9,
+        "ask": 104.95,
+        "bid": 104.93,
         "completed_5m": {
-          "age_seconds": 51.965,
-          "close": 104.83000000000001,
+          "age_seconds": 93.906,
+          "close": 104.98,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
-          "high": 105.05000000000001,
-          "low": 104.69000000000001,
-          "open": 105.02000000000001,
+          "high": 105.02000000000001,
+          "low": 104.86,
+          "open": 104.86,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 1256.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 459.0
         },
-        "last": 104.91,
+        "last": 104.94,
         "maintenance_close": 105.52,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -1107,9 +1346,9 @@
         "prior_high": 106.75,
         "prior_low": 101.2,
         "prior_vwap": 103.93829046250966,
-        "quote_age_seconds": 0.692,
-        "quote_timestamp_utc": "2026-09-16T00:20:22.017414+00:00",
-        "relative_strength_rank": 9,
+        "quote_age_seconds": 6.443,
+        "quote_timestamp_utc": "2026-09-16T00:26:02.599222+00:00",
+        "relative_strength_rank": 11,
         "session_open": 105.47,
         "session_vwap": 105.39195211786371,
         "technical": {
@@ -1128,7 +1367,7 @@
           "rsi_5m_14": 42.75365046446821,
           "rsi_5m_delta": 3.0687375897235256,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1259.084636,
+          "tbbo_age_seconds": 1601.686239,
           "tbbo_aggressor_delta": -0.1574468085106383,
           "tbbo_pressure": 0.05022108076054227,
           "tbbo_source": "databento_tbbo",
@@ -1164,7 +1403,7 @@
         "opposite": null,
         "primary": null
       },
-      "score": 50.4,
+      "score": 45.9,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 105.422 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -1178,7 +1417,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 104.91,
+        "last": 104.94,
         "near_term_bearish_below": 105.39,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 105.47,
@@ -1201,21 +1440,21 @@
         "trend_regime_below_0.45"
       ],
       "components": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.65,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 0.6083333333333334,
-        "stop_target_geometry": 0.5669871794871204,
-        "structure": 0.6017902097901846,
+        "relative_strength_breadth": 0.6299999999999999,
+        "stop_target_geometry": 0.49006410256422206,
+        "structure": 0.7130722610722665,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.12
       },
       "contract": "MHGZ6",
       "contributions": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 3.25,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 9.125,
-        "stop_target_geometry": 5.67,
-        "structure": 18.054,
+        "relative_strength_breadth": 9.45,
+        "stop_target_geometry": 4.901,
+        "structure": 21.392,
         "tbbo_order_flow": 0.0,
         "trend_regime": 2.4
       },
@@ -1223,7 +1462,7 @@
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": false,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -1232,43 +1471,44 @@
         "supplemental_missing_zero_credit": [
           "parent_rvol_5m",
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "short",
-      "directional_alignment": 44.1,
+      "directional_alignment": 59.5,
       "entry_watch": {
         "action": "SELL",
-        "activation": 6.45,
-        "activation_rule_5m": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
-        "entry_high": 6.451,
-        "entry_low": 6.4495,
+        "activation": 6.4475,
+        "activation_rule_5m": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
+        "entry_high": 6.4485,
+        "entry_low": 6.447,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
-        "stop": 6.4605
+        "stop": 6.454
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.65",
+          "basis=risk-off and stronger-dollar headwind"
         ],
         "parent_rvol": [
           "parent_rvol_unavailable_zero_credit"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.67",
+          "directional_rs=0.70",
           "family_breadth=0.50"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.41",
+          "risk_atr=0.83",
           "volume_factor=0.55"
         ],
         "structure": [
           "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
+          "completed_5m_direction_aligned",
           "bar_close_location=0.20",
-          "vwap_extension_atr=1.78",
+          "vwap_extension_atr=2.14",
           "named_level_acceptance"
         ],
         "tbbo_order_flow": [
@@ -1280,26 +1520,26 @@
         ]
       },
       "geometry": {
-        "activation": 6.45,
-        "activation_rule_5m": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
+        "activation": 6.4475,
+        "activation_rule_5m": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
         "blockers": [],
-        "do_not_enter_boundary": 6.447,
-        "entry_high": 6.451,
-        "entry_low": 6.4495,
+        "do_not_enter_boundary": 6.4455,
+        "entry_high": 6.4485,
+        "entry_low": 6.447,
         "low_volume_extra_confirmation": true,
-        "risk_atr": 1.4064102564103036,
-        "risk_per_unit": 0.010250000000000092,
+        "risk_atr": 0.8320512820513776,
+        "risk_per_unit": 0.006249999999999645,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 6.4605,
-        "structural_invalidation": "session_open",
+        "stop": 6.454,
+        "structural_invalidation": "latest_5m_high",
         "targets": [
-          6.4415,
-          6.4295,
-          6.4145
+          6.4425,
+          6.4355,
+          6.426
         ],
         "volatility_buffer": 0.0010446428571428302
       },
@@ -1307,23 +1547,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 6.4525,
-        "bid": 6.4515,
+        "ask": 6.45,
+        "bid": 6.449,
         "completed_5m": {
-          "age_seconds": 51.965,
-          "close": 6.452000000000001,
+          "age_seconds": 93.906,
+          "close": 6.4515,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
           "high": 6.452500000000001,
-          "low": 6.45,
-          "open": 6.4515,
+          "low": 6.447500000000001,
+          "open": 6.452500000000001,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 35.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 12.0
         },
-        "last": 6.4525,
+        "last": 6.45,
         "maintenance_close": 6.458,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -1332,9 +1572,9 @@
         "prior_high": 6.47,
         "prior_low": 6.345,
         "prior_vwap": 6.411558711923411,
-        "quote_age_seconds": 21.17,
-        "quote_timestamp_utc": "2026-09-16T00:20:01.539428+00:00",
-        "relative_strength_rank": 7,
+        "quote_age_seconds": 26.107,
+        "quote_timestamp_utc": "2026-09-16T00:25:42.935144+00:00",
+        "relative_strength_rank": 8,
         "session_open": 6.459,
         "session_vwap": 6.46487987012987,
         "technical": {
@@ -1353,7 +1593,7 @@
           "rsi_5m_14": 60.29641728449111,
           "rsi_5m_delta": -2.5181484251466912,
           "rsi_divergence_5m": "bearish",
-          "tbbo_age_seconds": 1308.656274,
+          "tbbo_age_seconds": 1648.208984,
           "tbbo_aggressor_delta": -0.17647058823529413,
           "tbbo_pressure": -0.11260504201680673,
           "tbbo_source": "databento_tbbo",
@@ -1370,15 +1610,15 @@
         "reason": "insufficient_independent_calibration_below_100"
       },
       "publishable": false,
-      "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond session_open.",
+      "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 25.63,
+        "per_contract_risk_dollars": 15.62,
         "per_contract_target_dollars": [
-          21.88,
-          51.87,
-          89.37
+          13.13,
+          30.62,
+          54.37
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -1387,7 +1627,7 @@
       "scenario_map": {
         "failure": {
           "action": "REJECT SETUP",
-          "condition": "price violates session_open before confirmation"
+          "condition": "price violates latest_5m_high before confirmation"
         },
         "key_levels": {
           "maintenance_close": 6.458,
@@ -1405,11 +1645,11 @@
         },
         "primary": {
           "action": "SELL",
-          "condition": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
+          "condition": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
           "direction": "short"
         }
       },
-      "score": 35.2,
+      "score": 41.4,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 6.459 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -1423,7 +1663,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 6.4525,
+        "last": 6.45,
         "near_term_bearish_below": 6.4565,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 6.465,
@@ -1457,15 +1697,7 @@
   "best_play": null,
   "blocked_roots": {
     "M2K": [
-      "completed_5m_missing",
-      "missing_ask",
-      "missing_bid",
-      "missing_last",
-      "quote_age_over_30s",
-      "quote_not_live",
-      "quote_source_not_databento_live"
-    ],
-    "MBT": [
+      "completed_5m_age_over_600s",
       "quote_age_over_30s",
       "quote_not_live",
       "quote_source_not_databento_live"
@@ -1482,12 +1714,15 @@
       "quote_source_not_databento_live"
     ],
     "RB": [
-      "completed_5m_age_over_600s"
+      "completed_5m_age_over_600s",
+      "quote_age_over_30s",
+      "quote_not_live",
+      "quote_source_not_databento_live"
     ]
   },
   "decision": "NO TRADE",
   "deep_analysis": {
-    "finalist_count": 6,
+    "finalist_count": 7,
     "finalists": [
       {
         "TRANSMITTED": false,
@@ -1495,21 +1730,21 @@
           "structure_below_0.55"
         ],
         "components": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.1,
           "parent_rvol": 0.3026315789473685,
-          "relative_strength_breadth": 0.7111111111111111,
-          "stop_target_geometry": 0.6722222222229297,
-          "structure": 0.534205486198695,
+          "relative_strength_breadth": 0.5583333333333333,
+          "stop_target_geometry": 0.7138888888881814,
+          "structure": 0.52,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.6
         },
         "contract": "MESU6",
         "contributions": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.5,
           "parent_rvol": 3.026,
-          "relative_strength_breadth": 10.667,
-          "stop_target_geometry": 6.722,
-          "structure": 16.026,
+          "relative_strength_breadth": 8.375,
+          "stop_target_geometry": 7.139,
+          "structure": 15.6,
           "tbbo_order_flow": 0.0,
           "trend_regime": 12.0
         },
@@ -1517,7 +1752,7 @@
           "missing_required": [],
           "required_complete": true,
           "supplemental_available": {
-            "macro_catalyst": false,
+            "macro_catalyst": true,
             "parent_rvol_5m": true,
             "rsi_divergence_5m": true,
             "tbbo_aggressor_delta": false,
@@ -1525,43 +1760,43 @@
           },
           "supplemental_missing_zero_credit": [
             "tbbo_pressure",
-            "tbbo_aggressor_delta",
-            "macro_catalyst"
+            "tbbo_aggressor_delta"
           ]
         },
         "direction": "long",
-        "directional_alignment": 56.3,
+        "directional_alignment": 54.0,
         "entry_watch": {
           "action": "BUY",
-          "activation": 7600.0,
-          "activation_rule_5m": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
-          "entry_high": 7600.0,
-          "entry_low": 7599.75,
+          "activation": 7599.5,
+          "activation_rule_5m": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
+          "entry_high": 7599.5,
+          "entry_low": 7599.25,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
           "stop": 7597.75
         },
         "evidence": {
           "macro_catalyst": [
-            "macro_not_supplied_zero_credit"
+            "macro_alignment=0.10",
+            "basis=oil inflation plus hawkish rate expectations"
           ],
           "parent_rvol": [
             "parent_rvol_5m=0.80"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.56",
-            "family_breadth=1.00"
+            "directional_rs=0.50",
+            "family_breadth=0.67"
           ],
           "stop_target_geometry": [
-            "risk_atr=1.32",
+            "risk_atr=1.01",
             "volume_factor=0.55"
           ],
           "structure": [
             "vwap_aligned",
             "session_open_aligned",
             "prior_close_aligned",
-            "bar_close_location=0.57",
-            "vwap_extension_atr=1.18"
+            "bar_close_location=0.00",
+            "vwap_extension_atr=0.40"
           ],
           "tbbo_order_flow": [
             "tbbo_stale_or_unverified_zero_credit"
@@ -1575,15 +1810,15 @@
           ]
         },
         "geometry": {
-          "activation": 7600.0,
-          "activation_rule_5m": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
+          "activation": 7599.5,
+          "activation_rule_5m": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
           "blockers": [],
-          "do_not_enter_boundary": 7600.5,
-          "entry_high": 7600.0,
-          "entry_low": 7599.75,
+          "do_not_enter_boundary": 7600.0,
+          "entry_high": 7599.5,
+          "entry_low": 7599.25,
           "low_volume_extra_confirmation": true,
-          "risk_atr": 1.3222222222216562,
-          "risk_per_unit": 2.125,
+          "risk_atr": 1.011111111110545,
+          "risk_per_unit": 1.625,
           "scale_percentages": [
             40,
             35,
@@ -1592,9 +1827,9 @@
           "stop": 7597.75,
           "structural_invalidation": "latest_5m_low",
           "targets": [
-            7601.75,
-            7604.0,
-            7607.25
+            7600.75,
+            7602.5,
+            7605.0
           ],
           "volatility_buffer": 0.5
         },
@@ -1602,23 +1837,23 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 7599.25,
-          "bid": 7599.0,
+          "ask": 7598.5,
+          "bid": 7598.0,
           "completed_5m": {
-            "age_seconds": 51.965,
-            "close": 7599.250000000001,
+            "age_seconds": 93.906,
+            "close": 7598.250000000001,
             "complete": true,
-            "end": "2026-09-16T00:20:00+00:00",
+            "end": "2026-09-16T00:25:00+00:00",
             "fresh": true,
             "health": "recent",
-            "high": 7600.000000000001,
+            "high": 7599.500000000001,
             "low": 7598.250000000001,
-            "open": 7599.500000000001,
+            "open": 7599.250000000001,
             "source": "databento_live_ohlcv_1m",
-            "start": "2026-09-16T00:15:00+00:00",
-            "volume": 134.0
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 62.0
           },
-          "last": 7599.25,
+          "last": 7598.0,
           "maintenance_close": 7596.5,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -1627,9 +1862,9 @@
           "prior_high": 7633.25,
           "prior_low": 7576.75,
           "prior_vwap": 7599.416319635381,
-          "quote_age_seconds": 0.273,
-          "quote_timestamp_utc": "2026-09-16T00:20:22.436914+00:00",
-          "relative_strength_rank": 5,
+          "quote_age_seconds": 2.489,
+          "quote_timestamp_utc": "2026-09-16T00:26:06.552991+00:00",
+          "relative_strength_rank": 6,
           "session_open": 7596.75,
           "session_vwap": 7597.354255621976,
           "technical": {
@@ -1648,7 +1883,7 @@
             "rsi_5m_14": 55.00330767453643,
             "rsi_5m_delta": -5.016738488151553,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 1260.140716,
+            "tbbo_age_seconds": 1601.659304,
             "tbbo_aggressor_delta": -0.06358381502890173,
             "tbbo_pressure": 0.021921564359358197,
             "tbbo_source": "databento_tbbo",
@@ -1669,11 +1904,11 @@
         "read_only": true,
         "risk_disclosure": {
           "full_bag_pnl": null,
-          "per_contract_risk_dollars": 10.62,
+          "per_contract_risk_dollars": 8.12,
           "per_contract_target_dollars": [
-            9.38,
-            20.62,
-            36.88
+            6.88,
+            15.62,
+            28.12
           ],
           "reason": "broker_margin_and_approved_contract_count_not_verified",
           "stress_risk": null
@@ -1700,11 +1935,11 @@
           },
           "primary": {
             "action": "BUY",
-            "condition": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
+            "condition": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
             "direction": "long"
           }
         },
-        "score": 48.4,
+        "score": 46.6,
         "sentiment": {
           "near_term": "BULLISH",
           "near_term_flip": "reassess below 7597.35 on completed 5m close; RSI must lose 50 and turn down",
@@ -1718,7 +1953,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 7599.25,
+          "last": 7598.0,
           "near_term_bearish_below": 7596.75,
           "near_term_bias": "BULLISH",
           "near_term_bullish_above": 7597.5,
@@ -1741,29 +1976,29 @@
           "trend_regime_below_0.45"
         ],
         "components": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.9,
           "parent_rvol": 0.634020618556701,
-          "relative_strength_breadth": 0.6388888888888888,
-          "stop_target_geometry": 0.8730225441979891,
-          "structure": 0.6222222222222222,
+          "relative_strength_breadth": 0.39,
+          "stop_target_geometry": 0.9022988505748799,
+          "structure": 0.7631035686655923,
           "tbbo_order_flow": 0.0,
-          "trend_regime": 0.35
+          "trend_regime": 0.22
         },
         "contract": "MNQU6",
         "contributions": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 4.5,
           "parent_rvol": 6.34,
-          "relative_strength_breadth": 9.583,
-          "stop_target_geometry": 8.73,
-          "structure": 18.667,
+          "relative_strength_breadth": 5.85,
+          "stop_target_geometry": 9.023,
+          "structure": 22.893,
           "tbbo_order_flow": 0.0,
-          "trend_regime": 7.0
+          "trend_regime": 4.4
         },
         "deep_coverage": {
           "missing_required": [],
           "required_complete": true,
           "supplemental_available": {
-            "macro_catalyst": false,
+            "macro_catalyst": true,
             "parent_rvol_5m": true,
             "rsi_divergence_5m": true,
             "tbbo_aggressor_delta": false,
@@ -1771,75 +2006,74 @@
           },
           "supplemental_missing_zero_credit": [
             "tbbo_pressure",
-            "tbbo_aggressor_delta",
-            "macro_catalyst"
+            "tbbo_aggressor_delta"
           ]
         },
-        "direction": "long",
-        "directional_alignment": 58.0,
+        "direction": "short",
+        "directional_alignment": 62.6,
         "entry_watch": {
-          "action": "BUY",
-          "activation": 28991.25,
-          "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
-          "entry_high": 28991.75,
-          "entry_low": 28990.0,
+          "action": "SELL",
+          "activation": 28977.5,
+          "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
+          "entry_high": 28978.75,
+          "entry_low": 28977.0,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 28981.0
+          "stop": 28987.5
         },
         "evidence": {
           "macro_catalyst": [
-            "macro_not_supplied_zero_credit"
+            "macro_alignment=0.90",
+            "basis=duration sensitivity to higher yields and hawkish Fed pricing"
           ],
           "parent_rvol": [
             "parent_rvol_5m=1.13"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.44",
-            "family_breadth=1.00"
+            "directional_rs=0.60",
+            "family_breadth=0.00"
           ],
           "stop_target_geometry": [
-            "risk_atr=1.25",
+            "risk_atr=1.23",
             "volume_factor=1.00"
           ],
           "structure": [
             "vwap_aligned",
             "session_open_aligned",
+            "prior_close_aligned",
             "completed_5m_direction_aligned",
-            "bar_close_location=0.69",
-            "vwap_extension_atr=0.18"
+            "bar_close_location=0.88",
+            "vwap_extension_atr=0.52"
           ],
           "tbbo_order_flow": [
             "tbbo_stale_or_unverified_zero_credit"
           ],
           "trend_regime": [
-            "ema20_slope_aligned",
-            "ema50_slope_aligned",
             "vwap_path_aligned",
-            "4h_return_aligned=0.0007"
+            "60m_return_aligned=-0.0001"
           ]
         },
         "geometry": {
-          "activation": 28991.25,
-          "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
+          "activation": 28977.5,
+          "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
           "blockers": [],
-          "do_not_enter_boundary": 28994.25,
-          "entry_high": 28991.75,
-          "entry_low": 28990.0,
+          "do_not_enter_boundary": 28974.5,
+          "entry_high": 28978.75,
+          "entry_low": 28977.0,
           "low_volume_extra_confirmation": false,
-          "risk_atr": 1.2515819646416086,
-          "risk_per_unit": 9.875,
+          "risk_atr": 1.228160919540096,
+          "risk_per_unit": 9.625,
           "scale_percentages": [
             40,
             35,
             25
           ],
-          "stop": 28981.0,
-          "structural_invalidation": "session_vwap",
+          "stop": 28987.5,
+          "structural_invalidation": "latest_5m_high",
           "targets": [
-            28999.25,
-            29010.5,
-            29025.5
+            28969.75,
+            28958.5,
+            28944.25
           ],
           "volatility_buffer": 1.1651785714285714
         },
@@ -1847,23 +2081,23 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 28984.75,
-          "bid": 28984.0,
+          "ask": 28978.25,
+          "bid": 28977.5,
           "completed_5m": {
-            "age_seconds": 51.965,
-            "close": 28987.0,
+            "age_seconds": 93.906,
+            "close": 28979.25,
             "complete": true,
-            "end": "2026-09-16T00:20:00+00:00",
+            "end": "2026-09-16T00:25:00+00:00",
             "fresh": true,
             "health": "recent",
-            "high": 28991.25,
-            "low": 28977.75,
-            "open": 28985.25,
+            "high": 28986.25,
+            "low": 28978.25,
+            "open": 28985.5,
             "source": "databento_live_ohlcv_1m",
-            "start": "2026-09-16T00:15:00+00:00",
-            "volume": 395.0
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 316.0
           },
-          "last": 28983.75,
+          "last": 28978.25,
           "maintenance_close": 28986.75,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -1872,9 +2106,9 @@
           "prior_high": 29199.25,
           "prior_low": 28919.0,
           "prior_vwap": 29053.76378578334,
-          "quote_age_seconds": 2.944,
-          "quote_timestamp_utc": "2026-09-16T00:20:19.765220+00:00",
-          "relative_strength_rank": 6,
+          "quote_age_seconds": 0.176,
+          "quote_timestamp_utc": "2026-09-16T00:26:08.865782+00:00",
+          "relative_strength_rank": 7,
           "session_open": 28981.25,
           "session_vwap": 28982.318068667515,
           "technical": {
@@ -1893,7 +2127,7 @@
             "rsi_5m_14": 52.27148556444093,
             "rsi_5m_delta": -6.1494188721378364,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 1259.111108,
+            "tbbo_age_seconds": 1599.664122,
             "tbbo_aggressor_delta": 0.11956521739130435,
             "tbbo_pressure": -0.020247663252267924,
             "tbbo_source": "databento_tbbo",
@@ -1910,15 +2144,15 @@
           "reason": "insufficient_independent_calibration_below_100"
         },
         "publishable": false,
-        "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond session_vwap.",
+        "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
         "read_only": true,
         "risk_disclosure": {
           "full_bag_pnl": null,
-          "per_contract_risk_dollars": 19.75,
+          "per_contract_risk_dollars": 19.25,
           "per_contract_target_dollars": [
-            16.75,
-            39.25,
-            69.25
+            16.25,
+            38.75,
+            67.25
           ],
           "reason": "broker_margin_and_approved_contract_count_not_verified",
           "stress_risk": null
@@ -1927,7 +2161,7 @@
         "scenario_map": {
           "failure": {
             "action": "REJECT SETUP",
-            "condition": "price violates session_vwap before confirmation"
+            "condition": "price violates latest_5m_high before confirmation"
           },
           "key_levels": {
             "maintenance_close": 28986.75,
@@ -1940,32 +2174,32 @@
           },
           "opposite": {
             "action": "REANALYZE",
-            "condition": "requires separate completed 5m acceptance beyond the opposite structure; current long plan does not authorize an automatic reversal",
-            "direction": "short"
+            "condition": "requires separate completed 5m acceptance beyond the opposite structure; current short plan does not authorize an automatic reversal",
+            "direction": "long"
           },
           "primary": {
-            "action": "BUY",
-            "condition": "completed 5m close at/above 28991.2; then 1m hold/retest",
-            "direction": "long"
+            "action": "SELL",
+            "condition": "completed 5m close at/below 28977.5; then 1m hold/retest",
+            "direction": "short"
           }
         },
-        "score": 50.3,
+        "score": 53.0,
         "sentiment": {
-          "near_term": "NEUTRAL",
-          "near_term_flip": "bullish above 28984.4 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
-          "short_term": "NEUTRAL",
-          "short_term_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close",
-          "trading_week": "NEUTRAL",
-          "trading_week_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close"
+          "near_term": "BEARISH",
+          "near_term_flip": "reassess above 28982.3 on completed 5m close; RSI must reclaim 50 and turn up",
+          "short_term": "BEARISH",
+          "short_term_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close",
+          "trading_week": "BEARISH",
+          "trading_week_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close"
         },
         "setup_type": "TREND CONTINUATION RETEST",
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 28983.75,
+          "last": 28978.25,
           "near_term_bearish_below": 28981.25,
-          "near_term_bias": "NEUTRAL",
+          "near_term_bias": "BEARISH",
           "near_term_bullish_above": 28984.5,
           "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
           "overnight_high": 28995.75,
@@ -1975,8 +2209,251 @@
           "session_open": 28981.25,
           "session_vwap": 28982.25,
           "short_term_bearish_below": 28983.5,
-          "short_term_bias": "NEUTRAL",
+          "short_term_bias": "BEARISH",
           "short_term_bullish_above": 29007.75,
+          "short_term_confirmation": "completed 15m close beyond the boundary"
+        }
+      },
+      {
+        "TRANSMITTED": false,
+        "blockers": [
+          "structure_below_0.55",
+          "trend_regime_below_0.45"
+        ],
+        "components": {
+          "macro_catalyst": 0.15,
+          "parent_rvol": 0.19999999999999996,
+          "relative_strength_breadth": 0.825,
+          "stop_target_geometry": 0.8221405228758409,
+          "structure": 0.5,
+          "tbbo_order_flow": 0.0,
+          "trend_regime": 0.12
+        },
+        "contract": "MBTU6",
+        "contributions": {
+          "macro_catalyst": 0.75,
+          "parent_rvol": 2.0,
+          "relative_strength_breadth": 12.375,
+          "stop_target_geometry": 8.221,
+          "structure": 15.0,
+          "tbbo_order_flow": 0.0,
+          "trend_regime": 2.4
+        },
+        "deep_coverage": {
+          "missing_required": [],
+          "required_complete": true,
+          "supplemental_available": {
+            "macro_catalyst": true,
+            "parent_rvol_5m": true,
+            "rsi_divergence_5m": true,
+            "tbbo_aggressor_delta": false,
+            "tbbo_pressure": false
+          },
+          "supplemental_missing_zero_credit": [
+            "tbbo_pressure",
+            "tbbo_aggressor_delta"
+          ]
+        },
+        "direction": "long",
+        "directional_alignment": 54.5,
+        "entry_watch": {
+          "action": "BUY",
+          "activation": 75875.0,
+          "activation_rule_5m": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+          "entry_high": 75880.0,
+          "entry_low": 75860.0,
+          "note": "Conditional watch only; revalidate current deep status before entry.",
+          "status": "POTENTIAL_ENTRY",
+          "stop": 75735.0
+        },
+        "evidence": {
+          "macro_catalyst": [
+            "macro_alignment=0.15",
+            "basis=stronger dollar and higher-rate risk-off regime"
+          ],
+          "parent_rvol": [
+            "parent_rvol_5m=0.70"
+          ],
+          "relative_strength_breadth": [
+            "directional_rs=1.00",
+            "family_breadth=0.50"
+          ],
+          "stop_target_geometry": [
+            "risk_atr=1.20",
+            "volume_factor=0.55"
+          ],
+          "structure": [
+            "vwap_aligned",
+            "session_open_aligned",
+            "completed_5m_direction_aligned",
+            "bar_close_location=1.00",
+            "vwap_extension_atr=3.14"
+          ],
+          "tbbo_order_flow": [
+            "tbbo_stale_or_unverified_zero_credit"
+          ],
+          "trend_regime": [
+            "vwap_path_aligned"
+          ]
+        },
+        "geometry": {
+          "activation": 75875.0,
+          "activation_rule_5m": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+          "blockers": [],
+          "do_not_enter_boundary": 75915.0,
+          "entry_high": 75880.0,
+          "entry_low": 75860.0,
+          "low_volume_extra_confirmation": true,
+          "risk_atr": 1.2022875816993273,
+          "risk_per_unit": 135.0,
+          "scale_percentages": [
+            40,
+            35,
+            25
+          ],
+          "stop": 75735.0,
+          "structural_invalidation": "latest_5m_low",
+          "targets": [
+            75985.0,
+            76140.0,
+            76340.0
+          ],
+          "volatility_buffer": 16.392857142857142
+        },
+        "grade": "D",
+        "guidance": null,
+        "live_execution": false,
+        "market": {
+          "ask": 75870.0,
+          "bid": 75860.0,
+          "completed_5m": {
+            "age_seconds": 93.906,
+            "close": 75870.0,
+            "complete": true,
+            "end": "2026-09-16T00:25:00+00:00",
+            "fresh": true,
+            "health": "recent",
+            "high": 75870.0,
+            "low": 75755.0,
+            "open": 75820.0,
+            "source": "databento_live_ohlcv_1m",
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 169.0
+          },
+          "last": 75865.0,
+          "maintenance_close": 75965.0,
+          "opening_range_high": null,
+          "opening_range_low": null,
+          "overnight_high": 75990.0,
+          "overnight_low": 75120.0,
+          "prior_high": 79010.0,
+          "prior_low": 74930.0,
+          "prior_vwap": 76566.00743120644,
+          "quote_age_seconds": 4.196,
+          "quote_timestamp_utc": "2026-09-16T00:26:04.846130+00:00",
+          "relative_strength_rank": 1,
+          "session_open": 75480.0,
+          "session_vwap": 75521.65232263047,
+          "technical": {
+            "atr_5m": 109.28571428571429,
+            "ema20_15m": 75913.55079850371,
+            "ema20_5m": 75728.79351394027,
+            "ema20_5m_slope": -6.715106730553089,
+            "ema50_15m": 76410.6831722404,
+            "ema50_5m": 75855.37523955802,
+            "ema50_5m_slope": -7.770417941137566,
+            "micro_rvol_5m": 0.5470588235294118,
+            "parent_rvol_5m": 0.7,
+            "range_atr": 7.9607843137254894,
+            "return_4h": -0.006107973203730466,
+            "return_60m": -0.0005283666864803749,
+            "rsi_5m_14": 46.00143702635287,
+            "rsi_5m_delta": -2.1270080760689396,
+            "rsi_divergence_5m": "none",
+            "tbbo_age_seconds": 1610.723397,
+            "tbbo_aggressor_delta": 0.3939393939393939,
+            "tbbo_pressure": -0.39310944355638866,
+            "tbbo_source": "databento_tbbo",
+            "trend_efficiency": 0.3037542662116041,
+            "volume_regime": "low"
+          }
+        },
+        "probabilities": {
+          "ev": null,
+          "p_stop": null,
+          "p_t1": null,
+          "p_t2": null,
+          "p_t3": null,
+          "reason": "insufficient_independent_calibration_below_100"
+        },
+        "publishable": false,
+        "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_low.",
+        "read_only": true,
+        "risk_disclosure": {
+          "full_bag_pnl": null,
+          "per_contract_risk_dollars": 13.5,
+          "per_contract_target_dollars": [
+            11.5,
+            27.0,
+            47.0
+          ],
+          "reason": "broker_margin_and_approved_contract_count_not_verified",
+          "stress_risk": null
+        },
+        "root": "MBT",
+        "scenario_map": {
+          "failure": {
+            "action": "REJECT SETUP",
+            "condition": "price violates latest_5m_low before confirmation"
+          },
+          "key_levels": {
+            "maintenance_close": 75965.0,
+            "opening_range_high": null,
+            "opening_range_low": null,
+            "overnight_high": 75990.0,
+            "overnight_low": 75120.0,
+            "prior_vwap": 76566.00743120644,
+            "vwap": 75521.65232263047
+          },
+          "opposite": {
+            "action": "REANALYZE",
+            "condition": "requires separate completed 5m acceptance beyond the opposite structure; current long plan does not authorize an automatic reversal",
+            "direction": "short"
+          },
+          "primary": {
+            "action": "BUY",
+            "condition": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+            "direction": "long"
+          }
+        },
+        "score": 40.7,
+        "sentiment": {
+          "near_term": "NEUTRAL",
+          "near_term_flip": "bullish above 75728.8 with RSI >50/rising; bearish below 75480 with RSI <50/falling",
+          "short_term": "BEARISH",
+          "short_term_flip": "weakens above 75913.6; bullish above 76410.7 on completed 15m close",
+          "trading_week": "BEARISH",
+          "trading_week_flip": "weakens above 75913.6; bullish above 76410.7 on completed 15m close"
+        },
+        "setup_type": "TREND CONTINUATION RETEST",
+        "stage": "DEEP_ANALYSIS",
+        "status": "DISQUALIFIED",
+        "tactical_horizon": "INTRADAY",
+        "watch_map": {
+          "last": 75865.0,
+          "near_term_bearish_below": 75480.0,
+          "near_term_bias": "NEUTRAL",
+          "near_term_bullish_above": 75730.0,
+          "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
+          "overnight_high": 75990.0,
+          "overnight_low": 75120.0,
+          "prior_high": 79010.0,
+          "prior_low": 74930.0,
+          "session_open": 75480.0,
+          "session_vwap": 75520.0,
+          "short_term_bearish_below": 75915.0,
+          "short_term_bias": "BEARISH",
+          "short_term_bullish_above": 76410.0,
           "short_term_confirmation": "completed 15m close beyond the boundary"
         }
       },
@@ -1984,21 +2461,21 @@
         "TRANSMITTED": false,
         "blockers": [],
         "components": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.75,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 0.6805555555555556,
-          "stop_target_geometry": 0.7984813084111985,
-          "structure": 0.584284298335479,
+          "relative_strength_breadth": 0.6950000000000001,
+          "stop_target_geometry": 0.9561915887849156,
+          "structure": 0.5616640537315122,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.85
         },
         "contract": "MGCV6",
         "contributions": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 3.75,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 10.208,
-          "stop_target_geometry": 7.985,
-          "structure": 17.529,
+          "relative_strength_breadth": 10.425,
+          "stop_target_geometry": 9.562,
+          "structure": 16.85,
           "tbbo_order_flow": 0.0,
           "trend_regime": 17.0
         },
@@ -2006,7 +2483,7 @@
           "missing_required": [],
           "required_complete": true,
           "supplemental_available": {
-            "macro_catalyst": false,
+            "macro_catalyst": true,
             "parent_rvol_5m": false,
             "rsi_divergence_5m": true,
             "tbbo_aggressor_delta": false,
@@ -2015,44 +2492,44 @@
           "supplemental_missing_zero_credit": [
             "parent_rvol_5m",
             "tbbo_pressure",
-            "tbbo_aggressor_delta",
-            "macro_catalyst"
+            "tbbo_aggressor_delta"
           ]
         },
         "direction": "short",
-        "directional_alignment": 80.2,
+        "directional_alignment": 80.4,
         "entry_watch": {
           "action": "SELL",
-          "activation": 4288.6,
-          "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
-          "entry_high": 4289.1,
-          "entry_low": 4288.4,
+          "activation": 4289.7,
+          "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
+          "entry_high": 4290.2,
+          "entry_low": 4289.5,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 4292.8
+          "stop": 4293.3
         },
         "evidence": {
           "macro_catalyst": [
-            "macro_not_supplied_zero_credit"
+            "macro_alignment=0.75",
+            "basis=safe-haven support conflicts with stronger dollar and yields"
           ],
           "parent_rvol": [
             "parent_rvol_unavailable_zero_credit"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.78",
+            "directional_rs=0.80",
             "family_breadth=0.50"
           ],
           "stop_target_geometry": [
-            "risk_atr=1.31",
+            "risk_atr=1.11",
             "volume_factor=1.00"
           ],
           "structure": [
             "vwap_aligned",
             "session_open_aligned",
             "prior_close_aligned",
-            "bar_close_location=0.11",
+            "bar_close_location=0.29",
             "rsi_level_and_direction_aligned",
-            "vwap_extension_atr=1.11"
+            "vwap_extension_atr=1.66"
           ],
           "tbbo_order_flow": [
             "tbbo_stale_or_unverified_zero_credit"
@@ -2068,26 +2545,26 @@
           ]
         },
         "geometry": {
-          "activation": 4288.6,
-          "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
+          "activation": 4289.7,
+          "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
           "blockers": [],
-          "do_not_enter_boundary": 4287.4,
-          "entry_high": 4289.1,
-          "entry_low": 4288.4,
+          "do_not_enter_boundary": 4288.6,
+          "entry_high": 4290.2,
+          "entry_low": 4289.5,
           "low_volume_extra_confirmation": false,
-          "risk_atr": 1.311214953271041,
-          "risk_per_unit": 4.050000000000182,
+          "risk_atr": 1.1149532710279324,
+          "risk_per_unit": 3.449999999999818,
           "scale_percentages": [
             40,
             35,
             25
           ],
-          "stop": 4292.8,
+          "stop": 4293.3,
           "structural_invalidation": "latest_5m_high",
           "targets": [
-            4285.3,
-            4280.6,
-            4274.6
+            4286.9,
+            4283.0,
+            4277.8
           ],
           "volatility_buffer": 0.4585714285714305
         },
@@ -2095,23 +2572,23 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 4292.0,
-          "bid": 4291.0,
+          "ask": 4292.5,
+          "bid": 4290.0,
           "completed_5m": {
-            "age_seconds": 51.965,
+            "age_seconds": 93.906,
             "close": 4291.900000000001,
             "complete": true,
-            "end": "2026-09-16T00:20:00+00:00",
+            "end": "2026-09-16T00:25:00+00:00",
             "fresh": true,
             "health": "recent",
-            "high": 4292.3,
-            "low": 4288.6,
-            "open": 4289.2,
+            "high": 4292.8,
+            "low": 4289.7,
+            "open": 4291.8,
             "source": "databento_live_ohlcv_1m",
-            "start": "2026-09-16T00:15:00+00:00",
-            "volume": 95.0
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 70.0
           },
-          "last": 4291.7,
+          "last": 4290.0,
           "maintenance_close": 4299.9,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2120,9 +2597,9 @@
           "prior_high": 4324.1,
           "prior_low": 4268.0,
           "prior_vwap": 4296.970634196551,
-          "quote_age_seconds": 10.654,
-          "quote_timestamp_utc": "2026-09-16T00:20:12.055365+00:00",
-          "relative_strength_rank": 8,
+          "quote_age_seconds": 6.485,
+          "quote_timestamp_utc": "2026-09-16T00:26:02.557480+00:00",
+          "relative_strength_rank": 9,
           "session_open": 4299.9,
           "session_vwap": 4295.089174352218,
           "technical": {
@@ -2141,7 +2618,7 @@
             "rsi_5m_14": 37.07091055377097,
             "rsi_5m_delta": -0.3200676028623164,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 1263.10555,
+            "tbbo_age_seconds": 1602.046883,
             "tbbo_aggressor_delta": -0.46107784431137727,
             "tbbo_pressure": -0.0321262929510352,
             "tbbo_source": "databento_tbbo",
@@ -2162,11 +2639,11 @@
         "read_only": true,
         "risk_disclosure": {
           "full_bag_pnl": null,
-          "per_contract_risk_dollars": 40.5,
+          "per_contract_risk_dollars": 34.5,
           "per_contract_target_dollars": [
-            34.5,
-            81.5,
-            141.5
+            29.5,
+            68.5,
+            120.5
           ],
           "reason": "broker_margin_and_approved_contract_count_not_verified",
           "stress_risk": null
@@ -2193,25 +2670,25 @@
           },
           "primary": {
             "action": "SELL",
-            "condition": "completed 5m close at/below 4288.6; then 1m hold/retest",
+            "condition": "completed 5m close at/below 4289.7; then 1m hold/retest",
             "direction": "short"
           }
         },
-        "score": 52.7,
+        "score": 57.6,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 4295.09 on completed 5m close; RSI must reclaim 50 and turn up",
-          "short_term": "BEARISH",
-          "short_term_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close",
-          "trading_week": "BEARISH",
-          "trading_week_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close"
+          "short_term": "NEUTRAL",
+          "short_term_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close",
+          "trading_week": "NEUTRAL",
+          "trading_week_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close"
         },
         "setup_type": "TREND CONTINUATION RETEST",
         "stage": "DEEP_ANALYSIS",
         "status": "BELOW PUBLICATION GATE",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 4291.7,
+          "last": 4290.0,
           "near_term_bearish_below": 4294.1,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 4299.9,
@@ -2223,7 +2700,7 @@
           "session_open": 4299.9,
           "session_vwap": 4295.1,
           "short_term_bearish_below": 4297.6,
-          "short_term_bias": "BEARISH",
+          "short_term_bias": "NEUTRAL",
           "short_term_bullish_above": 4299.9,
           "short_term_confirmation": "completed 15m close beyond the boundary"
         }
@@ -2234,29 +2711,29 @@
           "trend_regime_below_0.45"
         ],
         "components": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.15,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 0.5055555555555555,
-          "stop_target_geometry": 0.26750000000008256,
-          "structure": 0.7658823529411883,
+          "relative_strength_breadth": 0.45499999999999996,
+          "stop_target_geometry": 0.547499999999815,
+          "structure": 0.640000000000019,
           "tbbo_order_flow": 0.0,
-          "trend_regime": 0.42
+          "trend_regime": 0.3
         },
         "contract": "SILZ6",
         "contributions": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.75,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 7.583,
-          "stop_target_geometry": 2.675,
-          "structure": 22.976,
+          "relative_strength_breadth": 6.825,
+          "stop_target_geometry": 5.475,
+          "structure": 19.2,
           "tbbo_order_flow": 0.0,
-          "trend_regime": 8.4
+          "trend_regime": 6.0
         },
         "deep_coverage": {
           "missing_required": [],
           "required_complete": true,
           "supplemental_available": {
-            "macro_catalyst": false,
+            "macro_catalyst": true,
             "parent_rvol_5m": false,
             "rsi_divergence_5m": true,
             "tbbo_aggressor_delta": false,
@@ -2265,12 +2742,11 @@
           "supplemental_missing_zero_credit": [
             "parent_rvol_5m",
             "tbbo_pressure",
-            "tbbo_aggressor_delta",
-            "macro_catalyst"
+            "tbbo_aggressor_delta"
           ]
         },
         "direction": "long",
-        "directional_alignment": 77.6,
+        "directional_alignment": 68.5,
         "entry_watch": {
           "action": "BUY",
           "activation": 64.25,
@@ -2279,38 +2755,37 @@
           "entry_low": 64.245,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 64.17
+          "stop": 64.175
         },
         "evidence": {
           "macro_catalyst": [
-            "macro_not_supplied_zero_credit"
+            "macro_alignment=0.15",
+            "basis=stronger dollar and rates outweigh safe-haven support"
           ],
           "parent_rvol": [
             "parent_rvol_unavailable_zero_credit"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.78",
+            "directional_rs=0.70",
             "family_breadth=0.00"
           ],
           "stop_target_geometry": [
-            "risk_atr=1.74",
+            "risk_atr=1.51",
             "volume_factor=1.00"
           ],
           "structure": [
-            "vwap_aligned",
             "session_open_aligned",
             "prior_close_aligned",
             "completed_5m_direction_aligned",
-            "bar_close_location=0.88",
-            "vwap_extension_atr=0.02"
+            "bar_close_location=0.83",
+            "vwap_extension_atr=0.31"
           ],
           "tbbo_order_flow": [
             "tbbo_stale_or_unverified_zero_credit"
           ],
           "trend_regime": [
             "ema20_ema50_path_aligned",
-            "ema50_slope_aligned",
-            "vwap_path_aligned"
+            "ema50_slope_aligned"
           ]
         },
         "geometry": {
@@ -2321,19 +2796,19 @@
           "entry_high": 64.25,
           "entry_low": 64.245,
           "low_volume_extra_confirmation": false,
-          "risk_atr": 1.7359999999999338,
-          "risk_per_unit": 0.07750000000000057,
+          "risk_atr": 1.512000000000148,
+          "risk_per_unit": 0.07250000000000512,
           "scale_percentages": [
             40,
             35,
             25
           ],
-          "stop": 64.17,
-          "structural_invalidation": "session_open",
+          "stop": 64.175,
+          "structural_invalidation": "latest_5m_low",
           "targets": [
-            64.315,
-            64.4,
-            64.52
+            64.31,
+            64.395,
+            64.5
           ],
           "volatility_buffer": 0.01
         },
@@ -2341,23 +2816,23 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 64.245,
-          "bid": 64.235,
+          "ask": 64.22,
+          "bid": 64.21,
           "completed_5m": {
-            "age_seconds": 51.965,
+            "age_seconds": 93.906,
             "close": 64.24000000000001,
             "complete": true,
-            "end": "2026-09-16T00:20:00+00:00",
+            "end": "2026-09-16T00:25:00+00:00",
             "fresh": true,
             "health": "recent",
             "high": 64.25,
-            "low": 64.165,
-            "open": 64.19500000000001,
+            "low": 64.19,
+            "open": 64.235,
             "source": "databento_live_ohlcv_1m",
-            "start": "2026-09-16T00:15:00+00:00",
-            "volume": 76.0
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 29.0
           },
-          "last": 64.24,
+          "last": 64.225,
           "maintenance_close": 64.185,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2366,9 +2841,9 @@
           "prior_high": 64.47,
           "prior_low": 63.035,
           "prior_vwap": 63.86803141898559,
-          "quote_age_seconds": 29.023,
-          "quote_timestamp_utc": "2026-09-16T00:19:53.686564+00:00",
-          "relative_strength_rank": 3,
+          "quote_age_seconds": 8.854,
+          "quote_timestamp_utc": "2026-09-16T00:26:00.187775+00:00",
+          "relative_strength_rank": 4,
           "session_open": 64.18,
           "session_vwap": 64.2390464970154,
           "technical": {
@@ -2387,7 +2862,7 @@
             "rsi_5m_14": 45.67845217442187,
             "rsi_5m_delta": -2.524094319405478,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 1259.915814,
+            "tbbo_age_seconds": 1600.691276,
             "tbbo_aggressor_delta": -0.08571428571428572,
             "tbbo_pressure": -0.03948439620081411,
             "tbbo_source": "databento_tbbo",
@@ -2404,15 +2879,15 @@
           "reason": "insufficient_independent_calibration_below_100"
         },
         "publishable": false,
-        "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond session_open.",
+        "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_low.",
         "read_only": true,
         "risk_disclosure": {
           "full_bag_pnl": null,
-          "per_contract_risk_dollars": 77.5,
+          "per_contract_risk_dollars": 72.5,
           "per_contract_target_dollars": [
-            67.5,
-            152.5,
-            272.5
+            62.5,
+            147.5,
+            252.5
           ],
           "reason": "broker_margin_and_approved_contract_count_not_verified",
           "stress_risk": null
@@ -2421,7 +2896,7 @@
         "scenario_map": {
           "failure": {
             "action": "REJECT SETUP",
-            "condition": "price violates session_open before confirmation"
+            "condition": "price violates latest_5m_low before confirmation"
           },
           "key_levels": {
             "maintenance_close": 64.185,
@@ -2443,7 +2918,7 @@
             "direction": "long"
           }
         },
-        "score": 41.6,
+        "score": 38.2,
         "sentiment": {
           "near_term": "NEUTRAL",
           "near_term_flip": "bullish above 64.239 with RSI >50/rising; bearish below 64.18 with RSI <50/falling",
@@ -2457,7 +2932,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 64.24,
+          "last": 64.225,
           "near_term_bearish_below": 64.18,
           "near_term_bias": "NEUTRAL",
           "near_term_bullish_above": 64.24,
@@ -2482,9 +2957,9 @@
         "components": {
           "macro_catalyst": 0.0,
           "parent_rvol": 0.2448275862068966,
-          "relative_strength_breadth": 0.9277777777777777,
+          "relative_strength_breadth": 1.0,
           "stop_target_geometry": 0.0,
-          "structure": 0.7333333333333331,
+          "structure": 0.5500000000000027,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.6
         },
@@ -2492,9 +2967,9 @@
         "contributions": {
           "macro_catalyst": 0.0,
           "parent_rvol": 2.448,
-          "relative_strength_breadth": 13.917,
+          "relative_strength_breadth": 15.0,
           "stop_target_geometry": 0.0,
-          "structure": 22.0,
+          "structure": 16.5,
           "tbbo_order_flow": 0.0,
           "trend_regime": 12.0
         },
@@ -2502,7 +2977,7 @@
           "missing_required": [],
           "required_complete": true,
           "supplemental_available": {
-            "macro_catalyst": false,
+            "macro_catalyst": true,
             "parent_rvol_5m": true,
             "rsi_divergence_5m": true,
             "tbbo_aggressor_delta": false,
@@ -2510,12 +2985,11 @@
           },
           "supplemental_missing_zero_credit": [
             "tbbo_pressure",
-            "tbbo_aggressor_delta",
-            "macro_catalyst"
+            "tbbo_aggressor_delta"
           ]
         },
         "direction": "short",
-        "directional_alignment": 74.7,
+        "directional_alignment": 60.8,
         "entry_watch": {
           "action": null,
           "activation_rule_5m": null,
@@ -2529,13 +3003,14 @@
         },
         "evidence": {
           "macro_catalyst": [
-            "macro_not_supplied_zero_credit"
+            "macro_alignment=0.00",
+            "basis=Saudi loadings halt and Libya outages tighten immediate supply"
           ],
           "parent_rvol": [
             "parent_rvol_5m=0.74"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.89",
+            "directional_rs=1.00",
             "family_breadth=1.00"
           ],
           "stop_target_geometry": [
@@ -2545,9 +3020,8 @@
             "vwap_aligned",
             "session_open_aligned",
             "prior_close_aligned",
-            "completed_5m_direction_aligned",
-            "bar_close_location=0.61",
-            "vwap_extension_atr=6.43",
+            "bar_close_location=0.25",
+            "vwap_extension_atr=6.03",
             "named_level_acceptance"
           ],
           "tbbo_order_flow": [
@@ -2570,23 +3044,23 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 104.92,
-          "bid": 104.9,
+          "ask": 104.95,
+          "bid": 104.93,
           "completed_5m": {
-            "age_seconds": 51.965,
-            "close": 104.83000000000001,
+            "age_seconds": 93.906,
+            "close": 104.98,
             "complete": true,
-            "end": "2026-09-16T00:20:00+00:00",
+            "end": "2026-09-16T00:25:00+00:00",
             "fresh": true,
             "health": "recent",
-            "high": 105.05000000000001,
-            "low": 104.69000000000001,
-            "open": 105.02000000000001,
+            "high": 105.02000000000001,
+            "low": 104.86,
+            "open": 104.86,
             "source": "databento_live_ohlcv_1m",
-            "start": "2026-09-16T00:15:00+00:00",
-            "volume": 1256.0
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 459.0
           },
-          "last": 104.91,
+          "last": 104.94,
           "maintenance_close": 105.52,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2595,9 +3069,9 @@
           "prior_high": 106.75,
           "prior_low": 101.2,
           "prior_vwap": 103.93829046250966,
-          "quote_age_seconds": 0.692,
-          "quote_timestamp_utc": "2026-09-16T00:20:22.017414+00:00",
-          "relative_strength_rank": 9,
+          "quote_age_seconds": 6.443,
+          "quote_timestamp_utc": "2026-09-16T00:26:02.599222+00:00",
+          "relative_strength_rank": 11,
           "session_open": 105.47,
           "session_vwap": 105.39195211786371,
           "technical": {
@@ -2616,7 +3090,7 @@
             "rsi_5m_14": 42.75365046446821,
             "rsi_5m_delta": 3.0687375897235256,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 1259.084636,
+            "tbbo_age_seconds": 1601.686239,
             "tbbo_aggressor_delta": -0.1574468085106383,
             "tbbo_pressure": 0.05022108076054227,
             "tbbo_source": "databento_tbbo",
@@ -2652,7 +3126,7 @@
           "opposite": null,
           "primary": null
         },
-        "score": 50.4,
+        "score": 45.9,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 105.422 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -2666,7 +3140,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 104.91,
+          "last": 104.94,
           "near_term_bearish_below": 105.39,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 105.47,
@@ -2689,21 +3163,21 @@
           "trend_regime_below_0.45"
         ],
         "components": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 0.65,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 0.6083333333333334,
-          "stop_target_geometry": 0.5669871794871204,
-          "structure": 0.6017902097901846,
+          "relative_strength_breadth": 0.6299999999999999,
+          "stop_target_geometry": 0.49006410256422206,
+          "structure": 0.7130722610722665,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.12
         },
         "contract": "MHGZ6",
         "contributions": {
-          "macro_catalyst": 0.0,
+          "macro_catalyst": 3.25,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 9.125,
-          "stop_target_geometry": 5.67,
-          "structure": 18.054,
+          "relative_strength_breadth": 9.45,
+          "stop_target_geometry": 4.901,
+          "structure": 21.392,
           "tbbo_order_flow": 0.0,
           "trend_regime": 2.4
         },
@@ -2711,7 +3185,7 @@
           "missing_required": [],
           "required_complete": true,
           "supplemental_available": {
-            "macro_catalyst": false,
+            "macro_catalyst": true,
             "parent_rvol_5m": false,
             "rsi_divergence_5m": true,
             "tbbo_aggressor_delta": false,
@@ -2720,43 +3194,44 @@
           "supplemental_missing_zero_credit": [
             "parent_rvol_5m",
             "tbbo_pressure",
-            "tbbo_aggressor_delta",
-            "macro_catalyst"
+            "tbbo_aggressor_delta"
           ]
         },
         "direction": "short",
-        "directional_alignment": 44.1,
+        "directional_alignment": 59.5,
         "entry_watch": {
           "action": "SELL",
-          "activation": 6.45,
-          "activation_rule_5m": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
-          "entry_high": 6.451,
-          "entry_low": 6.4495,
+          "activation": 6.4475,
+          "activation_rule_5m": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
+          "entry_high": 6.4485,
+          "entry_low": 6.447,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 6.4605
+          "stop": 6.454
         },
         "evidence": {
           "macro_catalyst": [
-            "macro_not_supplied_zero_credit"
+            "macro_alignment=0.65",
+            "basis=risk-off and stronger-dollar headwind"
           ],
           "parent_rvol": [
             "parent_rvol_unavailable_zero_credit"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.67",
+            "directional_rs=0.70",
             "family_breadth=0.50"
           ],
           "stop_target_geometry": [
-            "risk_atr=1.41",
+            "risk_atr=0.83",
             "volume_factor=0.55"
           ],
           "structure": [
             "vwap_aligned",
             "session_open_aligned",
             "prior_close_aligned",
+            "completed_5m_direction_aligned",
             "bar_close_location=0.20",
-            "vwap_extension_atr=1.78",
+            "vwap_extension_atr=2.14",
             "named_level_acceptance"
           ],
           "tbbo_order_flow": [
@@ -2768,26 +3243,26 @@
           ]
         },
         "geometry": {
-          "activation": 6.45,
-          "activation_rule_5m": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
+          "activation": 6.4475,
+          "activation_rule_5m": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
           "blockers": [],
-          "do_not_enter_boundary": 6.447,
-          "entry_high": 6.451,
-          "entry_low": 6.4495,
+          "do_not_enter_boundary": 6.4455,
+          "entry_high": 6.4485,
+          "entry_low": 6.447,
           "low_volume_extra_confirmation": true,
-          "risk_atr": 1.4064102564103036,
-          "risk_per_unit": 0.010250000000000092,
+          "risk_atr": 0.8320512820513776,
+          "risk_per_unit": 0.006249999999999645,
           "scale_percentages": [
             40,
             35,
             25
           ],
-          "stop": 6.4605,
-          "structural_invalidation": "session_open",
+          "stop": 6.454,
+          "structural_invalidation": "latest_5m_high",
           "targets": [
-            6.4415,
-            6.4295,
-            6.4145
+            6.4425,
+            6.4355,
+            6.426
           ],
           "volatility_buffer": 0.0010446428571428302
         },
@@ -2795,23 +3270,23 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 6.4525,
-          "bid": 6.4515,
+          "ask": 6.45,
+          "bid": 6.449,
           "completed_5m": {
-            "age_seconds": 51.965,
-            "close": 6.452000000000001,
+            "age_seconds": 93.906,
+            "close": 6.4515,
             "complete": true,
-            "end": "2026-09-16T00:20:00+00:00",
+            "end": "2026-09-16T00:25:00+00:00",
             "fresh": true,
             "health": "recent",
             "high": 6.452500000000001,
-            "low": 6.45,
-            "open": 6.4515,
+            "low": 6.447500000000001,
+            "open": 6.452500000000001,
             "source": "databento_live_ohlcv_1m",
-            "start": "2026-09-16T00:15:00+00:00",
-            "volume": 35.0
+            "start": "2026-09-16T00:20:00+00:00",
+            "volume": 12.0
           },
-          "last": 6.4525,
+          "last": 6.45,
           "maintenance_close": 6.458,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2820,9 +3295,9 @@
           "prior_high": 6.47,
           "prior_low": 6.345,
           "prior_vwap": 6.411558711923411,
-          "quote_age_seconds": 21.17,
-          "quote_timestamp_utc": "2026-09-16T00:20:01.539428+00:00",
-          "relative_strength_rank": 7,
+          "quote_age_seconds": 26.107,
+          "quote_timestamp_utc": "2026-09-16T00:25:42.935144+00:00",
+          "relative_strength_rank": 8,
           "session_open": 6.459,
           "session_vwap": 6.46487987012987,
           "technical": {
@@ -2841,7 +3316,7 @@
             "rsi_5m_14": 60.29641728449111,
             "rsi_5m_delta": -2.5181484251466912,
             "rsi_divergence_5m": "bearish",
-            "tbbo_age_seconds": 1308.656274,
+            "tbbo_age_seconds": 1648.208984,
             "tbbo_aggressor_delta": -0.17647058823529413,
             "tbbo_pressure": -0.11260504201680673,
             "tbbo_source": "databento_tbbo",
@@ -2858,15 +3333,15 @@
           "reason": "insufficient_independent_calibration_below_100"
         },
         "publishable": false,
-        "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond session_open.",
+        "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
         "read_only": true,
         "risk_disclosure": {
           "full_bag_pnl": null,
-          "per_contract_risk_dollars": 25.63,
+          "per_contract_risk_dollars": 15.62,
           "per_contract_target_dollars": [
-            21.88,
-            51.87,
-            89.37
+            13.13,
+            30.62,
+            54.37
           ],
           "reason": "broker_margin_and_approved_contract_count_not_verified",
           "stress_risk": null
@@ -2875,7 +3350,7 @@
         "scenario_map": {
           "failure": {
             "action": "REJECT SETUP",
-            "condition": "price violates session_open before confirmation"
+            "condition": "price violates latest_5m_high before confirmation"
           },
           "key_levels": {
             "maintenance_close": 6.458,
@@ -2893,11 +3368,11 @@
           },
           "primary": {
             "action": "SELL",
-            "condition": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
+            "condition": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
             "direction": "short"
           }
         },
-        "score": 35.2,
+        "score": 41.4,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 6.459 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -2911,7 +3386,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 6.4525,
+          "last": 6.45,
           "near_term_bearish_below": 6.4565,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 6.465,
@@ -2937,14 +3412,14 @@
       "contract": "MESU6",
       "deep_analysis_eligible": true,
       "direction": "long",
-      "directional_alignment": 56.3,
+      "directional_alignment": 54.0,
       "guidance": null,
       "root": "MES",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.0,
         "participation": 0.06140350877192979,
-        "relative_strength": 0.7111111111111111,
+        "relative_strength": 0.5583333333333333,
         "trend": 1.0
       },
       "scan_evidence": {
@@ -2958,8 +3433,8 @@
           "micro_rvol_5m=0.56"
         ],
         "relative_strength": [
-          "directional_rs=0.56",
-          "family_breadth=1.00"
+          "directional_rs=0.50",
+          "family_breadth=0.67"
         ],
         "trend": [
           "price_vs_ema20",
@@ -2973,15 +3448,53 @@
       "blockers": [],
       "contract": "MNQU6",
       "deep_analysis_eligible": true,
-      "direction": "long",
-      "directional_alignment": 58.0,
+      "direction": "short",
+      "directional_alignment": 62.6,
       "guidance": null,
       "root": "MNQ",
       "scan_components": {
-        "location": 0.6666666666666666,
+        "location": 1.0,
         "momentum": 0.5,
         "participation": 0.6788617886178863,
-        "relative_strength": 0.6388888888888888,
+        "relative_strength": 0.39,
+        "trend": 0.5
+      },
+      "scan_evidence": {
+        "location": [
+          "vwap",
+          "session_open",
+          "prior_close"
+        ],
+        "momentum": [
+          "completed_5m_direction"
+        ],
+        "participation": [
+          "micro_rvol_5m=1.18"
+        ],
+        "relative_strength": [
+          "directional_rs=0.60",
+          "family_breadth=0.00"
+        ],
+        "trend": [
+          "price_vs_ema20"
+        ]
+      },
+      "setup_score": null,
+      "stage": "HIGH_LEVEL_SCAN"
+    },
+    {
+      "blockers": [],
+      "contract": "MBTU6",
+      "deep_analysis_eligible": true,
+      "direction": "long",
+      "directional_alignment": 54.5,
+      "guidance": null,
+      "root": "MBT",
+      "scan_components": {
+        "location": 0.6666666666666666,
+        "momentum": 0.5,
+        "participation": 0.04705882352941182,
+        "relative_strength": 0.825,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -2993,14 +3506,14 @@
           "completed_5m_direction"
         ],
         "participation": [
-          "micro_rvol_5m=1.18"
+          "micro_rvol_5m=0.55"
         ],
         "relative_strength": [
-          "directional_rs=0.44",
-          "family_breadth=1.00"
+          "directional_rs=1.00",
+          "family_breadth=0.50"
         ],
         "trend": [
-          "ema20_vs_ema50"
+          "price_vs_ema20"
         ]
       },
       "setup_score": null,
@@ -3011,14 +3524,14 @@
       "contract": "MGCV6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 80.2,
+      "directional_alignment": 80.4,
       "guidance": null,
       "root": "MGC",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.5,
         "participation": 1.0,
-        "relative_strength": 0.6805555555555556,
+        "relative_strength": 0.6950000000000001,
         "trend": 1.0
       },
       "scan_evidence": {
@@ -3034,7 +3547,7 @@
           "micro_rvol_5m=3.07"
         ],
         "relative_strength": [
-          "directional_rs=0.78",
+          "directional_rs=0.80",
           "family_breadth=0.50"
         ],
         "trend": [
@@ -3050,19 +3563,18 @@
       "contract": "SILZ6",
       "deep_analysis_eligible": true,
       "direction": "long",
-      "directional_alignment": 77.6,
+      "directional_alignment": 68.5,
       "guidance": null,
       "root": "SIL",
       "scan_components": {
-        "location": 1.0,
+        "location": 0.6666666666666666,
         "momentum": 0.5,
         "participation": 1.0,
-        "relative_strength": 0.5055555555555555,
+        "relative_strength": 0.45499999999999996,
         "trend": 1.0
       },
       "scan_evidence": {
         "location": [
-          "vwap",
           "session_open",
           "prior_close"
         ],
@@ -3073,7 +3585,7 @@
           "micro_rvol_5m=1.86"
         ],
         "relative_strength": [
-          "directional_rs=0.78",
+          "directional_rs=0.70",
           "family_breadth=0.00"
         ],
         "trend": [
@@ -3089,14 +3601,14 @@
       "contract": "MCLV6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 74.7,
+      "directional_alignment": 60.8,
       "guidance": null,
       "root": "MCL",
       "scan_components": {
         "location": 1.0,
-        "momentum": 0.5,
+        "momentum": 0.0,
         "participation": 0.07839721254355403,
-        "relative_strength": 0.9277777777777777,
+        "relative_strength": 1.0,
         "trend": 1.0
       },
       "scan_evidence": {
@@ -3105,14 +3617,12 @@
           "session_open",
           "prior_close"
         ],
-        "momentum": [
-          "completed_5m_direction"
-        ],
+        "momentum": [],
         "participation": [
           "micro_rvol_5m=0.58"
         ],
         "relative_strength": [
-          "directional_rs=0.89",
+          "directional_rs=1.00",
           "family_breadth=1.00"
         ],
         "trend": [
@@ -3128,14 +3638,14 @@
       "contract": "MHGZ6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 44.1,
+      "directional_alignment": 59.5,
       "guidance": null,
       "root": "MHG",
       "scan_components": {
         "location": 1.0,
-        "momentum": 0.0,
+        "momentum": 0.5,
         "participation": 0.0,
-        "relative_strength": 0.6083333333333334,
+        "relative_strength": 0.6299999999999999,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -3144,12 +3654,14 @@
           "session_open",
           "prior_close"
         ],
-        "momentum": [],
+        "momentum": [
+          "completed_5m_direction"
+        ],
         "participation": [
           "micro_rvol_5m=0.22"
         ],
         "relative_strength": [
-          "directional_rs=0.67",
+          "directional_rs=0.70",
           "family_breadth=0.50"
         ],
         "trend": [
@@ -3162,8 +3674,8 @@
   ],
   "disqualifications": {
     "counts": {
-      "data_dq": 5,
-      "opportunity_dq": 6,
+      "data_dq": 4,
+      "opportunity_dq": 7,
       "qualified_not_top": 0,
       "screened_out": 0
     },
@@ -3172,10 +3684,7 @@
         "classification": "DATA_DQ",
         "contract": "M2KU6",
         "reasons": [
-          "completed_5m_missing",
-          "missing_ask",
-          "missing_bid",
-          "missing_last",
+          "completed_5m_age_over_600s",
           "quote_age_over_30s",
           "quote_not_live",
           "quote_source_not_databento_live"
@@ -3196,17 +3705,6 @@
       },
       {
         "classification": "DATA_DQ",
-        "contract": "MBTU6",
-        "reasons": [
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
-        ],
-        "root": "MBT",
-        "stage": "REQUIRED_DATA_GATE"
-      },
-      {
-        "classification": "DATA_DQ",
         "contract": "MNGV6",
         "reasons": [
           "completed_5m_age_over_600s",
@@ -3221,7 +3719,10 @@
         "classification": "DATA_DQ",
         "contract": "RBV6",
         "reasons": [
-          "completed_5m_age_over_600s"
+          "completed_5m_age_over_600s",
+          "quote_age_over_30s",
+          "quote_not_live",
+          "quote_source_not_databento_live"
         ],
         "root": "RB",
         "stage": "REQUIRED_DATA_GATE"
@@ -3240,10 +3741,10 @@
         "direction": "long",
         "entry_watch": {
           "action": "BUY",
-          "activation": 7600.0,
-          "activation_rule_5m": "completed 5m close at/above 7600; low volume requires a second 5m hold plus 1m retest",
-          "entry_high": 7600.0,
-          "entry_low": 7599.75,
+          "activation": 7599.5,
+          "activation_rule_5m": "completed 5m close at/above 7599.5; low volume requires a second 5m hold plus 1m retest",
+          "entry_high": 7599.5,
+          "entry_low": 7599.25,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
           "stop": 7597.75
@@ -3252,7 +3753,7 @@
           "structure_below_0.55"
         ],
         "root": "MES",
-        "score": 48.4,
+        "score": 46.6,
         "sentiment": {
           "near_term": "BULLISH",
           "near_term_flip": "reassess below 7597.35 on completed 5m close; RSI must lose 50 and turn down",
@@ -3264,7 +3765,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 7599.25,
+          "last": 7598.0,
           "near_term_bearish_below": 7596.75,
           "near_term_bias": "BULLISH",
           "near_term_bullish_above": 7597.5,
@@ -3284,36 +3785,36 @@
       {
         "classification": "OPPORTUNITY_DQ",
         "contract": "MNQU6",
-        "direction": "long",
+        "direction": "short",
         "entry_watch": {
-          "action": "BUY",
-          "activation": 28991.25,
-          "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
-          "entry_high": 28991.75,
-          "entry_low": 28990.0,
+          "action": "SELL",
+          "activation": 28977.5,
+          "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
+          "entry_high": 28978.75,
+          "entry_low": 28977.0,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 28981.0
+          "stop": 28987.5
         },
         "reasons": [
           "trend_regime_below_0.45"
         ],
         "root": "MNQ",
-        "score": 50.3,
+        "score": 53.0,
         "sentiment": {
-          "near_term": "NEUTRAL",
-          "near_term_flip": "bullish above 28984.4 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
-          "short_term": "NEUTRAL",
-          "short_term_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close",
-          "trading_week": "NEUTRAL",
-          "trading_week_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close"
+          "near_term": "BEARISH",
+          "near_term_flip": "reassess above 28982.3 on completed 5m close; RSI must reclaim 50 and turn up",
+          "short_term": "BEARISH",
+          "short_term_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close",
+          "trading_week": "BEARISH",
+          "trading_week_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close"
         },
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 28983.75,
+          "last": 28978.25,
           "near_term_bearish_below": 28981.25,
-          "near_term_bias": "NEUTRAL",
+          "near_term_bias": "BEARISH",
           "near_term_bullish_above": 28984.5,
           "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
           "overnight_high": 28995.75,
@@ -3323,8 +3824,56 @@
           "session_open": 28981.25,
           "session_vwap": 28982.25,
           "short_term_bearish_below": 28983.5,
-          "short_term_bias": "NEUTRAL",
+          "short_term_bias": "BEARISH",
           "short_term_bullish_above": 29007.75,
+          "short_term_confirmation": "completed 15m close beyond the boundary"
+        }
+      },
+      {
+        "classification": "OPPORTUNITY_DQ",
+        "contract": "MBTU6",
+        "direction": "long",
+        "entry_watch": {
+          "action": "BUY",
+          "activation": 75875.0,
+          "activation_rule_5m": "completed 5m close at/above 75875; low volume requires a second 5m hold plus 1m retest",
+          "entry_high": 75880.0,
+          "entry_low": 75860.0,
+          "note": "Conditional watch only; revalidate current deep status before entry.",
+          "status": "POTENTIAL_ENTRY",
+          "stop": 75735.0
+        },
+        "reasons": [
+          "structure_below_0.55",
+          "trend_regime_below_0.45"
+        ],
+        "root": "MBT",
+        "score": 40.7,
+        "sentiment": {
+          "near_term": "NEUTRAL",
+          "near_term_flip": "bullish above 75728.8 with RSI >50/rising; bearish below 75480 with RSI <50/falling",
+          "short_term": "BEARISH",
+          "short_term_flip": "weakens above 75913.6; bullish above 76410.7 on completed 15m close",
+          "trading_week": "BEARISH",
+          "trading_week_flip": "weakens above 75913.6; bullish above 76410.7 on completed 15m close"
+        },
+        "stage": "DEEP_ANALYSIS",
+        "status": "DISQUALIFIED",
+        "watch_map": {
+          "last": 75865.0,
+          "near_term_bearish_below": 75480.0,
+          "near_term_bias": "NEUTRAL",
+          "near_term_bullish_above": 75730.0,
+          "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
+          "overnight_high": 75990.0,
+          "overnight_low": 75120.0,
+          "prior_high": 79010.0,
+          "prior_low": 74930.0,
+          "session_open": 75480.0,
+          "session_vwap": 75520.0,
+          "short_term_bearish_below": 75915.0,
+          "short_term_bias": "BEARISH",
+          "short_term_bullish_above": 76410.0,
           "short_term_confirmation": "completed 15m close beyond the boundary"
         }
       },
@@ -3334,31 +3883,31 @@
         "direction": "short",
         "entry_watch": {
           "action": "SELL",
-          "activation": 4288.6,
-          "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
-          "entry_high": 4289.1,
-          "entry_low": 4288.4,
+          "activation": 4289.7,
+          "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
+          "entry_high": 4290.2,
+          "entry_low": 4289.5,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 4292.8
+          "stop": 4293.3
         },
         "reasons": [
           "score_below_65"
         ],
         "root": "MGC",
-        "score": 52.7,
+        "score": 57.6,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 4295.09 on completed 5m close; RSI must reclaim 50 and turn up",
-          "short_term": "BEARISH",
-          "short_term_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close",
-          "trading_week": "BEARISH",
-          "trading_week_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close"
+          "short_term": "NEUTRAL",
+          "short_term_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close",
+          "trading_week": "NEUTRAL",
+          "trading_week_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close"
         },
         "stage": "DEEP_ANALYSIS",
         "status": "BELOW PUBLICATION GATE",
         "watch_map": {
-          "last": 4291.7,
+          "last": 4290.0,
           "near_term_bearish_below": 4294.1,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 4299.9,
@@ -3370,7 +3919,7 @@
           "session_open": 4299.9,
           "session_vwap": 4295.1,
           "short_term_bearish_below": 4297.6,
-          "short_term_bias": "BEARISH",
+          "short_term_bias": "NEUTRAL",
           "short_term_bullish_above": 4299.9,
           "short_term_confirmation": "completed 15m close beyond the boundary"
         }
@@ -3387,13 +3936,13 @@
           "entry_low": 64.245,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 64.17
+          "stop": 64.175
         },
         "reasons": [
           "trend_regime_below_0.45"
         ],
         "root": "SIL",
-        "score": 41.6,
+        "score": 38.2,
         "sentiment": {
           "near_term": "NEUTRAL",
           "near_term_flip": "bullish above 64.239 with RSI >50/rising; bearish below 64.18 with RSI <50/falling",
@@ -3405,7 +3954,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 64.24,
+          "last": 64.225,
           "near_term_bearish_below": 64.18,
           "near_term_bias": "NEUTRAL",
           "near_term_bullish_above": 64.24,
@@ -3441,7 +3990,7 @@
           "no_structural_stop_in_0.75_to_1.75_atr_band"
         ],
         "root": "MCL",
-        "score": 50.4,
+        "score": 45.9,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 105.422 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -3453,7 +4002,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 104.91,
+          "last": 104.94,
           "near_term_bearish_below": 105.39,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 105.47,
@@ -3476,19 +4025,19 @@
         "direction": "short",
         "entry_watch": {
           "action": "SELL",
-          "activation": 6.45,
-          "activation_rule_5m": "completed 5m close at/below 6.45; low volume requires a second 5m hold plus 1m retest",
-          "entry_high": 6.451,
-          "entry_low": 6.4495,
+          "activation": 6.4475,
+          "activation_rule_5m": "completed 5m close at/below 6.4475; low volume requires a second 5m hold plus 1m retest",
+          "entry_high": 6.4485,
+          "entry_low": 6.447,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 6.4605
+          "stop": 6.454
         },
         "reasons": [
           "trend_regime_below_0.45"
         ],
         "root": "MHG",
-        "score": 35.2,
+        "score": 41.4,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 6.459 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -3500,7 +4049,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 6.4525,
+          "last": 6.45,
           "near_term_bearish_below": 6.4565,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 6.465,
@@ -3525,18 +4074,19 @@
   "macro_context": {
     "basis": [
       "Oil above $100 and renewed supply disruption reinforce inflation and volatility risk.",
-      "The cash session closed broadly lower as the 10-year yield moved above 5%, the dollar strengthened, and markets priced a 92.3% chance of a Wednesday Fed hike.",
+      "The cash session closed broadly lower as the 10-year yield moved above 5%, the dollar strengthened, and markets priced about a 95% chance of a Wednesday Fed hike.",
       "Energy supply headlines can reverse abruptly; no energy entry without completed-bar acceptance."
     ],
-    "expires_at_utc": "2026-09-15T20:13:00Z",
-    "generated_at_utc": "2026-09-15T19:13:00Z",
+    "expires_at_utc": "2026-09-16T01:20:00Z",
+    "generated_at_utc": "2026-09-16T00:20:00Z",
     "near_term_posture": "BEARISH / HIGH VOLATILITY",
     "sources": [
       "https://www.reuters.com/business/energy/oil-prices-rise-saudi-pipeline-outage-fresh-attacks-raise-supply-concerns-2026-09-15/",
+      "https://www.reuters.com/business/wall-st-futures-slip-rising-oil-treasury-yields-compound-ai-anxiety-2026-09-15/",
       "https://www.reuters.com/business/wall-st-week-ahead-investors-brace-possible-rate-hike-uncertain-fed-meeting-2026-09-11/",
-      "https://www.reuters.com/world/uk/sterling-pinned-one-month-lows-oil-stays-high-fed-rate-hike-expected-2026-09-15/"
+      "https://www.reuters.com/world/africa/dollar-near-two-week-high-oil-surge-lifts-yields-fed-hike-bets-2026-09-15/"
     ],
-    "status": "EXPIRED",
+    "status": "FRESH",
     "trading_week_posture": "BEARISH / EVENT-DRIVEN"
   },
   "playbook_version": "1.3.8",
@@ -3549,14 +4099,14 @@
         "contract": "MESU6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 56.3,
+        "directional_alignment": 54.0,
         "guidance": null,
         "root": "MES",
         "scan_components": {
           "location": 1.0,
           "momentum": 0.0,
           "participation": 0.06140350877192979,
-          "relative_strength": 0.7111111111111111,
+          "relative_strength": 0.5583333333333333,
           "trend": 1.0
         },
         "scan_evidence": {
@@ -3570,8 +4120,8 @@
             "micro_rvol_5m=0.56"
           ],
           "relative_strength": [
-            "directional_rs=0.56",
-            "family_breadth=1.00"
+            "directional_rs=0.50",
+            "family_breadth=0.67"
           ],
           "trend": [
             "price_vs_ema20",
@@ -3586,14 +4136,14 @@
         "contract": "MESU6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 19.9,
+        "directional_alignment": 22.2,
         "guidance": null,
         "root": "MES",
         "scan_components": {
           "location": 0.0,
           "momentum": 0.5,
           "participation": 0.06140350877192979,
-          "relative_strength": 0.28888888888888886,
+          "relative_strength": 0.44166666666666665,
           "trend": 0.0
         },
         "scan_evidence": {
@@ -3605,8 +4155,8 @@
             "micro_rvol_5m=0.56"
           ],
           "relative_strength": [
-            "directional_rs=0.44",
-            "family_breadth=0.00"
+            "directional_rs=0.50",
+            "family_breadth=0.33"
           ],
           "trend": []
         },
@@ -3618,29 +4168,24 @@
         "contract": "MNQU6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 58.0,
+        "directional_alignment": 25.9,
         "guidance": null,
         "root": "MNQ",
         "scan_components": {
-          "location": 0.6666666666666666,
-          "momentum": 0.5,
+          "location": 0.0,
+          "momentum": 0.0,
           "participation": 0.6788617886178863,
-          "relative_strength": 0.6388888888888888,
+          "relative_strength": 0.61,
           "trend": 0.5
         },
         "scan_evidence": {
-          "location": [
-            "vwap",
-            "session_open"
-          ],
-          "momentum": [
-            "completed_5m_direction"
-          ],
+          "location": [],
+          "momentum": [],
           "participation": [
             "micro_rvol_5m=1.18"
           ],
           "relative_strength": [
-            "directional_rs=0.44",
+            "directional_rs=0.40",
             "family_breadth=1.00"
           ],
           "trend": [
@@ -3655,26 +4200,30 @@
         "contract": "MNQU6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 30.5,
+        "directional_alignment": 62.6,
         "guidance": null,
         "root": "MNQ",
         "scan_components": {
-          "location": 0.3333333333333333,
-          "momentum": 0.0,
+          "location": 1.0,
+          "momentum": 0.5,
           "participation": 0.6788617886178863,
-          "relative_strength": 0.36111111111111116,
+          "relative_strength": 0.39,
           "trend": 0.5
         },
         "scan_evidence": {
           "location": [
+            "vwap",
+            "session_open",
             "prior_close"
           ],
-          "momentum": [],
+          "momentum": [
+            "completed_5m_direction"
+          ],
           "participation": [
             "micro_rvol_5m=1.18"
           ],
           "relative_strength": [
-            "directional_rs=0.56",
+            "directional_rs=0.60",
             "family_breadth=0.00"
           ],
           "trend": [
@@ -3686,10 +4235,7 @@
       },
       {
         "blockers": [
-          "completed_5m_missing",
-          "missing_ask",
-          "missing_bid",
-          "missing_last",
+          "completed_5m_age_over_600s",
           "quote_age_over_30s",
           "quote_not_live",
           "quote_source_not_databento_live"
@@ -3701,32 +4247,39 @@
         "guidance": null,
         "root": "M2K",
         "scan_components": {
-          "location": 0.0,
-          "momentum": 0.0,
-          "participation": 0.0,
-          "relative_strength": 0.0,
-          "trend": 0.0
+          "location": 1.0,
+          "momentum": 1.0,
+          "participation": 0.05813953488372092,
+          "relative_strength": 0.6233333333333333,
+          "trend": 0.5
         },
         "scan_evidence": {
-          "location": [],
-          "momentum": [],
+          "location": [
+            "vwap",
+            "session_open",
+            "prior_close"
+          ],
+          "momentum": [
+            "completed_5m_direction",
+            "rsi_level_and_direction"
+          ],
           "participation": [
-            "micro_rvol_unavailable"
+            "micro_rvol_5m=0.56"
           ],
           "relative_strength": [
-            "relative_strength_unavailable"
+            "directional_rs=0.60",
+            "family_breadth=0.67"
           ],
-          "trend": []
+          "trend": [
+            "price_vs_ema20"
+          ]
         },
         "setup_score": null,
         "stage": "HIGH_LEVEL_SCAN"
       },
       {
         "blockers": [
-          "completed_5m_missing",
-          "missing_ask",
-          "missing_bid",
-          "missing_last",
+          "completed_5m_age_over_600s",
           "quote_age_over_30s",
           "quote_not_live",
           "quote_source_not_databento_live"
@@ -3740,20 +4293,23 @@
         "scan_components": {
           "location": 0.0,
           "momentum": 0.0,
-          "participation": 0.0,
-          "relative_strength": 0.0,
-          "trend": 0.0
+          "participation": 0.05813953488372092,
+          "relative_strength": 0.37666666666666665,
+          "trend": 0.5
         },
         "scan_evidence": {
           "location": [],
           "momentum": [],
           "participation": [
-            "micro_rvol_unavailable"
+            "micro_rvol_5m=0.56"
           ],
           "relative_strength": [
-            "relative_strength_unavailable"
+            "directional_rs=0.40",
+            "family_breadth=0.33"
           ],
-          "trend": []
+          "trend": [
+            "ema20_vs_ema50"
+          ]
         },
         "setup_score": null,
         "stage": "HIGH_LEVEL_SCAN"
@@ -3774,7 +4330,7 @@
           "location": 1.0,
           "momentum": 1.0,
           "participation": 0.0,
-          "relative_strength": 0.9277777777777777,
+          "relative_strength": 0.8183333333333334,
           "trend": 1.0
         },
         "scan_evidence": {
@@ -3791,8 +4347,8 @@
             "micro_rvol_5m=0.48"
           ],
           "relative_strength": [
-            "directional_rs=0.89",
-            "family_breadth=1.00"
+            "directional_rs=0.90",
+            "family_breadth=0.67"
           ],
           "trend": [
             "price_vs_ema20",
@@ -3818,7 +4374,7 @@
           "location": 0.0,
           "momentum": 0.0,
           "participation": 0.0,
-          "relative_strength": 0.07222222222222226,
+          "relative_strength": 0.18166666666666664,
           "trend": 0.0
         },
         "scan_evidence": {
@@ -3828,8 +4384,8 @@
             "micro_rvol_5m=0.48"
           ],
           "relative_strength": [
-            "directional_rs=0.11",
-            "family_breadth=0.00"
+            "directional_rs=0.10",
+            "family_breadth=0.33"
           ],
           "trend": []
         },
@@ -3837,15 +4393,11 @@
         "stage": "HIGH_LEVEL_SCAN"
       },
       {
-        "blockers": [
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
-        ],
+        "blockers": [],
         "contract": "MBTU6",
-        "deep_analysis_eligible": false,
+        "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": null,
+        "directional_alignment": 54.5,
         "guidance": null,
         "root": "MBT",
         "scan_components": {
@@ -3878,15 +4430,11 @@
         "stage": "HIGH_LEVEL_SCAN"
       },
       {
-        "blockers": [
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
-        ],
+        "blockers": [],
         "contract": "MBTU6",
-        "deep_analysis_eligible": false,
+        "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": null,
+        "directional_alignment": 36.4,
         "guidance": null,
         "root": "MBT",
         "scan_components": {
@@ -3922,14 +4470,14 @@
         "contract": "MGCV6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 29.8,
+        "directional_alignment": 29.6,
         "guidance": null,
         "root": "MGC",
         "scan_components": {
           "location": 0.0,
           "momentum": 0.5,
           "participation": 1.0,
-          "relative_strength": 0.3194444444444444,
+          "relative_strength": 0.305,
           "trend": 0.0
         },
         "scan_evidence": {
@@ -3941,7 +4489,7 @@
             "micro_rvol_5m=3.07"
           ],
           "relative_strength": [
-            "directional_rs=0.22",
+            "directional_rs=0.20",
             "family_breadth=0.50"
           ],
           "trend": []
@@ -3954,14 +4502,14 @@
         "contract": "MGCV6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 80.2,
+        "directional_alignment": 80.4,
         "guidance": null,
         "root": "MGC",
         "scan_components": {
           "location": 1.0,
           "momentum": 0.5,
           "participation": 1.0,
-          "relative_strength": 0.6805555555555556,
+          "relative_strength": 0.6950000000000001,
           "trend": 1.0
         },
         "scan_evidence": {
@@ -3977,7 +4525,7 @@
             "micro_rvol_5m=3.07"
           ],
           "relative_strength": [
-            "directional_rs=0.78",
+            "directional_rs=0.80",
             "family_breadth=0.50"
           ],
           "trend": [
@@ -3993,19 +4541,18 @@
         "contract": "SILZ6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 77.6,
+        "directional_alignment": 68.5,
         "guidance": null,
         "root": "SIL",
         "scan_components": {
-          "location": 1.0,
+          "location": 0.6666666666666666,
           "momentum": 0.5,
           "participation": 1.0,
-          "relative_strength": 0.5055555555555555,
+          "relative_strength": 0.45499999999999996,
           "trend": 1.0
         },
         "scan_evidence": {
           "location": [
-            "vwap",
             "session_open",
             "prior_close"
           ],
@@ -4016,7 +4563,7 @@
             "micro_rvol_5m=1.86"
           ],
           "relative_strength": [
-            "directional_rs=0.78",
+            "directional_rs=0.70",
             "family_breadth=0.00"
           ],
           "trend": [
@@ -4032,18 +4579,20 @@
         "contract": "SILZ6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 32.4,
+        "directional_alignment": 41.5,
         "guidance": null,
         "root": "SIL",
         "scan_components": {
-          "location": 0.0,
+          "location": 0.3333333333333333,
           "momentum": 0.5,
           "participation": 1.0,
-          "relative_strength": 0.4944444444444444,
+          "relative_strength": 0.545,
           "trend": 0.0
         },
         "scan_evidence": {
-          "location": [],
+          "location": [
+            "vwap"
+          ],
           "momentum": [
             "rsi_level_and_direction"
           ],
@@ -4051,7 +4600,7 @@
             "micro_rvol_5m=1.86"
           ],
           "relative_strength": [
-            "directional_rs=0.22",
+            "directional_rs=0.30",
             "family_breadth=1.00"
           ],
           "trend": []
@@ -4064,24 +4613,26 @@
         "contract": "MCLV6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 1.9,
+        "directional_alignment": 15.8,
         "guidance": null,
         "root": "MCL",
         "scan_components": {
           "location": 0.0,
-          "momentum": 0.0,
+          "momentum": 0.5,
           "participation": 0.07839721254355403,
-          "relative_strength": 0.07222222222222222,
+          "relative_strength": 0.0,
           "trend": 0.0
         },
         "scan_evidence": {
           "location": [],
-          "momentum": [],
+          "momentum": [
+            "completed_5m_direction"
+          ],
           "participation": [
             "micro_rvol_5m=0.58"
           ],
           "relative_strength": [
-            "directional_rs=0.11",
+            "directional_rs=0.00",
             "family_breadth=0.00"
           ],
           "trend": []
@@ -4094,14 +4645,14 @@
         "contract": "MCLV6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 74.7,
+        "directional_alignment": 60.8,
         "guidance": null,
         "root": "MCL",
         "scan_components": {
           "location": 1.0,
-          "momentum": 0.5,
+          "momentum": 0.0,
           "participation": 0.07839721254355403,
-          "relative_strength": 0.9277777777777777,
+          "relative_strength": 1.0,
           "trend": 1.0
         },
         "scan_evidence": {
@@ -4110,14 +4661,12 @@
             "session_open",
             "prior_close"
           ],
-          "momentum": [
-            "completed_5m_direction"
-          ],
+          "momentum": [],
           "participation": [
             "micro_rvol_5m=0.58"
           ],
           "relative_strength": [
-            "directional_rs=0.89",
+            "directional_rs=1.00",
             "family_breadth=1.00"
           ],
           "trend": [
@@ -4145,7 +4694,7 @@
           "location": 0.3333333333333333,
           "momentum": 0.5,
           "participation": 0.0,
-          "relative_strength": 0.6083333333333334,
+          "relative_strength": 0.6950000000000001,
           "trend": 1.0
         },
         "scan_evidence": {
@@ -4159,7 +4708,7 @@
             "micro_rvol_5m=0.41"
           ],
           "relative_strength": [
-            "directional_rs=0.67",
+            "directional_rs=0.80",
             "family_breadth=0.50"
           ],
           "trend": [
@@ -4187,7 +4736,7 @@
           "location": 0.6666666666666666,
           "momentum": 0.0,
           "participation": 0.0,
-          "relative_strength": 0.3916666666666667,
+          "relative_strength": 0.30499999999999994,
           "trend": 0.0
         },
         "scan_evidence": {
@@ -4200,7 +4749,7 @@
             "micro_rvol_5m=0.41"
           ],
           "relative_strength": [
-            "directional_rs=0.33",
+            "directional_rs=0.20",
             "family_breadth=0.50"
           ],
           "trend": []
@@ -4213,26 +4762,24 @@
         "contract": "MHGZ6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 30.9,
+        "directional_alignment": 15.6,
         "guidance": null,
         "root": "MHG",
         "scan_components": {
           "location": 0.0,
-          "momentum": 0.5,
+          "momentum": 0.0,
           "participation": 0.0,
-          "relative_strength": 0.39166666666666666,
+          "relative_strength": 0.37,
           "trend": 0.5
         },
         "scan_evidence": {
           "location": [],
-          "momentum": [
-            "completed_5m_direction"
-          ],
+          "momentum": [],
           "participation": [
             "micro_rvol_5m=0.22"
           ],
           "relative_strength": [
-            "directional_rs=0.33",
+            "directional_rs=0.30",
             "family_breadth=0.50"
           ],
           "trend": [
@@ -4247,14 +4794,14 @@
         "contract": "MHGZ6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 44.1,
+        "directional_alignment": 59.5,
         "guidance": null,
         "root": "MHG",
         "scan_components": {
           "location": 1.0,
-          "momentum": 0.0,
+          "momentum": 0.5,
           "participation": 0.0,
-          "relative_strength": 0.6083333333333334,
+          "relative_strength": 0.6299999999999999,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -4263,12 +4810,14 @@
             "session_open",
             "prior_close"
           ],
-          "momentum": [],
+          "momentum": [
+            "completed_5m_direction"
+          ],
           "participation": [
             "micro_rvol_5m=0.22"
           ],
           "relative_strength": [
-            "directional_rs=0.67",
+            "directional_rs=0.70",
             "family_breadth=0.50"
           ],
           "trend": [
@@ -4280,7 +4829,10 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s"
+          "completed_5m_age_over_600s",
+          "quote_age_over_30s",
+          "quote_not_live",
+          "quote_source_not_databento_live"
         ],
         "contract": "RBV6",
         "deep_analysis_eligible": false,
@@ -4292,7 +4844,7 @@
           "location": 0.0,
           "momentum": 0.0,
           "participation": 0.0,
-          "relative_strength": 0.0,
+          "relative_strength": 0.065,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -4302,7 +4854,7 @@
             "micro_rvol_5m=0.25"
           ],
           "relative_strength": [
-            "directional_rs=0.00",
+            "directional_rs=0.10",
             "family_breadth=0.00"
           ],
           "trend": [
@@ -4314,7 +4866,10 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s"
+          "completed_5m_age_over_600s",
+          "quote_age_over_30s",
+          "quote_not_live",
+          "quote_source_not_databento_live"
         ],
         "contract": "RBV6",
         "deep_analysis_eligible": false,
@@ -4326,7 +4881,7 @@
           "location": 1.0,
           "momentum": 0.5,
           "participation": 0.0,
-          "relative_strength": 1.0,
+          "relative_strength": 0.935,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -4342,7 +4897,7 @@
             "micro_rvol_5m=0.25"
           ],
           "relative_strength": [
-            "directional_rs=1.00",
+            "directional_rs=0.90",
             "family_breadth=1.00"
           ],
           "trend": [
@@ -4378,14 +4933,14 @@
       "contract": "MESU6",
       "deep_analysis_eligible": true,
       "direction": "long",
-      "directional_alignment": 56.3,
+      "directional_alignment": 54.0,
       "guidance": null,
       "root": "MES",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.0,
         "participation": 0.06140350877192979,
-        "relative_strength": 0.7111111111111111,
+        "relative_strength": 0.5583333333333333,
         "trend": 1.0
       },
       "scan_evidence": {
@@ -4399,8 +4954,8 @@
           "micro_rvol_5m=0.56"
         ],
         "relative_strength": [
-          "directional_rs=0.56",
-          "family_breadth=1.00"
+          "directional_rs=0.50",
+          "family_breadth=0.67"
         ],
         "trend": [
           "price_vs_ema20",
@@ -4414,15 +4969,53 @@
       "blockers": [],
       "contract": "MNQU6",
       "deep_analysis_eligible": true,
-      "direction": "long",
-      "directional_alignment": 58.0,
+      "direction": "short",
+      "directional_alignment": 62.6,
       "guidance": null,
       "root": "MNQ",
       "scan_components": {
-        "location": 0.6666666666666666,
+        "location": 1.0,
         "momentum": 0.5,
         "participation": 0.6788617886178863,
-        "relative_strength": 0.6388888888888888,
+        "relative_strength": 0.39,
+        "trend": 0.5
+      },
+      "scan_evidence": {
+        "location": [
+          "vwap",
+          "session_open",
+          "prior_close"
+        ],
+        "momentum": [
+          "completed_5m_direction"
+        ],
+        "participation": [
+          "micro_rvol_5m=1.18"
+        ],
+        "relative_strength": [
+          "directional_rs=0.60",
+          "family_breadth=0.00"
+        ],
+        "trend": [
+          "price_vs_ema20"
+        ]
+      },
+      "setup_score": null,
+      "stage": "HIGH_LEVEL_SCAN"
+    },
+    {
+      "blockers": [],
+      "contract": "MBTU6",
+      "deep_analysis_eligible": true,
+      "direction": "long",
+      "directional_alignment": 54.5,
+      "guidance": null,
+      "root": "MBT",
+      "scan_components": {
+        "location": 0.6666666666666666,
+        "momentum": 0.5,
+        "participation": 0.04705882352941182,
+        "relative_strength": 0.825,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -4434,14 +5027,14 @@
           "completed_5m_direction"
         ],
         "participation": [
-          "micro_rvol_5m=1.18"
+          "micro_rvol_5m=0.55"
         ],
         "relative_strength": [
-          "directional_rs=0.44",
-          "family_breadth=1.00"
+          "directional_rs=1.00",
+          "family_breadth=0.50"
         ],
         "trend": [
-          "ema20_vs_ema50"
+          "price_vs_ema20"
         ]
       },
       "setup_score": null,
@@ -4452,14 +5045,14 @@
       "contract": "MGCV6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 80.2,
+      "directional_alignment": 80.4,
       "guidance": null,
       "root": "MGC",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.5,
         "participation": 1.0,
-        "relative_strength": 0.6805555555555556,
+        "relative_strength": 0.6950000000000001,
         "trend": 1.0
       },
       "scan_evidence": {
@@ -4475,7 +5068,7 @@
           "micro_rvol_5m=3.07"
         ],
         "relative_strength": [
-          "directional_rs=0.78",
+          "directional_rs=0.80",
           "family_breadth=0.50"
         ],
         "trend": [
@@ -4491,19 +5084,18 @@
       "contract": "SILZ6",
       "deep_analysis_eligible": true,
       "direction": "long",
-      "directional_alignment": 77.6,
+      "directional_alignment": 68.5,
       "guidance": null,
       "root": "SIL",
       "scan_components": {
-        "location": 1.0,
+        "location": 0.6666666666666666,
         "momentum": 0.5,
         "participation": 1.0,
-        "relative_strength": 0.5055555555555555,
+        "relative_strength": 0.45499999999999996,
         "trend": 1.0
       },
       "scan_evidence": {
         "location": [
-          "vwap",
           "session_open",
           "prior_close"
         ],
@@ -4514,7 +5106,7 @@
           "micro_rvol_5m=1.86"
         ],
         "relative_strength": [
-          "directional_rs=0.78",
+          "directional_rs=0.70",
           "family_breadth=0.00"
         ],
         "trend": [
@@ -4530,14 +5122,14 @@
       "contract": "MCLV6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 74.7,
+      "directional_alignment": 60.8,
       "guidance": null,
       "root": "MCL",
       "scan_components": {
         "location": 1.0,
-        "momentum": 0.5,
+        "momentum": 0.0,
         "participation": 0.07839721254355403,
-        "relative_strength": 0.9277777777777777,
+        "relative_strength": 1.0,
         "trend": 1.0
       },
       "scan_evidence": {
@@ -4546,14 +5138,12 @@
           "session_open",
           "prior_close"
         ],
-        "momentum": [
-          "completed_5m_direction"
-        ],
+        "momentum": [],
         "participation": [
           "micro_rvol_5m=0.58"
         ],
         "relative_strength": [
-          "directional_rs=0.89",
+          "directional_rs=1.00",
           "family_breadth=1.00"
         ],
         "trend": [
@@ -4569,14 +5159,14 @@
       "contract": "MHGZ6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 44.1,
+      "directional_alignment": 59.5,
       "guidance": null,
       "root": "MHG",
       "scan_components": {
         "location": 1.0,
-        "momentum": 0.0,
+        "momentum": 0.5,
         "participation": 0.0,
-        "relative_strength": 0.6083333333333334,
+        "relative_strength": 0.6299999999999999,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -4585,12 +5175,14 @@
           "session_open",
           "prior_close"
         ],
-        "momentum": [],
+        "momentum": [
+          "completed_5m_direction"
+        ],
         "participation": [
           "micro_rvol_5m=0.22"
         ],
         "relative_strength": [
-          "directional_rs=0.67",
+          "directional_rs=0.70",
           "family_breadth=0.50"
         ],
         "trend": [
@@ -4601,27 +5193,27 @@
       "stage": "HIGH_LEVEL_SCAN"
     }
   ],
-  "snapshot_generated_at": "2026-09-16T00:21:01.343148+00:00",
+  "snapshot_generated_at": "2026-09-16T00:26:40.284820+00:00",
   "watch_context": [
     {
       "TRANSMITTED": false,
       "blockers": [],
       "components": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 0.75,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 0.6805555555555556,
-        "stop_target_geometry": 0.7984813084111985,
-        "structure": 0.584284298335479,
+        "relative_strength_breadth": 0.6950000000000001,
+        "stop_target_geometry": 0.9561915887849156,
+        "structure": 0.5616640537315122,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.85
       },
       "contract": "MGCV6",
       "contributions": {
-        "macro_catalyst": 0.0,
+        "macro_catalyst": 3.75,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 10.208,
-        "stop_target_geometry": 7.985,
-        "structure": 17.529,
+        "relative_strength_breadth": 10.425,
+        "stop_target_geometry": 9.562,
+        "structure": 16.85,
         "tbbo_order_flow": 0.0,
         "trend_regime": 17.0
       },
@@ -4629,7 +5221,7 @@
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": false,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -4638,44 +5230,44 @@
         "supplemental_missing_zero_credit": [
           "parent_rvol_5m",
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "short",
-      "directional_alignment": 80.2,
+      "directional_alignment": 80.4,
       "entry_watch": {
         "action": "SELL",
-        "activation": 4288.6,
-        "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
-        "entry_high": 4289.1,
-        "entry_low": 4288.4,
+        "activation": 4289.7,
+        "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
+        "entry_high": 4290.2,
+        "entry_low": 4289.5,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
-        "stop": 4292.8
+        "stop": 4293.3
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.75",
+          "basis=safe-haven support conflicts with stronger dollar and yields"
         ],
         "parent_rvol": [
           "parent_rvol_unavailable_zero_credit"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.78",
+          "directional_rs=0.80",
           "family_breadth=0.50"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.31",
+          "risk_atr=1.11",
           "volume_factor=1.00"
         ],
         "structure": [
           "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
-          "bar_close_location=0.11",
+          "bar_close_location=0.29",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.11"
+          "vwap_extension_atr=1.66"
         ],
         "tbbo_order_flow": [
           "tbbo_stale_or_unverified_zero_credit"
@@ -4691,26 +5283,26 @@
         ]
       },
       "geometry": {
-        "activation": 4288.6,
-        "activation_rule_5m": "completed 5m close at/below 4288.6; then 1m hold/retest",
+        "activation": 4289.7,
+        "activation_rule_5m": "completed 5m close at/below 4289.7; then 1m hold/retest",
         "blockers": [],
-        "do_not_enter_boundary": 4287.4,
-        "entry_high": 4289.1,
-        "entry_low": 4288.4,
+        "do_not_enter_boundary": 4288.6,
+        "entry_high": 4290.2,
+        "entry_low": 4289.5,
         "low_volume_extra_confirmation": false,
-        "risk_atr": 1.311214953271041,
-        "risk_per_unit": 4.050000000000182,
+        "risk_atr": 1.1149532710279324,
+        "risk_per_unit": 3.449999999999818,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 4292.8,
+        "stop": 4293.3,
         "structural_invalidation": "latest_5m_high",
         "targets": [
-          4285.3,
-          4280.6,
-          4274.6
+          4286.9,
+          4283.0,
+          4277.8
         ],
         "volatility_buffer": 0.4585714285714305
       },
@@ -4718,23 +5310,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 4292.0,
-        "bid": 4291.0,
+        "ask": 4292.5,
+        "bid": 4290.0,
         "completed_5m": {
-          "age_seconds": 51.965,
+          "age_seconds": 93.906,
           "close": 4291.900000000001,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
-          "high": 4292.3,
-          "low": 4288.6,
-          "open": 4289.2,
+          "high": 4292.8,
+          "low": 4289.7,
+          "open": 4291.8,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 95.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 70.0
         },
-        "last": 4291.7,
+        "last": 4290.0,
         "maintenance_close": 4299.9,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -4743,9 +5335,9 @@
         "prior_high": 4324.1,
         "prior_low": 4268.0,
         "prior_vwap": 4296.970634196551,
-        "quote_age_seconds": 10.654,
-        "quote_timestamp_utc": "2026-09-16T00:20:12.055365+00:00",
-        "relative_strength_rank": 8,
+        "quote_age_seconds": 6.485,
+        "quote_timestamp_utc": "2026-09-16T00:26:02.557480+00:00",
+        "relative_strength_rank": 9,
         "session_open": 4299.9,
         "session_vwap": 4295.089174352218,
         "technical": {
@@ -4764,7 +5356,7 @@
           "rsi_5m_14": 37.07091055377097,
           "rsi_5m_delta": -0.3200676028623164,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1263.10555,
+          "tbbo_age_seconds": 1602.046883,
           "tbbo_aggressor_delta": -0.46107784431137727,
           "tbbo_pressure": -0.0321262929510352,
           "tbbo_source": "databento_tbbo",
@@ -4785,11 +5377,11 @@
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 40.5,
+        "per_contract_risk_dollars": 34.5,
         "per_contract_target_dollars": [
-          34.5,
-          81.5,
-          141.5
+          29.5,
+          68.5,
+          120.5
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -4816,25 +5408,25 @@
         },
         "primary": {
           "action": "SELL",
-          "condition": "completed 5m close at/below 4288.6; then 1m hold/retest",
+          "condition": "completed 5m close at/below 4289.7; then 1m hold/retest",
           "direction": "short"
         }
       },
-      "score": 52.7,
+      "score": 57.6,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 4295.09 on completed 5m close; RSI must reclaim 50 and turn up",
-        "short_term": "BEARISH",
-        "short_term_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close",
-        "trading_week": "BEARISH",
-        "trading_week_flip": "weakens above 4297.64; bullish above 4299.9 on completed 15m close"
+        "short_term": "NEUTRAL",
+        "short_term_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close",
+        "trading_week": "NEUTRAL",
+        "trading_week_flip": "bullish above 4299.9; bearish below 4297.64 on completed 15m close"
       },
       "setup_type": "TREND CONTINUATION RETEST",
       "stage": "DEEP_ANALYSIS",
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 4291.7,
+        "last": 4290.0,
         "near_term_bearish_below": 4294.1,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 4299.9,
@@ -4846,8 +5438,252 @@
         "session_open": 4299.9,
         "session_vwap": 4295.1,
         "short_term_bearish_below": 4297.6,
-        "short_term_bias": "BEARISH",
+        "short_term_bias": "NEUTRAL",
         "short_term_bullish_above": 4299.9,
+        "short_term_confirmation": "completed 15m close beyond the boundary"
+      }
+    },
+    {
+      "TRANSMITTED": false,
+      "blockers": [
+        "trend_regime_below_0.45"
+      ],
+      "components": {
+        "macro_catalyst": 0.9,
+        "parent_rvol": 0.634020618556701,
+        "relative_strength_breadth": 0.39,
+        "stop_target_geometry": 0.9022988505748799,
+        "structure": 0.7631035686655923,
+        "tbbo_order_flow": 0.0,
+        "trend_regime": 0.22
+      },
+      "contract": "MNQU6",
+      "contributions": {
+        "macro_catalyst": 4.5,
+        "parent_rvol": 6.34,
+        "relative_strength_breadth": 5.85,
+        "stop_target_geometry": 9.023,
+        "structure": 22.893,
+        "tbbo_order_flow": 0.0,
+        "trend_regime": 4.4
+      },
+      "deep_coverage": {
+        "missing_required": [],
+        "required_complete": true,
+        "supplemental_available": {
+          "macro_catalyst": true,
+          "parent_rvol_5m": true,
+          "rsi_divergence_5m": true,
+          "tbbo_aggressor_delta": false,
+          "tbbo_pressure": false
+        },
+        "supplemental_missing_zero_credit": [
+          "tbbo_pressure",
+          "tbbo_aggressor_delta"
+        ]
+      },
+      "direction": "short",
+      "directional_alignment": 62.6,
+      "entry_watch": {
+        "action": "SELL",
+        "activation": 28977.5,
+        "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
+        "entry_high": 28978.75,
+        "entry_low": 28977.0,
+        "note": "Conditional watch only; revalidate current deep status before entry.",
+        "status": "POTENTIAL_ENTRY",
+        "stop": 28987.5
+      },
+      "evidence": {
+        "macro_catalyst": [
+          "macro_alignment=0.90",
+          "basis=duration sensitivity to higher yields and hawkish Fed pricing"
+        ],
+        "parent_rvol": [
+          "parent_rvol_5m=1.13"
+        ],
+        "relative_strength_breadth": [
+          "directional_rs=0.60",
+          "family_breadth=0.00"
+        ],
+        "stop_target_geometry": [
+          "risk_atr=1.23",
+          "volume_factor=1.00"
+        ],
+        "structure": [
+          "vwap_aligned",
+          "session_open_aligned",
+          "prior_close_aligned",
+          "completed_5m_direction_aligned",
+          "bar_close_location=0.88",
+          "vwap_extension_atr=0.52"
+        ],
+        "tbbo_order_flow": [
+          "tbbo_stale_or_unverified_zero_credit"
+        ],
+        "trend_regime": [
+          "vwap_path_aligned",
+          "60m_return_aligned=-0.0001"
+        ]
+      },
+      "geometry": {
+        "activation": 28977.5,
+        "activation_rule_5m": "completed 5m close at/below 28977.5; then 1m hold/retest",
+        "blockers": [],
+        "do_not_enter_boundary": 28974.5,
+        "entry_high": 28978.75,
+        "entry_low": 28977.0,
+        "low_volume_extra_confirmation": false,
+        "risk_atr": 1.228160919540096,
+        "risk_per_unit": 9.625,
+        "scale_percentages": [
+          40,
+          35,
+          25
+        ],
+        "stop": 28987.5,
+        "structural_invalidation": "latest_5m_high",
+        "targets": [
+          28969.75,
+          28958.5,
+          28944.25
+        ],
+        "volatility_buffer": 1.1651785714285714
+      },
+      "grade": "D",
+      "guidance": null,
+      "live_execution": false,
+      "market": {
+        "ask": 28978.25,
+        "bid": 28977.5,
+        "completed_5m": {
+          "age_seconds": 93.906,
+          "close": 28979.25,
+          "complete": true,
+          "end": "2026-09-16T00:25:00+00:00",
+          "fresh": true,
+          "health": "recent",
+          "high": 28986.25,
+          "low": 28978.25,
+          "open": 28985.5,
+          "source": "databento_live_ohlcv_1m",
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 316.0
+        },
+        "last": 28978.25,
+        "maintenance_close": 28986.75,
+        "opening_range_high": null,
+        "opening_range_low": null,
+        "overnight_high": 28995.75,
+        "overnight_low": 28965.25,
+        "prior_high": 29199.25,
+        "prior_low": 28919.0,
+        "prior_vwap": 29053.76378578334,
+        "quote_age_seconds": 0.176,
+        "quote_timestamp_utc": "2026-09-16T00:26:08.865782+00:00",
+        "relative_strength_rank": 7,
+        "session_open": 28981.25,
+        "session_vwap": 28982.318068667515,
+        "technical": {
+          "atr_5m": 7.767857142857143,
+          "ema20_15m": 28983.46111333842,
+          "ema20_5m": 28984.400389076007,
+          "ema20_5m_slope": 0.16838009726052405,
+          "ema50_15m": 29007.704133984513,
+          "ema50_5m": 28982.378506166737,
+          "ema50_5m_slope": 0.1478160748265509,
+          "micro_rvol_5m": 1.1788617886178863,
+          "parent_rvol_5m": 1.134020618556701,
+          "range_atr": 3.508045977011494,
+          "return_4h": 0.0007336503853823118,
+          "return_60m": -0.00014660101240937529,
+          "rsi_5m_14": 52.27148556444093,
+          "rsi_5m_delta": -6.1494188721378364,
+          "rsi_divergence_5m": "none",
+          "tbbo_age_seconds": 1599.664122,
+          "tbbo_aggressor_delta": 0.11956521739130435,
+          "tbbo_pressure": -0.020247663252267924,
+          "tbbo_source": "databento_tbbo",
+          "trend_efficiency": 0.13494809688581316,
+          "volume_regime": "normal"
+        }
+      },
+      "probabilities": {
+        "ev": null,
+        "p_stop": null,
+        "p_t1": null,
+        "p_t2": null,
+        "p_t3": null,
+        "reason": "insufficient_independent_calibration_below_100"
+      },
+      "publishable": false,
+      "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
+      "read_only": true,
+      "risk_disclosure": {
+        "full_bag_pnl": null,
+        "per_contract_risk_dollars": 19.25,
+        "per_contract_target_dollars": [
+          16.25,
+          38.75,
+          67.25
+        ],
+        "reason": "broker_margin_and_approved_contract_count_not_verified",
+        "stress_risk": null
+      },
+      "root": "MNQ",
+      "scenario_map": {
+        "failure": {
+          "action": "REJECT SETUP",
+          "condition": "price violates latest_5m_high before confirmation"
+        },
+        "key_levels": {
+          "maintenance_close": 28986.75,
+          "opening_range_high": null,
+          "opening_range_low": null,
+          "overnight_high": 28995.75,
+          "overnight_low": 28965.25,
+          "prior_vwap": 29053.76378578334,
+          "vwap": 28982.318068667515
+        },
+        "opposite": {
+          "action": "REANALYZE",
+          "condition": "requires separate completed 5m acceptance beyond the opposite structure; current short plan does not authorize an automatic reversal",
+          "direction": "long"
+        },
+        "primary": {
+          "action": "SELL",
+          "condition": "completed 5m close at/below 28977.5; then 1m hold/retest",
+          "direction": "short"
+        }
+      },
+      "score": 53.0,
+      "sentiment": {
+        "near_term": "BEARISH",
+        "near_term_flip": "reassess above 28982.3 on completed 5m close; RSI must reclaim 50 and turn up",
+        "short_term": "BEARISH",
+        "short_term_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close",
+        "trading_week": "BEARISH",
+        "trading_week_flip": "weakens above 28983.5; bullish above 29007.7 on completed 15m close"
+      },
+      "setup_type": "TREND CONTINUATION RETEST",
+      "stage": "DEEP_ANALYSIS",
+      "status": "DISQUALIFIED",
+      "tactical_horizon": "INTRADAY",
+      "watch_map": {
+        "last": 28978.25,
+        "near_term_bearish_below": 28981.25,
+        "near_term_bias": "BEARISH",
+        "near_term_bullish_above": 28984.5,
+        "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
+        "overnight_high": 28995.75,
+        "overnight_low": 28965.25,
+        "prior_high": 29199.25,
+        "prior_low": 28919.0,
+        "session_open": 28981.25,
+        "session_vwap": 28982.25,
+        "short_term_bearish_below": 28983.5,
+        "short_term_bias": "BEARISH",
+        "short_term_bullish_above": 29007.75,
         "short_term_confirmation": "completed 15m close beyond the boundary"
       }
     },
@@ -4859,9 +5695,9 @@
       "components": {
         "macro_catalyst": 0.0,
         "parent_rvol": 0.2448275862068966,
-        "relative_strength_breadth": 0.9277777777777777,
+        "relative_strength_breadth": 1.0,
         "stop_target_geometry": 0.0,
-        "structure": 0.7333333333333331,
+        "structure": 0.5500000000000027,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.6
       },
@@ -4869,9 +5705,9 @@
       "contributions": {
         "macro_catalyst": 0.0,
         "parent_rvol": 2.448,
-        "relative_strength_breadth": 13.917,
+        "relative_strength_breadth": 15.0,
         "stop_target_geometry": 0.0,
-        "structure": 22.0,
+        "structure": 16.5,
         "tbbo_order_flow": 0.0,
         "trend_regime": 12.0
       },
@@ -4879,7 +5715,7 @@
         "missing_required": [],
         "required_complete": true,
         "supplemental_available": {
-          "macro_catalyst": false,
+          "macro_catalyst": true,
           "parent_rvol_5m": true,
           "rsi_divergence_5m": true,
           "tbbo_aggressor_delta": false,
@@ -4887,12 +5723,11 @@
         },
         "supplemental_missing_zero_credit": [
           "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
+          "tbbo_aggressor_delta"
         ]
       },
       "direction": "short",
-      "directional_alignment": 74.7,
+      "directional_alignment": 60.8,
       "entry_watch": {
         "action": null,
         "activation_rule_5m": null,
@@ -4906,13 +5741,14 @@
       },
       "evidence": {
         "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
+          "macro_alignment=0.00",
+          "basis=Saudi loadings halt and Libya outages tighten immediate supply"
         ],
         "parent_rvol": [
           "parent_rvol_5m=0.74"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.89",
+          "directional_rs=1.00",
           "family_breadth=1.00"
         ],
         "stop_target_geometry": [
@@ -4922,9 +5758,8 @@
           "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
-          "completed_5m_direction_aligned",
-          "bar_close_location=0.61",
-          "vwap_extension_atr=6.43",
+          "bar_close_location=0.25",
+          "vwap_extension_atr=6.03",
           "named_level_acceptance"
         ],
         "tbbo_order_flow": [
@@ -4947,23 +5782,23 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 104.92,
-        "bid": 104.9,
+        "ask": 104.95,
+        "bid": 104.93,
         "completed_5m": {
-          "age_seconds": 51.965,
-          "close": 104.83000000000001,
+          "age_seconds": 93.906,
+          "close": 104.98,
           "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
+          "end": "2026-09-16T00:25:00+00:00",
           "fresh": true,
           "health": "recent",
-          "high": 105.05000000000001,
-          "low": 104.69000000000001,
-          "open": 105.02000000000001,
+          "high": 105.02000000000001,
+          "low": 104.86,
+          "open": 104.86,
           "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 1256.0
+          "start": "2026-09-16T00:20:00+00:00",
+          "volume": 459.0
         },
-        "last": 104.91,
+        "last": 104.94,
         "maintenance_close": 105.52,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -4972,9 +5807,9 @@
         "prior_high": 106.75,
         "prior_low": 101.2,
         "prior_vwap": 103.93829046250966,
-        "quote_age_seconds": 0.692,
-        "quote_timestamp_utc": "2026-09-16T00:20:22.017414+00:00",
-        "relative_strength_rank": 9,
+        "quote_age_seconds": 6.443,
+        "quote_timestamp_utc": "2026-09-16T00:26:02.599222+00:00",
+        "relative_strength_rank": 11,
         "session_open": 105.47,
         "session_vwap": 105.39195211786371,
         "technical": {
@@ -4993,7 +5828,7 @@
           "rsi_5m_14": 42.75365046446821,
           "rsi_5m_delta": 3.0687375897235256,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1259.084636,
+          "tbbo_age_seconds": 1601.686239,
           "tbbo_aggressor_delta": -0.1574468085106383,
           "tbbo_pressure": 0.05022108076054227,
           "tbbo_source": "databento_tbbo",
@@ -5029,7 +5864,7 @@
         "opposite": null,
         "primary": null
       },
-      "score": 50.4,
+      "score": 45.9,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 105.422 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -5043,7 +5878,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 104.91,
+        "last": 104.94,
         "near_term_bearish_below": 105.39,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 105.47,
@@ -5057,251 +5892,6 @@
         "short_term_bearish_below": 104.91,
         "short_term_bias": "BEARISH",
         "short_term_bullish_above": 105.52,
-        "short_term_confirmation": "completed 15m close beyond the boundary"
-      }
-    },
-    {
-      "TRANSMITTED": false,
-      "blockers": [
-        "trend_regime_below_0.45"
-      ],
-      "components": {
-        "macro_catalyst": 0.0,
-        "parent_rvol": 0.634020618556701,
-        "relative_strength_breadth": 0.6388888888888888,
-        "stop_target_geometry": 0.8730225441979891,
-        "structure": 0.6222222222222222,
-        "tbbo_order_flow": 0.0,
-        "trend_regime": 0.35
-      },
-      "contract": "MNQU6",
-      "contributions": {
-        "macro_catalyst": 0.0,
-        "parent_rvol": 6.34,
-        "relative_strength_breadth": 9.583,
-        "stop_target_geometry": 8.73,
-        "structure": 18.667,
-        "tbbo_order_flow": 0.0,
-        "trend_regime": 7.0
-      },
-      "deep_coverage": {
-        "missing_required": [],
-        "required_complete": true,
-        "supplemental_available": {
-          "macro_catalyst": false,
-          "parent_rvol_5m": true,
-          "rsi_divergence_5m": true,
-          "tbbo_aggressor_delta": false,
-          "tbbo_pressure": false
-        },
-        "supplemental_missing_zero_credit": [
-          "tbbo_pressure",
-          "tbbo_aggressor_delta",
-          "macro_catalyst"
-        ]
-      },
-      "direction": "long",
-      "directional_alignment": 58.0,
-      "entry_watch": {
-        "action": "BUY",
-        "activation": 28991.25,
-        "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
-        "entry_high": 28991.75,
-        "entry_low": 28990.0,
-        "note": "Conditional watch only; revalidate current deep status before entry.",
-        "status": "POTENTIAL_ENTRY",
-        "stop": 28981.0
-      },
-      "evidence": {
-        "macro_catalyst": [
-          "macro_not_supplied_zero_credit"
-        ],
-        "parent_rvol": [
-          "parent_rvol_5m=1.13"
-        ],
-        "relative_strength_breadth": [
-          "directional_rs=0.44",
-          "family_breadth=1.00"
-        ],
-        "stop_target_geometry": [
-          "risk_atr=1.25",
-          "volume_factor=1.00"
-        ],
-        "structure": [
-          "vwap_aligned",
-          "session_open_aligned",
-          "completed_5m_direction_aligned",
-          "bar_close_location=0.69",
-          "vwap_extension_atr=0.18"
-        ],
-        "tbbo_order_flow": [
-          "tbbo_stale_or_unverified_zero_credit"
-        ],
-        "trend_regime": [
-          "ema20_slope_aligned",
-          "ema50_slope_aligned",
-          "vwap_path_aligned",
-          "4h_return_aligned=0.0007"
-        ]
-      },
-      "geometry": {
-        "activation": 28991.25,
-        "activation_rule_5m": "completed 5m close at/above 28991.2; then 1m hold/retest",
-        "blockers": [],
-        "do_not_enter_boundary": 28994.25,
-        "entry_high": 28991.75,
-        "entry_low": 28990.0,
-        "low_volume_extra_confirmation": false,
-        "risk_atr": 1.2515819646416086,
-        "risk_per_unit": 9.875,
-        "scale_percentages": [
-          40,
-          35,
-          25
-        ],
-        "stop": 28981.0,
-        "structural_invalidation": "session_vwap",
-        "targets": [
-          28999.25,
-          29010.5,
-          29025.5
-        ],
-        "volatility_buffer": 1.1651785714285714
-      },
-      "grade": "D",
-      "guidance": null,
-      "live_execution": false,
-      "market": {
-        "ask": 28984.75,
-        "bid": 28984.0,
-        "completed_5m": {
-          "age_seconds": 51.965,
-          "close": 28987.0,
-          "complete": true,
-          "end": "2026-09-16T00:20:00+00:00",
-          "fresh": true,
-          "health": "recent",
-          "high": 28991.25,
-          "low": 28977.75,
-          "open": 28985.25,
-          "source": "databento_live_ohlcv_1m",
-          "start": "2026-09-16T00:15:00+00:00",
-          "volume": 395.0
-        },
-        "last": 28983.75,
-        "maintenance_close": 28986.75,
-        "opening_range_high": null,
-        "opening_range_low": null,
-        "overnight_high": 28995.75,
-        "overnight_low": 28965.25,
-        "prior_high": 29199.25,
-        "prior_low": 28919.0,
-        "prior_vwap": 29053.76378578334,
-        "quote_age_seconds": 2.944,
-        "quote_timestamp_utc": "2026-09-16T00:20:19.765220+00:00",
-        "relative_strength_rank": 6,
-        "session_open": 28981.25,
-        "session_vwap": 28982.318068667515,
-        "technical": {
-          "atr_5m": 7.767857142857143,
-          "ema20_15m": 28983.46111333842,
-          "ema20_5m": 28984.400389076007,
-          "ema20_5m_slope": 0.16838009726052405,
-          "ema50_15m": 29007.704133984513,
-          "ema50_5m": 28982.378506166737,
-          "ema50_5m_slope": 0.1478160748265509,
-          "micro_rvol_5m": 1.1788617886178863,
-          "parent_rvol_5m": 1.134020618556701,
-          "range_atr": 3.508045977011494,
-          "return_4h": 0.0007336503853823118,
-          "return_60m": -0.00014660101240937529,
-          "rsi_5m_14": 52.27148556444093,
-          "rsi_5m_delta": -6.1494188721378364,
-          "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 1259.111108,
-          "tbbo_aggressor_delta": 0.11956521739130435,
-          "tbbo_pressure": -0.020247663252267924,
-          "tbbo_source": "databento_tbbo",
-          "trend_efficiency": 0.13494809688581316,
-          "volume_regime": "normal"
-        }
-      },
-      "probabilities": {
-        "ev": null,
-        "p_stop": null,
-        "p_t1": null,
-        "p_t2": null,
-        "p_t3": null,
-        "reason": "insufficient_independent_calibration_below_100"
-      },
-      "publishable": false,
-      "purpose": "Participate in upside continuation only after completed-bar acceptance and retest; invalidate beyond session_vwap.",
-      "read_only": true,
-      "risk_disclosure": {
-        "full_bag_pnl": null,
-        "per_contract_risk_dollars": 19.75,
-        "per_contract_target_dollars": [
-          16.75,
-          39.25,
-          69.25
-        ],
-        "reason": "broker_margin_and_approved_contract_count_not_verified",
-        "stress_risk": null
-      },
-      "root": "MNQ",
-      "scenario_map": {
-        "failure": {
-          "action": "REJECT SETUP",
-          "condition": "price violates session_vwap before confirmation"
-        },
-        "key_levels": {
-          "maintenance_close": 28986.75,
-          "opening_range_high": null,
-          "opening_range_low": null,
-          "overnight_high": 28995.75,
-          "overnight_low": 28965.25,
-          "prior_vwap": 29053.76378578334,
-          "vwap": 28982.318068667515
-        },
-        "opposite": {
-          "action": "REANALYZE",
-          "condition": "requires separate completed 5m acceptance beyond the opposite structure; current long plan does not authorize an automatic reversal",
-          "direction": "short"
-        },
-        "primary": {
-          "action": "BUY",
-          "condition": "completed 5m close at/above 28991.2; then 1m hold/retest",
-          "direction": "long"
-        }
-      },
-      "score": 50.3,
-      "sentiment": {
-        "near_term": "NEUTRAL",
-        "near_term_flip": "bullish above 28984.4 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
-        "short_term": "NEUTRAL",
-        "short_term_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close",
-        "trading_week": "NEUTRAL",
-        "trading_week_flip": "bullish above 29007.7; bearish below 28983.5 on completed 15m close"
-      },
-      "setup_type": "TREND CONTINUATION RETEST",
-      "stage": "DEEP_ANALYSIS",
-      "status": "DISQUALIFIED",
-      "tactical_horizon": "INTRADAY",
-      "watch_map": {
-        "last": 28983.75,
-        "near_term_bearish_below": 28981.25,
-        "near_term_bias": "NEUTRAL",
-        "near_term_bullish_above": 28984.5,
-        "near_term_confirmation": "completed 5m close with RSI above 50/rising for bullish or below 50/falling for bearish",
-        "overnight_high": 28995.75,
-        "overnight_low": 28965.25,
-        "prior_high": 29199.25,
-        "prior_low": 28919.0,
-        "session_open": 28981.25,
-        "session_vwap": 28982.25,
-        "short_term_bearish_below": 28983.5,
-        "short_term_bias": "NEUTRAL",
-        "short_term_bullish_above": 29007.75,
         "short_term_confirmation": "completed 15m close beyond the boundary"
       }
     }
