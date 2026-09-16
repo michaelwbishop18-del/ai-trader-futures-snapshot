@@ -3,25 +3,27 @@
   "all_evaluated": [
     {
       "TRANSMITTED": false,
-      "blockers": [],
+      "blockers": [
+        "structure_below_0.55"
+      ],
       "components": {
         "macro_catalyst": 0.1,
         "parent_rvol": 0.23949579831932777,
-        "relative_strength_breadth": 0.6233333333333333,
+        "relative_strength_breadth": 0.6883333333333332,
         "stop_target_geometry": 0.8588983050847459,
-        "structure": 0.62,
+        "structure": 0.5,
         "tbbo_order_flow": 0.02732550442756862,
-        "trend_regime": 0.6
+        "trend_regime": 0.48
       },
       "contract": "MESU6",
       "contributions": {
         "macro_catalyst": 0.5,
         "parent_rvol": 2.395,
-        "relative_strength_breadth": 9.35,
+        "relative_strength_breadth": 10.325,
         "stop_target_geometry": 8.589,
-        "structure": 18.6,
+        "structure": 15.0,
         "tbbo_order_flow": 0.273,
-        "trend_regime": 12.0
+        "trend_regime": 9.6
       },
       "deep_coverage": {
         "missing_required": [],
@@ -36,7 +38,7 @@
         "supplemental_missing_zero_credit": []
       },
       "direction": "long",
-      "directional_alignment": 60.7,
+      "directional_alignment": 53.3,
       "display_classification": "BELOW GATE \u2014 WATCH ONLY",
       "display_guidance": {
         "action": "BUY",
@@ -86,7 +88,7 @@
           "parent_rvol_5m=0.74"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.60",
+          "directional_rs=0.70",
           "family_breadth=0.67"
         ],
         "stop_target_geometry": [
@@ -94,12 +96,11 @@
           "volume_factor=0.55"
         ],
         "structure": [
-          "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
           "bar_close_location=0.00",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=0.05"
+          "vwap_extension_atr=0.19"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.03"
@@ -107,7 +108,6 @@
         "trend_regime": [
           "ema20_slope_aligned",
           "ema50_slope_aligned",
-          "vwap_path_aligned",
           "rsi_trend_aligned",
           "60m_return_aligned=0.0004",
           "4h_return_aligned=0.0015"
@@ -141,10 +141,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 7597.75,
-        "bid": 7597.5,
+        "ask": 7597.25,
+        "bid": 7597.0,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 7597.750000000001,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -157,7 +157,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 104.0
         },
-        "last": 7597.75,
+        "last": 7597.25,
         "maintenance_close": 7596.5,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -166,9 +166,9 @@
         "prior_high": 7633.25,
         "prior_low": 7576.75,
         "prior_vwap": 7599.416319635381,
-        "quote_age_seconds": 0.529,
-        "quote_timestamp_utc": "2026-09-16T00:44:57.253596+00:00",
-        "relative_strength_rank": 5,
+        "quote_age_seconds": 14.223,
+        "quote_timestamp_utc": "2026-09-16T00:47:13.673303+00:00",
+        "relative_strength_rank": 4,
         "session_open": 7596.75,
         "session_vwap": 7597.646123645211,
         "technical": {
@@ -187,7 +187,7 @@
           "rsi_5m_14": 57.3713558322038,
           "rsi_5m_delta": 3.9155203893652555,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 328.981193,
+          "tbbo_age_seconds": 471.381259,
           "tbbo_aggressor_delta": 0.1659919028340081,
           "tbbo_pressure": -0.11134089397887087,
           "tbbo_source": "databento_tbbo",
@@ -243,7 +243,7 @@
           "direction": "long"
         }
       },
-      "score": 51.7,
+      "score": 46.7,
       "sentiment": {
         "near_term": "NEUTRAL",
         "near_term_flip": "bullish above 7597.94 with RSI >50/rising; bearish below 7596.75 with RSI <50/falling",
@@ -254,10 +254,10 @@
       },
       "setup_type": "TREND CONTINUATION RETEST",
       "stage": "DEEP_ANALYSIS",
-      "status": "BELOW PUBLICATION GATE",
+      "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 7597.75,
+        "last": 7597.25,
         "near_term_bearish_below": 7596.75,
         "near_term_bias": "NEUTRAL",
         "near_term_bullish_above": 7598.0,
@@ -282,8 +282,8 @@
       "components": {
         "macro_catalyst": 0.9,
         "parent_rvol": 0.2450980392156863,
-        "relative_strength_breadth": 0.325,
-        "stop_target_geometry": 0.6941678520624647,
+        "relative_strength_breadth": 0.39,
+        "stop_target_geometry": 0.5839260312945767,
         "structure": 0.7745454545454545,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.12
@@ -292,8 +292,8 @@
       "contributions": {
         "macro_catalyst": 4.5,
         "parent_rvol": 2.451,
-        "relative_strength_breadth": 4.875,
-        "stop_target_geometry": 6.942,
+        "relative_strength_breadth": 5.85,
+        "stop_target_geometry": 5.839,
         "structure": 23.236,
         "tbbo_order_flow": 0.0,
         "trend_regime": 2.4
@@ -311,44 +311,44 @@
         "supplemental_missing_zero_credit": []
       },
       "direction": "short",
-      "directional_alignment": 60.9,
+      "directional_alignment": 61.9,
       "display_guidance": {
         "action": "SELL",
-        "activation": 28979.5,
-        "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
+        "activation": 28977.0,
+        "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
         "blockers": [],
         "conditional_only": true,
-        "do_not_enter_boundary": 28974.25,
-        "entry_high": 28981.5,
-        "entry_low": 28978.75,
+        "do_not_enter_boundary": 28973.75,
+        "entry_high": 28979.0,
+        "entry_low": 28976.25,
         "low_volume_extra_confirmation": false,
         "requires_requalification": true,
-        "risk_atr": 1.3946657183500282,
-        "risk_per_unit": 17.625,
+        "risk_atr": 0.8171408250356612,
+        "risk_per_unit": 10.375,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 28997.75,
-        "structural_invalidation": "overnight_high",
+        "stop": 28988.0,
+        "structural_invalidation": "latest_5m_high",
         "targets": [
-          28965.25,
-          28945.0,
-          28918.5
+          28968.75,
+          28957.0,
+          28941.25
         ],
         "volatility_buffer": 1.8830357142857141
       },
       "displayable": true,
       "entry_watch": {
         "action": "SELL",
-        "activation": 28979.5,
-        "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
-        "entry_high": 28981.5,
-        "entry_low": 28978.75,
+        "activation": 28977.0,
+        "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
+        "entry_high": 28979.0,
+        "entry_low": 28976.25,
         "note": "Conditional watch only; revalidate current deep status before entry.",
         "status": "POTENTIAL_ENTRY",
-        "stop": 28997.75
+        "stop": 28988.0
       },
       "evidence": {
         "macro_catalyst": [
@@ -359,11 +359,11 @@
           "parent_rvol_5m=0.75"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.50",
+          "directional_rs=0.60",
           "family_breadth=0.00"
         ],
         "stop_target_geometry": [
-          "risk_atr=1.39",
+          "risk_atr=0.82",
           "volume_factor=1.00"
         ],
         "structure": [
@@ -372,7 +372,7 @@
           "prior_close_aligned",
           "completed_5m_direction_aligned",
           "bar_close_location=0.95",
-          "vwap_extension_atr=0.07"
+          "vwap_extension_atr=0.27"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -382,26 +382,26 @@
         ]
       },
       "geometry": {
-        "activation": 28979.5,
-        "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
+        "activation": 28977.0,
+        "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
         "blockers": [],
-        "do_not_enter_boundary": 28974.25,
-        "entry_high": 28981.5,
-        "entry_low": 28978.75,
+        "do_not_enter_boundary": 28973.75,
+        "entry_high": 28979.0,
+        "entry_low": 28976.25,
         "low_volume_extra_confirmation": false,
-        "risk_atr": 1.3946657183500282,
-        "risk_per_unit": 17.625,
+        "risk_atr": 0.8171408250356612,
+        "risk_per_unit": 10.375,
         "scale_percentages": [
           40,
           35,
           25
         ],
-        "stop": 28997.75,
-        "structural_invalidation": "overnight_high",
+        "stop": 28988.0,
+        "structural_invalidation": "latest_5m_high",
         "targets": [
-          28965.25,
-          28945.0,
-          28918.5
+          28968.75,
+          28957.0,
+          28941.25
         ],
         "volatility_buffer": 1.8830357142857141
       },
@@ -409,10 +409,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 28981.5,
-        "bid": 28980.75,
+        "ask": 28979.25,
+        "bid": 28978.5,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 28980.75,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -425,7 +425,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 235.0
         },
-        "last": 28980.75,
+        "last": 28978.25,
         "maintenance_close": 28986.75,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -434,9 +434,9 @@
         "prior_high": 29199.25,
         "prior_low": 28919.0,
         "prior_vwap": 29053.76378578334,
-        "quote_age_seconds": 2.927,
-        "quote_timestamp_utc": "2026-09-16T00:44:54.856316+00:00",
-        "relative_strength_rank": 6,
+        "quote_age_seconds": 2.296,
+        "quote_timestamp_utc": "2026-09-16T00:47:25.600276+00:00",
+        "relative_strength_rank": 7,
         "session_open": 28981.25,
         "session_vwap": 28981.69045830203,
         "technical": {
@@ -455,7 +455,7 @@
           "rsi_5m_14": 50.508247256501726,
           "rsi_5m_delta": 2.6116876639948217,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 327.483443,
+          "tbbo_age_seconds": 468.058318,
           "tbbo_aggressor_delta": -0.008746355685131196,
           "tbbo_pressure": 0.03078546882670594,
           "tbbo_source": "databento_tbbo",
@@ -472,15 +472,15 @@
         "reason": "insufficient_independent_calibration_below_100"
       },
       "publishable": false,
-      "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond overnight_high.",
+      "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
       "read_only": true,
       "risk_disclosure": {
         "full_bag_pnl": null,
-        "per_contract_risk_dollars": 35.25,
+        "per_contract_risk_dollars": 20.75,
         "per_contract_target_dollars": [
-          29.75,
-          70.25,
-          123.25
+          17.75,
+          41.25,
+          72.75
         ],
         "reason": "broker_margin_and_approved_contract_count_not_verified",
         "stress_risk": null
@@ -489,7 +489,7 @@
       "scenario_map": {
         "failure": {
           "action": "REJECT SETUP",
-          "condition": "price violates overnight_high before confirmation"
+          "condition": "price violates latest_5m_high before confirmation"
         },
         "key_levels": {
           "maintenance_close": 28986.75,
@@ -507,11 +507,11 @@
         },
         "primary": {
           "action": "SELL",
-          "condition": "completed 5m close at/below 28979.5; then 1m hold/retest",
+          "condition": "completed 5m close at/below 28977; then 1m hold/retest",
           "direction": "short"
         }
       },
-      "score": 44.4,
+      "score": 44.3,
       "sentiment": {
         "near_term": "NEUTRAL",
         "near_term_flip": "bullish above 28982.7 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
@@ -525,7 +525,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 28980.75,
+        "last": 28978.25,
         "near_term_bearish_below": 28981.25,
         "near_term_bias": "NEUTRAL",
         "near_term_bullish_above": 28982.75,
@@ -553,7 +553,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 0.825,
         "stop_target_geometry": 0.6280660377358035,
-        "structure": 0.5085110697857245,
+        "structure": 0.5155550949429571,
         "tbbo_order_flow": 0.19179191290609493,
         "trend_regime": 0.30000000000000004
       },
@@ -563,7 +563,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 12.375,
         "stop_target_geometry": 6.281,
-        "structure": 15.255,
+        "structure": 15.467,
         "tbbo_order_flow": 1.918,
         "trend_regime": 6.0
       },
@@ -640,7 +640,7 @@
           "session_open_aligned",
           "completed_5m_direction_aligned",
           "bar_close_location=1.00",
-          "vwap_extension_atr=2.39"
+          "vwap_extension_atr=2.31"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.19"
@@ -679,10 +679,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 75835.0,
-        "bid": 75820.0,
+        "ask": 75785.0,
+        "bid": 75770.0,
         "completed_5m": {
-          "age_seconds": 319.509,
+          "age_seconds": 461.467,
           "close": 75935.0,
           "complete": true,
           "end": "2026-09-16T00:40:00+00:00",
@@ -695,7 +695,7 @@
           "start": "2026-09-16T00:35:00+00:00",
           "volume": 23.0
         },
-        "last": 75810.0,
+        "last": 75800.0,
         "maintenance_close": 75965.0,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -704,8 +704,8 @@
         "prior_high": 79010.0,
         "prior_low": 74930.0,
         "prior_vwap": 76566.00743120644,
-        "quote_age_seconds": 20.768,
-        "quote_timestamp_utc": "2026-09-16T00:44:37.015163+00:00",
+        "quote_age_seconds": 24.838,
+        "quote_timestamp_utc": "2026-09-16T00:47:03.058316+00:00",
         "relative_strength_rank": 1,
         "session_open": 75480.0,
         "session_vwap": 75538.15410799938,
@@ -725,7 +725,7 @@
           "rsi_5m_14": 53.70015690684094,
           "rsi_5m_delta": -1.9441684159943335,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 349.617017,
+          "tbbo_age_seconds": 487.738153,
           "tbbo_aggressor_delta": 0.5757575757575758,
           "tbbo_pressure": -0.1921737499453859,
           "tbbo_source": "databento_tbbo",
@@ -781,7 +781,7 @@
           "direction": "long"
         }
       },
-      "score": 42.6,
+      "score": 42.8,
       "sentiment": {
         "near_term": "BULLISH",
         "near_term_flip": "reassess below 75538.2 on completed 5m close; RSI must lose 50 and turn down",
@@ -795,7 +795,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 75810.0,
+        "last": 75800.0,
         "near_term_bearish_below": 75480.0,
         "near_term_bias": "BULLISH",
         "near_term_bullish_above": 75760.0,
@@ -820,7 +820,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 0.87,
         "stop_target_geometry": 0.3051470588233366,
-        "structure": 0.6096614568532845,
+        "structure": 0.6070261627356278,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.75
       },
@@ -830,7 +830,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 13.05,
         "stop_target_geometry": 3.051,
-        "structure": 18.29,
+        "structure": 18.211,
         "tbbo_order_flow": 0.0,
         "trend_regime": 15.0
       },
@@ -912,7 +912,7 @@
           "prior_close_aligned",
           "bar_close_location=0.48",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.35"
+          "vwap_extension_atr=1.38"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -954,10 +954,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 4291.0,
-        "bid": 4287.6,
+        "ask": 4291.9,
+        "bid": 4288.1,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 4289.8,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -970,7 +970,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 95.0
         },
-        "last": 4289.8,
+        "last": 4289.7,
         "maintenance_close": 4299.9,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -979,8 +979,8 @@
         "prior_high": 4324.1,
         "prior_low": 4268.0,
         "prior_vwap": 4296.970634196551,
-        "quote_age_seconds": 5.195,
-        "quote_timestamp_utc": "2026-09-16T00:44:52.587448+00:00",
+        "quote_age_seconds": 6.587,
+        "quote_timestamp_utc": "2026-09-16T00:47:21.309610+00:00",
         "relative_strength_rank": 9,
         "session_open": 4299.9,
         "session_vwap": 4293.887962962963,
@@ -1000,7 +1000,7 @@
           "rsi_5m_14": 42.289139691373734,
           "rsi_5m_delta": -3.435306688085035,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 330.71468,
+          "tbbo_age_seconds": 470.119674,
           "tbbo_aggressor_delta": -0.0125,
           "tbbo_pressure": 0.03005464480874318,
           "tbbo_source": "databento_tbbo",
@@ -1070,7 +1070,7 @@
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 4289.8,
+        "last": 4289.7,
         "near_term_bearish_below": 4292.2,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 4299.9,
@@ -1096,9 +1096,9 @@
       "components": {
         "macro_catalyst": 0.8,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 0.74,
+        "relative_strength_breadth": 0.675,
         "stop_target_geometry": 0.3383196833969885,
-        "structure": 0.5331138976459181,
+        "structure": 0.5404341590838196,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.22
       },
@@ -1106,9 +1106,9 @@
       "contributions": {
         "macro_catalyst": 4.0,
         "parent_rvol": 0.0,
-        "relative_strength_breadth": 11.1,
+        "relative_strength_breadth": 10.125,
         "stop_target_geometry": 3.383,
-        "structure": 15.993,
+        "structure": 16.213,
         "tbbo_order_flow": 0.0,
         "trend_regime": 4.4
       },
@@ -1127,7 +1127,7 @@
         ]
       },
       "direction": "short",
-      "directional_alignment": 46.6,
+      "directional_alignment": 45.6,
       "display_guidance": {
         "action": "SELL",
         "activation": 64.15,
@@ -1175,7 +1175,7 @@
           "parent_rvol_unavailable_zero_credit"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.60",
+          "directional_rs=0.50",
           "family_breadth=1.00"
         ],
         "stop_target_geometry": [
@@ -1187,7 +1187,7 @@
           "session_open_aligned",
           "prior_close_aligned",
           "bar_close_location=0.50",
-          "vwap_extension_atr=1.09"
+          "vwap_extension_atr=0.99"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -1228,7 +1228,7 @@
         "ask": 64.18,
         "bid": 64.17,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 64.19,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -1239,9 +1239,9 @@
           "open": 64.155,
           "source": "databento_live_ohlcv_1m",
           "start": "2026-09-16T00:40:00+00:00",
-          "volume": 70.0
+          "volume": 64.0
         },
-        "last": 64.17,
+        "last": 64.175,
         "maintenance_close": 64.185,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -1250,9 +1250,9 @@
         "prior_high": 64.47,
         "prior_low": 63.035,
         "prior_vwap": 63.86803141898559,
-        "quote_age_seconds": 3.026,
-        "quote_timestamp_utc": "2026-09-16T00:44:54.756713+00:00",
-        "relative_strength_rank": 7,
+        "quote_age_seconds": 5.365,
+        "quote_timestamp_utc": "2026-09-16T00:47:22.531655+00:00",
+        "relative_strength_rank": 6,
         "session_open": 64.18,
         "session_vwap": 64.22934631098293,
         "technical": {
@@ -1271,7 +1271,7 @@
           "rsi_5m_14": 50.63349588158267,
           "rsi_5m_delta": -3.492796752076721,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 331.895607,
+          "tbbo_age_seconds": 472.650253,
           "tbbo_aggressor_delta": -0.03333333333333333,
           "tbbo_pressure": 0.03667274246221614,
           "tbbo_source": "databento_tbbo",
@@ -1327,7 +1327,7 @@
           "direction": "short"
         }
       },
-      "score": 38.9,
+      "score": 38.1,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 64.2189 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -1341,7 +1341,7 @@
       "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 64.17,
+        "last": 64.175,
         "near_term_bearish_below": 64.18,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 64.23,
@@ -1366,7 +1366,7 @@
         "parent_rvol": 1.0,
         "relative_strength_breadth": 0.935,
         "stop_target_geometry": 0.36874999999996294,
-        "structure": 0.5610211993781361,
+        "structure": 0.5722211993781418,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.9335351089588352
       },
@@ -1376,7 +1376,7 @@
         "parent_rvol": 10.0,
         "relative_strength_breadth": 14.025,
         "stop_target_geometry": 3.687,
-        "structure": 16.831,
+        "structure": 17.167,
         "tbbo_order_flow": 0.0,
         "trend_regime": 18.671
       },
@@ -1456,7 +1456,7 @@
           "prior_close_aligned",
           "bar_close_location=0.23",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.58"
+          "vwap_extension_atr=1.44"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -1500,10 +1500,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 104.96,
-        "bid": 104.95,
+        "ask": 105.01,
+        "bid": 104.99,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 104.95,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -1514,9 +1514,9 @@
           "open": 104.89,
           "source": "databento_live_ohlcv_1m",
           "start": "2026-09-16T00:40:00+00:00",
-          "volume": 263.0
+          "volume": 258.0
         },
-        "last": 104.99,
+        "last": 105.01,
         "maintenance_close": 105.52,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -1525,8 +1525,8 @@
         "prior_high": 106.75,
         "prior_low": 101.2,
         "prior_vwap": 103.93829046250966,
-        "quote_age_seconds": 1.188,
-        "quote_timestamp_utc": "2026-09-16T00:44:56.594909+00:00",
+        "quote_age_seconds": 5.257,
+        "quote_timestamp_utc": "2026-09-16T00:47:22.639451+00:00",
         "relative_strength_rank": 10,
         "session_open": 105.47,
         "session_vwap": 105.21544915695462,
@@ -1546,7 +1546,7 @@
           "rsi_5m_14": 28.253974704582404,
           "rsi_5m_delta": -3.588007163018517,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 343.654973,
+          "tbbo_age_seconds": 483.441205,
           "tbbo_aggressor_delta": 0.08582834331337326,
           "tbbo_pressure": 0.009092668070366065,
           "tbbo_source": "databento_tbbo",
@@ -1602,7 +1602,7 @@
           "direction": "short"
         }
       },
-      "score": 63.2,
+      "score": 63.6,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 105.231 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -1616,7 +1616,7 @@
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 104.99,
+        "last": 105.01,
         "near_term_bearish_below": 105.22,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 105.47,
@@ -1650,22 +1650,19 @@
   "best_play": null,
   "blocked_roots": {
     "M2K": [
-      "completed_5m_age_over_600s",
-      "quote_age_over_30s",
-      "quote_not_live",
-      "quote_source_not_databento_live"
+      "completed_5m_age_over_600s"
     ],
     "MHG": [
-      "completed_5m_age_over_600s",
-      "quote_age_over_30s",
-      "quote_not_live",
-      "quote_source_not_databento_live"
+      "completed_5m_age_over_600s"
     ],
     "MNG": [
       "completed_5m_age_over_600s"
     ],
     "MYM": [
-      "completed_5m_age_over_600s"
+      "completed_5m_age_over_600s",
+      "quote_age_over_30s",
+      "quote_not_live",
+      "quote_source_not_databento_live"
     ],
     "RB": [
       "completed_5m_age_over_600s",
@@ -1680,25 +1677,27 @@
     "finalists": [
       {
         "TRANSMITTED": false,
-        "blockers": [],
+        "blockers": [
+          "structure_below_0.55"
+        ],
         "components": {
           "macro_catalyst": 0.1,
           "parent_rvol": 0.23949579831932777,
-          "relative_strength_breadth": 0.6233333333333333,
+          "relative_strength_breadth": 0.6883333333333332,
           "stop_target_geometry": 0.8588983050847459,
-          "structure": 0.62,
+          "structure": 0.5,
           "tbbo_order_flow": 0.02732550442756862,
-          "trend_regime": 0.6
+          "trend_regime": 0.48
         },
         "contract": "MESU6",
         "contributions": {
           "macro_catalyst": 0.5,
           "parent_rvol": 2.395,
-          "relative_strength_breadth": 9.35,
+          "relative_strength_breadth": 10.325,
           "stop_target_geometry": 8.589,
-          "structure": 18.6,
+          "structure": 15.0,
           "tbbo_order_flow": 0.273,
-          "trend_regime": 12.0
+          "trend_regime": 9.6
         },
         "deep_coverage": {
           "missing_required": [],
@@ -1713,7 +1712,7 @@
           "supplemental_missing_zero_credit": []
         },
         "direction": "long",
-        "directional_alignment": 60.7,
+        "directional_alignment": 53.3,
         "display_classification": "BELOW GATE \u2014 WATCH ONLY",
         "display_guidance": {
           "action": "BUY",
@@ -1763,7 +1762,7 @@
             "parent_rvol_5m=0.74"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.60",
+            "directional_rs=0.70",
             "family_breadth=0.67"
           ],
           "stop_target_geometry": [
@@ -1771,12 +1770,11 @@
             "volume_factor=0.55"
           ],
           "structure": [
-            "vwap_aligned",
             "session_open_aligned",
             "prior_close_aligned",
             "bar_close_location=0.00",
             "rsi_level_and_direction_aligned",
-            "vwap_extension_atr=0.05"
+            "vwap_extension_atr=0.19"
           ],
           "tbbo_order_flow": [
             "directional_tbbo=0.03"
@@ -1784,7 +1782,6 @@
           "trend_regime": [
             "ema20_slope_aligned",
             "ema50_slope_aligned",
-            "vwap_path_aligned",
             "rsi_trend_aligned",
             "60m_return_aligned=0.0004",
             "4h_return_aligned=0.0015"
@@ -1818,10 +1815,10 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 7597.75,
-          "bid": 7597.5,
+          "ask": 7597.25,
+          "bid": 7597.0,
           "completed_5m": {
-            "age_seconds": 19.509,
+            "age_seconds": 161.467,
             "close": 7597.750000000001,
             "complete": true,
             "end": "2026-09-16T00:45:00+00:00",
@@ -1834,7 +1831,7 @@
             "start": "2026-09-16T00:40:00+00:00",
             "volume": 104.0
           },
-          "last": 7597.75,
+          "last": 7597.25,
           "maintenance_close": 7596.5,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -1843,9 +1840,9 @@
           "prior_high": 7633.25,
           "prior_low": 7576.75,
           "prior_vwap": 7599.416319635381,
-          "quote_age_seconds": 0.529,
-          "quote_timestamp_utc": "2026-09-16T00:44:57.253596+00:00",
-          "relative_strength_rank": 5,
+          "quote_age_seconds": 14.223,
+          "quote_timestamp_utc": "2026-09-16T00:47:13.673303+00:00",
+          "relative_strength_rank": 4,
           "session_open": 7596.75,
           "session_vwap": 7597.646123645211,
           "technical": {
@@ -1864,7 +1861,7 @@
             "rsi_5m_14": 57.3713558322038,
             "rsi_5m_delta": 3.9155203893652555,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 328.981193,
+            "tbbo_age_seconds": 471.381259,
             "tbbo_aggressor_delta": 0.1659919028340081,
             "tbbo_pressure": -0.11134089397887087,
             "tbbo_source": "databento_tbbo",
@@ -1920,7 +1917,7 @@
             "direction": "long"
           }
         },
-        "score": 51.7,
+        "score": 46.7,
         "sentiment": {
           "near_term": "NEUTRAL",
           "near_term_flip": "bullish above 7597.94 with RSI >50/rising; bearish below 7596.75 with RSI <50/falling",
@@ -1931,10 +1928,10 @@
         },
         "setup_type": "TREND CONTINUATION RETEST",
         "stage": "DEEP_ANALYSIS",
-        "status": "BELOW PUBLICATION GATE",
+        "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 7597.75,
+          "last": 7597.25,
           "near_term_bearish_below": 7596.75,
           "near_term_bias": "NEUTRAL",
           "near_term_bullish_above": 7598.0,
@@ -1959,8 +1956,8 @@
         "components": {
           "macro_catalyst": 0.9,
           "parent_rvol": 0.2450980392156863,
-          "relative_strength_breadth": 0.325,
-          "stop_target_geometry": 0.6941678520624647,
+          "relative_strength_breadth": 0.39,
+          "stop_target_geometry": 0.5839260312945767,
           "structure": 0.7745454545454545,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.12
@@ -1969,8 +1966,8 @@
         "contributions": {
           "macro_catalyst": 4.5,
           "parent_rvol": 2.451,
-          "relative_strength_breadth": 4.875,
-          "stop_target_geometry": 6.942,
+          "relative_strength_breadth": 5.85,
+          "stop_target_geometry": 5.839,
           "structure": 23.236,
           "tbbo_order_flow": 0.0,
           "trend_regime": 2.4
@@ -1988,44 +1985,44 @@
           "supplemental_missing_zero_credit": []
         },
         "direction": "short",
-        "directional_alignment": 60.9,
+        "directional_alignment": 61.9,
         "display_guidance": {
           "action": "SELL",
-          "activation": 28979.5,
-          "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
+          "activation": 28977.0,
+          "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
           "blockers": [],
           "conditional_only": true,
-          "do_not_enter_boundary": 28974.25,
-          "entry_high": 28981.5,
-          "entry_low": 28978.75,
+          "do_not_enter_boundary": 28973.75,
+          "entry_high": 28979.0,
+          "entry_low": 28976.25,
           "low_volume_extra_confirmation": false,
           "requires_requalification": true,
-          "risk_atr": 1.3946657183500282,
-          "risk_per_unit": 17.625,
+          "risk_atr": 0.8171408250356612,
+          "risk_per_unit": 10.375,
           "scale_percentages": [
             40,
             35,
             25
           ],
-          "stop": 28997.75,
-          "structural_invalidation": "overnight_high",
+          "stop": 28988.0,
+          "structural_invalidation": "latest_5m_high",
           "targets": [
-            28965.25,
-            28945.0,
-            28918.5
+            28968.75,
+            28957.0,
+            28941.25
           ],
           "volatility_buffer": 1.8830357142857141
         },
         "displayable": true,
         "entry_watch": {
           "action": "SELL",
-          "activation": 28979.5,
-          "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
-          "entry_high": 28981.5,
-          "entry_low": 28978.75,
+          "activation": 28977.0,
+          "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
+          "entry_high": 28979.0,
+          "entry_low": 28976.25,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 28997.75
+          "stop": 28988.0
         },
         "evidence": {
           "macro_catalyst": [
@@ -2036,11 +2033,11 @@
             "parent_rvol_5m=0.75"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.50",
+            "directional_rs=0.60",
             "family_breadth=0.00"
           ],
           "stop_target_geometry": [
-            "risk_atr=1.39",
+            "risk_atr=0.82",
             "volume_factor=1.00"
           ],
           "structure": [
@@ -2049,7 +2046,7 @@
             "prior_close_aligned",
             "completed_5m_direction_aligned",
             "bar_close_location=0.95",
-            "vwap_extension_atr=0.07"
+            "vwap_extension_atr=0.27"
           ],
           "tbbo_order_flow": [
             "directional_tbbo=0.00"
@@ -2059,26 +2056,26 @@
           ]
         },
         "geometry": {
-          "activation": 28979.5,
-          "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
+          "activation": 28977.0,
+          "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
           "blockers": [],
-          "do_not_enter_boundary": 28974.25,
-          "entry_high": 28981.5,
-          "entry_low": 28978.75,
+          "do_not_enter_boundary": 28973.75,
+          "entry_high": 28979.0,
+          "entry_low": 28976.25,
           "low_volume_extra_confirmation": false,
-          "risk_atr": 1.3946657183500282,
-          "risk_per_unit": 17.625,
+          "risk_atr": 0.8171408250356612,
+          "risk_per_unit": 10.375,
           "scale_percentages": [
             40,
             35,
             25
           ],
-          "stop": 28997.75,
-          "structural_invalidation": "overnight_high",
+          "stop": 28988.0,
+          "structural_invalidation": "latest_5m_high",
           "targets": [
-            28965.25,
-            28945.0,
-            28918.5
+            28968.75,
+            28957.0,
+            28941.25
           ],
           "volatility_buffer": 1.8830357142857141
         },
@@ -2086,10 +2083,10 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 28981.5,
-          "bid": 28980.75,
+          "ask": 28979.25,
+          "bid": 28978.5,
           "completed_5m": {
-            "age_seconds": 19.509,
+            "age_seconds": 161.467,
             "close": 28980.75,
             "complete": true,
             "end": "2026-09-16T00:45:00+00:00",
@@ -2102,7 +2099,7 @@
             "start": "2026-09-16T00:40:00+00:00",
             "volume": 235.0
           },
-          "last": 28980.75,
+          "last": 28978.25,
           "maintenance_close": 28986.75,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2111,9 +2108,9 @@
           "prior_high": 29199.25,
           "prior_low": 28919.0,
           "prior_vwap": 29053.76378578334,
-          "quote_age_seconds": 2.927,
-          "quote_timestamp_utc": "2026-09-16T00:44:54.856316+00:00",
-          "relative_strength_rank": 6,
+          "quote_age_seconds": 2.296,
+          "quote_timestamp_utc": "2026-09-16T00:47:25.600276+00:00",
+          "relative_strength_rank": 7,
           "session_open": 28981.25,
           "session_vwap": 28981.69045830203,
           "technical": {
@@ -2132,7 +2129,7 @@
             "rsi_5m_14": 50.508247256501726,
             "rsi_5m_delta": 2.6116876639948217,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 327.483443,
+            "tbbo_age_seconds": 468.058318,
             "tbbo_aggressor_delta": -0.008746355685131196,
             "tbbo_pressure": 0.03078546882670594,
             "tbbo_source": "databento_tbbo",
@@ -2149,15 +2146,15 @@
           "reason": "insufficient_independent_calibration_below_100"
         },
         "publishable": false,
-        "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond overnight_high.",
+        "purpose": "Participate in downside continuation only after completed-bar acceptance and retest; invalidate beyond latest_5m_high.",
         "read_only": true,
         "risk_disclosure": {
           "full_bag_pnl": null,
-          "per_contract_risk_dollars": 35.25,
+          "per_contract_risk_dollars": 20.75,
           "per_contract_target_dollars": [
-            29.75,
-            70.25,
-            123.25
+            17.75,
+            41.25,
+            72.75
           ],
           "reason": "broker_margin_and_approved_contract_count_not_verified",
           "stress_risk": null
@@ -2166,7 +2163,7 @@
         "scenario_map": {
           "failure": {
             "action": "REJECT SETUP",
-            "condition": "price violates overnight_high before confirmation"
+            "condition": "price violates latest_5m_high before confirmation"
           },
           "key_levels": {
             "maintenance_close": 28986.75,
@@ -2184,11 +2181,11 @@
           },
           "primary": {
             "action": "SELL",
-            "condition": "completed 5m close at/below 28979.5; then 1m hold/retest",
+            "condition": "completed 5m close at/below 28977; then 1m hold/retest",
             "direction": "short"
           }
         },
-        "score": 44.4,
+        "score": 44.3,
         "sentiment": {
           "near_term": "NEUTRAL",
           "near_term_flip": "bullish above 28982.7 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
@@ -2202,7 +2199,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 28980.75,
+          "last": 28978.25,
           "near_term_bearish_below": 28981.25,
           "near_term_bias": "NEUTRAL",
           "near_term_bullish_above": 28982.75,
@@ -2230,7 +2227,7 @@
           "parent_rvol": 0.0,
           "relative_strength_breadth": 0.825,
           "stop_target_geometry": 0.6280660377358035,
-          "structure": 0.5085110697857245,
+          "structure": 0.5155550949429571,
           "tbbo_order_flow": 0.19179191290609493,
           "trend_regime": 0.30000000000000004
         },
@@ -2240,7 +2237,7 @@
           "parent_rvol": 0.0,
           "relative_strength_breadth": 12.375,
           "stop_target_geometry": 6.281,
-          "structure": 15.255,
+          "structure": 15.467,
           "tbbo_order_flow": 1.918,
           "trend_regime": 6.0
         },
@@ -2317,7 +2314,7 @@
             "session_open_aligned",
             "completed_5m_direction_aligned",
             "bar_close_location=1.00",
-            "vwap_extension_atr=2.39"
+            "vwap_extension_atr=2.31"
           ],
           "tbbo_order_flow": [
             "directional_tbbo=0.19"
@@ -2356,10 +2353,10 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 75835.0,
-          "bid": 75820.0,
+          "ask": 75785.0,
+          "bid": 75770.0,
           "completed_5m": {
-            "age_seconds": 319.509,
+            "age_seconds": 461.467,
             "close": 75935.0,
             "complete": true,
             "end": "2026-09-16T00:40:00+00:00",
@@ -2372,7 +2369,7 @@
             "start": "2026-09-16T00:35:00+00:00",
             "volume": 23.0
           },
-          "last": 75810.0,
+          "last": 75800.0,
           "maintenance_close": 75965.0,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2381,8 +2378,8 @@
           "prior_high": 79010.0,
           "prior_low": 74930.0,
           "prior_vwap": 76566.00743120644,
-          "quote_age_seconds": 20.768,
-          "quote_timestamp_utc": "2026-09-16T00:44:37.015163+00:00",
+          "quote_age_seconds": 24.838,
+          "quote_timestamp_utc": "2026-09-16T00:47:03.058316+00:00",
           "relative_strength_rank": 1,
           "session_open": 75480.0,
           "session_vwap": 75538.15410799938,
@@ -2402,7 +2399,7 @@
             "rsi_5m_14": 53.70015690684094,
             "rsi_5m_delta": -1.9441684159943335,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 349.617017,
+            "tbbo_age_seconds": 487.738153,
             "tbbo_aggressor_delta": 0.5757575757575758,
             "tbbo_pressure": -0.1921737499453859,
             "tbbo_source": "databento_tbbo",
@@ -2458,7 +2455,7 @@
             "direction": "long"
           }
         },
-        "score": 42.6,
+        "score": 42.8,
         "sentiment": {
           "near_term": "BULLISH",
           "near_term_flip": "reassess below 75538.2 on completed 5m close; RSI must lose 50 and turn down",
@@ -2472,7 +2469,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 75810.0,
+          "last": 75800.0,
           "near_term_bearish_below": 75480.0,
           "near_term_bias": "BULLISH",
           "near_term_bullish_above": 75760.0,
@@ -2497,7 +2494,7 @@
           "parent_rvol": 0.0,
           "relative_strength_breadth": 0.87,
           "stop_target_geometry": 0.3051470588233366,
-          "structure": 0.6096614568532845,
+          "structure": 0.6070261627356278,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.75
         },
@@ -2507,7 +2504,7 @@
           "parent_rvol": 0.0,
           "relative_strength_breadth": 13.05,
           "stop_target_geometry": 3.051,
-          "structure": 18.29,
+          "structure": 18.211,
           "tbbo_order_flow": 0.0,
           "trend_regime": 15.0
         },
@@ -2589,7 +2586,7 @@
             "prior_close_aligned",
             "bar_close_location=0.48",
             "rsi_level_and_direction_aligned",
-            "vwap_extension_atr=1.35"
+            "vwap_extension_atr=1.38"
           ],
           "tbbo_order_flow": [
             "directional_tbbo=0.00"
@@ -2631,10 +2628,10 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 4291.0,
-          "bid": 4287.6,
+          "ask": 4291.9,
+          "bid": 4288.1,
           "completed_5m": {
-            "age_seconds": 19.509,
+            "age_seconds": 161.467,
             "close": 4289.8,
             "complete": true,
             "end": "2026-09-16T00:45:00+00:00",
@@ -2647,7 +2644,7 @@
             "start": "2026-09-16T00:40:00+00:00",
             "volume": 95.0
           },
-          "last": 4289.8,
+          "last": 4289.7,
           "maintenance_close": 4299.9,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2656,8 +2653,8 @@
           "prior_high": 4324.1,
           "prior_low": 4268.0,
           "prior_vwap": 4296.970634196551,
-          "quote_age_seconds": 5.195,
-          "quote_timestamp_utc": "2026-09-16T00:44:52.587448+00:00",
+          "quote_age_seconds": 6.587,
+          "quote_timestamp_utc": "2026-09-16T00:47:21.309610+00:00",
           "relative_strength_rank": 9,
           "session_open": 4299.9,
           "session_vwap": 4293.887962962963,
@@ -2677,7 +2674,7 @@
             "rsi_5m_14": 42.289139691373734,
             "rsi_5m_delta": -3.435306688085035,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 330.71468,
+            "tbbo_age_seconds": 470.119674,
             "tbbo_aggressor_delta": -0.0125,
             "tbbo_pressure": 0.03005464480874318,
             "tbbo_source": "databento_tbbo",
@@ -2747,7 +2744,7 @@
         "status": "BELOW PUBLICATION GATE",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 4289.8,
+          "last": 4289.7,
           "near_term_bearish_below": 4292.2,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 4299.9,
@@ -2773,9 +2770,9 @@
         "components": {
           "macro_catalyst": 0.8,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 0.74,
+          "relative_strength_breadth": 0.675,
           "stop_target_geometry": 0.3383196833969885,
-          "structure": 0.5331138976459181,
+          "structure": 0.5404341590838196,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.22
         },
@@ -2783,9 +2780,9 @@
         "contributions": {
           "macro_catalyst": 4.0,
           "parent_rvol": 0.0,
-          "relative_strength_breadth": 11.1,
+          "relative_strength_breadth": 10.125,
           "stop_target_geometry": 3.383,
-          "structure": 15.993,
+          "structure": 16.213,
           "tbbo_order_flow": 0.0,
           "trend_regime": 4.4
         },
@@ -2804,7 +2801,7 @@
           ]
         },
         "direction": "short",
-        "directional_alignment": 46.6,
+        "directional_alignment": 45.6,
         "display_guidance": {
           "action": "SELL",
           "activation": 64.15,
@@ -2852,7 +2849,7 @@
             "parent_rvol_unavailable_zero_credit"
           ],
           "relative_strength_breadth": [
-            "directional_rs=0.60",
+            "directional_rs=0.50",
             "family_breadth=1.00"
           ],
           "stop_target_geometry": [
@@ -2864,7 +2861,7 @@
             "session_open_aligned",
             "prior_close_aligned",
             "bar_close_location=0.50",
-            "vwap_extension_atr=1.09"
+            "vwap_extension_atr=0.99"
           ],
           "tbbo_order_flow": [
             "directional_tbbo=0.00"
@@ -2905,7 +2902,7 @@
           "ask": 64.18,
           "bid": 64.17,
           "completed_5m": {
-            "age_seconds": 19.509,
+            "age_seconds": 161.467,
             "close": 64.19,
             "complete": true,
             "end": "2026-09-16T00:45:00+00:00",
@@ -2916,9 +2913,9 @@
             "open": 64.155,
             "source": "databento_live_ohlcv_1m",
             "start": "2026-09-16T00:40:00+00:00",
-            "volume": 70.0
+            "volume": 64.0
           },
-          "last": 64.17,
+          "last": 64.175,
           "maintenance_close": 64.185,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -2927,9 +2924,9 @@
           "prior_high": 64.47,
           "prior_low": 63.035,
           "prior_vwap": 63.86803141898559,
-          "quote_age_seconds": 3.026,
-          "quote_timestamp_utc": "2026-09-16T00:44:54.756713+00:00",
-          "relative_strength_rank": 7,
+          "quote_age_seconds": 5.365,
+          "quote_timestamp_utc": "2026-09-16T00:47:22.531655+00:00",
+          "relative_strength_rank": 6,
           "session_open": 64.18,
           "session_vwap": 64.22934631098293,
           "technical": {
@@ -2948,7 +2945,7 @@
             "rsi_5m_14": 50.63349588158267,
             "rsi_5m_delta": -3.492796752076721,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 331.895607,
+            "tbbo_age_seconds": 472.650253,
             "tbbo_aggressor_delta": -0.03333333333333333,
             "tbbo_pressure": 0.03667274246221614,
             "tbbo_source": "databento_tbbo",
@@ -3004,7 +3001,7 @@
             "direction": "short"
           }
         },
-        "score": 38.9,
+        "score": 38.1,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 64.2189 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -3018,7 +3015,7 @@
         "status": "DISQUALIFIED",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 64.17,
+          "last": 64.175,
           "near_term_bearish_below": 64.18,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 64.23,
@@ -3043,7 +3040,7 @@
           "parent_rvol": 1.0,
           "relative_strength_breadth": 0.935,
           "stop_target_geometry": 0.36874999999996294,
-          "structure": 0.5610211993781361,
+          "structure": 0.5722211993781418,
           "tbbo_order_flow": 0.0,
           "trend_regime": 0.9335351089588352
         },
@@ -3053,7 +3050,7 @@
           "parent_rvol": 10.0,
           "relative_strength_breadth": 14.025,
           "stop_target_geometry": 3.687,
-          "structure": 16.831,
+          "structure": 17.167,
           "tbbo_order_flow": 0.0,
           "trend_regime": 18.671
         },
@@ -3133,7 +3130,7 @@
             "prior_close_aligned",
             "bar_close_location=0.23",
             "rsi_level_and_direction_aligned",
-            "vwap_extension_atr=1.58"
+            "vwap_extension_atr=1.44"
           ],
           "tbbo_order_flow": [
             "directional_tbbo=0.00"
@@ -3177,10 +3174,10 @@
         "guidance": null,
         "live_execution": false,
         "market": {
-          "ask": 104.96,
-          "bid": 104.95,
+          "ask": 105.01,
+          "bid": 104.99,
           "completed_5m": {
-            "age_seconds": 19.509,
+            "age_seconds": 161.467,
             "close": 104.95,
             "complete": true,
             "end": "2026-09-16T00:45:00+00:00",
@@ -3191,9 +3188,9 @@
             "open": 104.89,
             "source": "databento_live_ohlcv_1m",
             "start": "2026-09-16T00:40:00+00:00",
-            "volume": 263.0
+            "volume": 258.0
           },
-          "last": 104.99,
+          "last": 105.01,
           "maintenance_close": 105.52,
           "opening_range_high": null,
           "opening_range_low": null,
@@ -3202,8 +3199,8 @@
           "prior_high": 106.75,
           "prior_low": 101.2,
           "prior_vwap": 103.93829046250966,
-          "quote_age_seconds": 1.188,
-          "quote_timestamp_utc": "2026-09-16T00:44:56.594909+00:00",
+          "quote_age_seconds": 5.257,
+          "quote_timestamp_utc": "2026-09-16T00:47:22.639451+00:00",
           "relative_strength_rank": 10,
           "session_open": 105.47,
           "session_vwap": 105.21544915695462,
@@ -3223,7 +3220,7 @@
             "rsi_5m_14": 28.253974704582404,
             "rsi_5m_delta": -3.588007163018517,
             "rsi_divergence_5m": "none",
-            "tbbo_age_seconds": 343.654973,
+            "tbbo_age_seconds": 483.441205,
             "tbbo_aggressor_delta": 0.08582834331337326,
             "tbbo_pressure": 0.009092668070366065,
             "tbbo_source": "databento_tbbo",
@@ -3279,7 +3276,7 @@
             "direction": "short"
           }
         },
-        "score": 63.2,
+        "score": 63.6,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 105.231 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -3293,7 +3290,7 @@
         "status": "BELOW PUBLICATION GATE",
         "tactical_horizon": "INTRADAY",
         "watch_map": {
-          "last": 104.99,
+          "last": 105.01,
           "near_term_bearish_below": 105.22,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 105.47,
@@ -3319,19 +3316,18 @@
       "contract": "MESU6",
       "deep_analysis_eligible": true,
       "direction": "long",
-      "directional_alignment": 60.7,
+      "directional_alignment": 53.3,
       "guidance": null,
       "root": "MES",
       "scan_components": {
-        "location": 1.0,
+        "location": 0.6666666666666666,
         "momentum": 0.5,
         "participation": 0.13030303030303025,
-        "relative_strength": 0.6233333333333333,
+        "relative_strength": 0.6883333333333332,
         "trend": 0.5
       },
       "scan_evidence": {
         "location": [
-          "vwap",
           "session_open",
           "prior_close"
         ],
@@ -3342,7 +3338,7 @@
           "micro_rvol_5m=0.63"
         ],
         "relative_strength": [
-          "directional_rs=0.60",
+          "directional_rs=0.70",
           "family_breadth=0.67"
         ],
         "trend": [
@@ -3357,14 +3353,14 @@
       "contract": "MNQU6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 60.9,
+      "directional_alignment": 61.9,
       "guidance": null,
       "root": "MNQ",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.5,
         "participation": 0.6023339317773788,
-        "relative_strength": 0.325,
+        "relative_strength": 0.39,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -3380,7 +3376,7 @@
           "micro_rvol_5m=1.10"
         ],
         "relative_strength": [
-          "directional_rs=0.50",
+          "directional_rs=0.60",
           "family_breadth=0.00"
         ],
         "trend": [
@@ -3471,14 +3467,14 @@
       "contract": "SILZ6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 46.6,
+      "directional_alignment": 45.6,
       "guidance": null,
       "root": "SIL",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.0,
         "participation": 0.050000000000000044,
-        "relative_strength": 0.74,
+        "relative_strength": 0.675,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -3492,7 +3488,7 @@
           "micro_rvol_5m=0.55"
         ],
         "relative_strength": [
-          "directional_rs=0.60",
+          "directional_rs=0.50",
           "family_breadth=1.00"
         ],
         "trend": [
@@ -3554,10 +3550,7 @@
         "classification": "DATA_DQ",
         "contract": "M2KU6",
         "reasons": [
-          "completed_5m_age_over_600s",
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
+          "completed_5m_age_over_600s"
         ],
         "root": "M2K",
         "stage": "REQUIRED_DATA_GATE"
@@ -3566,7 +3559,10 @@
         "classification": "DATA_DQ",
         "contract": "MYMU6",
         "reasons": [
-          "completed_5m_age_over_600s"
+          "completed_5m_age_over_600s",
+          "quote_age_over_30s",
+          "quote_not_live",
+          "quote_source_not_databento_live"
         ],
         "root": "MYM",
         "stage": "REQUIRED_DATA_GATE"
@@ -3584,10 +3580,7 @@
         "classification": "DATA_DQ",
         "contract": "MHGZ6",
         "reasons": [
-          "completed_5m_age_over_600s",
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
+          "completed_5m_age_over_600s"
         ],
         "root": "MHG",
         "stage": "REQUIRED_DATA_GATE"
@@ -3627,10 +3620,10 @@
           "stop": 7596.25
         },
         "reasons": [
-          "score_below_65"
+          "structure_below_0.55"
         ],
         "root": "MES",
-        "score": 51.7,
+        "score": 46.7,
         "sentiment": {
           "near_term": "NEUTRAL",
           "near_term_flip": "bullish above 7597.94 with RSI >50/rising; bearish below 7596.75 with RSI <50/falling",
@@ -3640,9 +3633,9 @@
           "trading_week_flip": "bullish above 7596.98; bearish below 7595.75 on completed 15m close"
         },
         "stage": "DEEP_ANALYSIS",
-        "status": "BELOW PUBLICATION GATE",
+        "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 7597.75,
+          "last": 7597.25,
           "near_term_bearish_below": 7596.75,
           "near_term_bias": "NEUTRAL",
           "near_term_bullish_above": 7598.0,
@@ -3665,19 +3658,19 @@
         "direction": "short",
         "entry_watch": {
           "action": "SELL",
-          "activation": 28979.5,
-          "activation_rule_5m": "completed 5m close at/below 28979.5; then 1m hold/retest",
-          "entry_high": 28981.5,
-          "entry_low": 28978.75,
+          "activation": 28977.0,
+          "activation_rule_5m": "completed 5m close at/below 28977; then 1m hold/retest",
+          "entry_high": 28979.0,
+          "entry_low": 28976.25,
           "note": "Conditional watch only; revalidate current deep status before entry.",
           "status": "POTENTIAL_ENTRY",
-          "stop": 28997.75
+          "stop": 28988.0
         },
         "reasons": [
           "trend_regime_below_0.45"
         ],
         "root": "MNQ",
-        "score": 44.4,
+        "score": 44.3,
         "sentiment": {
           "near_term": "NEUTRAL",
           "near_term_flip": "bullish above 28982.7 with RSI >50/rising; bearish below 28981.2 with RSI <50/falling",
@@ -3689,7 +3682,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 28980.75,
+          "last": 28978.25,
           "near_term_bearish_below": 28981.25,
           "near_term_bias": "NEUTRAL",
           "near_term_bullish_above": 28982.75,
@@ -3725,7 +3718,7 @@
           "trend_regime_below_0.45"
         ],
         "root": "MBT",
-        "score": 42.6,
+        "score": 42.8,
         "sentiment": {
           "near_term": "BULLISH",
           "near_term_flip": "reassess below 75538.2 on completed 5m close; RSI must lose 50 and turn down",
@@ -3737,7 +3730,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 75810.0,
+          "last": 75800.0,
           "near_term_bearish_below": 75480.0,
           "near_term_bias": "BULLISH",
           "near_term_bullish_above": 75760.0,
@@ -3784,7 +3777,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "BELOW PUBLICATION GATE",
         "watch_map": {
-          "last": 4289.8,
+          "last": 4289.7,
           "near_term_bearish_below": 4292.2,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 4299.9,
@@ -3820,7 +3813,7 @@
           "trend_regime_below_0.45"
         ],
         "root": "SIL",
-        "score": 38.9,
+        "score": 38.1,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 64.2189 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -3832,7 +3825,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "DISQUALIFIED",
         "watch_map": {
-          "last": 64.17,
+          "last": 64.175,
           "near_term_bearish_below": 64.18,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 64.23,
@@ -3867,7 +3860,7 @@
           "score_below_65"
         ],
         "root": "MCL",
-        "score": 63.2,
+        "score": 63.6,
         "sentiment": {
           "near_term": "BEARISH",
           "near_term_flip": "reassess above 105.231 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -3879,7 +3872,7 @@
         "stage": "DEEP_ANALYSIS",
         "status": "BELOW PUBLICATION GATE",
         "watch_map": {
-          "last": 104.99,
+          "last": 105.01,
           "near_term_bearish_below": 105.22,
           "near_term_bias": "BEARISH",
           "near_term_bullish_above": 105.47,
@@ -3929,7 +3922,7 @@
         "parent_rvol": 1.0,
         "relative_strength_breadth": 0.935,
         "stop_target_geometry": 0.36874999999996294,
-        "structure": 0.5610211993781361,
+        "structure": 0.5722211993781418,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.9335351089588352
       },
@@ -3939,7 +3932,7 @@
         "parent_rvol": 10.0,
         "relative_strength_breadth": 14.025,
         "stop_target_geometry": 3.687,
-        "structure": 16.831,
+        "structure": 17.167,
         "tbbo_order_flow": 0.0,
         "trend_regime": 18.671
       },
@@ -4019,7 +4012,7 @@
           "prior_close_aligned",
           "bar_close_location=0.23",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.58"
+          "vwap_extension_atr=1.44"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -4063,10 +4056,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 104.96,
-        "bid": 104.95,
+        "ask": 105.01,
+        "bid": 104.99,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 104.95,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -4077,9 +4070,9 @@
           "open": 104.89,
           "source": "databento_live_ohlcv_1m",
           "start": "2026-09-16T00:40:00+00:00",
-          "volume": 263.0
+          "volume": 258.0
         },
-        "last": 104.99,
+        "last": 105.01,
         "maintenance_close": 105.52,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -4088,8 +4081,8 @@
         "prior_high": 106.75,
         "prior_low": 101.2,
         "prior_vwap": 103.93829046250966,
-        "quote_age_seconds": 1.188,
-        "quote_timestamp_utc": "2026-09-16T00:44:56.594909+00:00",
+        "quote_age_seconds": 5.257,
+        "quote_timestamp_utc": "2026-09-16T00:47:22.639451+00:00",
         "relative_strength_rank": 10,
         "session_open": 105.47,
         "session_vwap": 105.21544915695462,
@@ -4109,7 +4102,7 @@
           "rsi_5m_14": 28.253974704582404,
           "rsi_5m_delta": -3.588007163018517,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 343.654973,
+          "tbbo_age_seconds": 483.441205,
           "tbbo_aggressor_delta": 0.08582834331337326,
           "tbbo_pressure": 0.009092668070366065,
           "tbbo_source": "databento_tbbo",
@@ -4165,7 +4158,7 @@
           "direction": "short"
         }
       },
-      "score": 63.2,
+      "score": 63.6,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 105.231 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -4179,7 +4172,7 @@
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 104.99,
+        "last": 105.01,
         "near_term_bearish_below": 105.22,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 105.47,
@@ -4204,7 +4197,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 0.87,
         "stop_target_geometry": 0.3051470588233366,
-        "structure": 0.6096614568532845,
+        "structure": 0.6070261627356278,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.75
       },
@@ -4214,7 +4207,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 13.05,
         "stop_target_geometry": 3.051,
-        "structure": 18.29,
+        "structure": 18.211,
         "tbbo_order_flow": 0.0,
         "trend_regime": 15.0
       },
@@ -4296,7 +4289,7 @@
           "prior_close_aligned",
           "bar_close_location=0.48",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.35"
+          "vwap_extension_atr=1.38"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -4338,10 +4331,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 4291.0,
-        "bid": 4287.6,
+        "ask": 4291.9,
+        "bid": 4288.1,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 4289.8,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -4354,7 +4347,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 95.0
         },
-        "last": 4289.8,
+        "last": 4289.7,
         "maintenance_close": 4299.9,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -4363,8 +4356,8 @@
         "prior_high": 4324.1,
         "prior_low": 4268.0,
         "prior_vwap": 4296.970634196551,
-        "quote_age_seconds": 5.195,
-        "quote_timestamp_utc": "2026-09-16T00:44:52.587448+00:00",
+        "quote_age_seconds": 6.587,
+        "quote_timestamp_utc": "2026-09-16T00:47:21.309610+00:00",
         "relative_strength_rank": 9,
         "session_open": 4299.9,
         "session_vwap": 4293.887962962963,
@@ -4384,7 +4377,7 @@
           "rsi_5m_14": 42.289139691373734,
           "rsi_5m_delta": -3.435306688085035,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 330.71468,
+          "tbbo_age_seconds": 470.119674,
           "tbbo_aggressor_delta": -0.0125,
           "tbbo_pressure": 0.03005464480874318,
           "tbbo_source": "databento_tbbo",
@@ -4454,7 +4447,7 @@
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 4289.8,
+        "last": 4289.7,
         "near_term_bearish_below": 4292.2,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 4299.9,
@@ -4473,25 +4466,27 @@
     },
     {
       "TRANSMITTED": false,
-      "blockers": [],
+      "blockers": [
+        "structure_below_0.55"
+      ],
       "components": {
         "macro_catalyst": 0.1,
         "parent_rvol": 0.23949579831932777,
-        "relative_strength_breadth": 0.6233333333333333,
+        "relative_strength_breadth": 0.6883333333333332,
         "stop_target_geometry": 0.8588983050847459,
-        "structure": 0.62,
+        "structure": 0.5,
         "tbbo_order_flow": 0.02732550442756862,
-        "trend_regime": 0.6
+        "trend_regime": 0.48
       },
       "contract": "MESU6",
       "contributions": {
         "macro_catalyst": 0.5,
         "parent_rvol": 2.395,
-        "relative_strength_breadth": 9.35,
+        "relative_strength_breadth": 10.325,
         "stop_target_geometry": 8.589,
-        "structure": 18.6,
+        "structure": 15.0,
         "tbbo_order_flow": 0.273,
-        "trend_regime": 12.0
+        "trend_regime": 9.6
       },
       "deep_coverage": {
         "missing_required": [],
@@ -4506,7 +4501,7 @@
         "supplemental_missing_zero_credit": []
       },
       "direction": "long",
-      "directional_alignment": 60.7,
+      "directional_alignment": 53.3,
       "display_classification": "BELOW GATE \u2014 WATCH ONLY",
       "display_guidance": {
         "action": "BUY",
@@ -4556,7 +4551,7 @@
           "parent_rvol_5m=0.74"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.60",
+          "directional_rs=0.70",
           "family_breadth=0.67"
         ],
         "stop_target_geometry": [
@@ -4564,12 +4559,11 @@
           "volume_factor=0.55"
         ],
         "structure": [
-          "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
           "bar_close_location=0.00",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=0.05"
+          "vwap_extension_atr=0.19"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.03"
@@ -4577,7 +4571,6 @@
         "trend_regime": [
           "ema20_slope_aligned",
           "ema50_slope_aligned",
-          "vwap_path_aligned",
           "rsi_trend_aligned",
           "60m_return_aligned=0.0004",
           "4h_return_aligned=0.0015"
@@ -4611,10 +4604,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 7597.75,
-        "bid": 7597.5,
+        "ask": 7597.25,
+        "bid": 7597.0,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 7597.750000000001,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -4627,7 +4620,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 104.0
         },
-        "last": 7597.75,
+        "last": 7597.25,
         "maintenance_close": 7596.5,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -4636,9 +4629,9 @@
         "prior_high": 7633.25,
         "prior_low": 7576.75,
         "prior_vwap": 7599.416319635381,
-        "quote_age_seconds": 0.529,
-        "quote_timestamp_utc": "2026-09-16T00:44:57.253596+00:00",
-        "relative_strength_rank": 5,
+        "quote_age_seconds": 14.223,
+        "quote_timestamp_utc": "2026-09-16T00:47:13.673303+00:00",
+        "relative_strength_rank": 4,
         "session_open": 7596.75,
         "session_vwap": 7597.646123645211,
         "technical": {
@@ -4657,7 +4650,7 @@
           "rsi_5m_14": 57.3713558322038,
           "rsi_5m_delta": 3.9155203893652555,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 328.981193,
+          "tbbo_age_seconds": 471.381259,
           "tbbo_aggressor_delta": 0.1659919028340081,
           "tbbo_pressure": -0.11134089397887087,
           "tbbo_source": "databento_tbbo",
@@ -4713,7 +4706,7 @@
           "direction": "long"
         }
       },
-      "score": 51.7,
+      "score": 46.7,
       "sentiment": {
         "near_term": "NEUTRAL",
         "near_term_flip": "bullish above 7597.94 with RSI >50/rising; bearish below 7596.75 with RSI <50/falling",
@@ -4724,10 +4717,10 @@
       },
       "setup_type": "TREND CONTINUATION RETEST",
       "stage": "DEEP_ANALYSIS",
-      "status": "BELOW PUBLICATION GATE",
+      "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 7597.75,
+        "last": 7597.25,
         "near_term_bearish_below": 7596.75,
         "near_term_bias": "NEUTRAL",
         "near_term_bullish_above": 7598.0,
@@ -4754,19 +4747,18 @@
         "contract": "MESU6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 60.7,
+        "directional_alignment": 53.3,
         "guidance": null,
         "root": "MES",
         "scan_components": {
-          "location": 1.0,
+          "location": 0.6666666666666666,
           "momentum": 0.5,
           "participation": 0.13030303030303025,
-          "relative_strength": 0.6233333333333333,
+          "relative_strength": 0.6883333333333332,
           "trend": 0.5
         },
         "scan_evidence": {
           "location": [
-            "vwap",
             "session_open",
             "prior_close"
           ],
@@ -4777,7 +4769,7 @@
             "micro_rvol_5m=0.63"
           ],
           "relative_strength": [
-            "directional_rs=0.60",
+            "directional_rs=0.70",
             "family_breadth=0.67"
           ],
           "trend": [
@@ -4792,18 +4784,20 @@
         "contract": "MESU6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 32.0,
+        "directional_alignment": 39.3,
         "guidance": null,
         "root": "MES",
         "scan_components": {
-          "location": 0.0,
+          "location": 0.3333333333333333,
           "momentum": 0.5,
           "participation": 0.13030303030303025,
-          "relative_strength": 0.37666666666666665,
+          "relative_strength": 0.3116666666666667,
           "trend": 0.5
         },
         "scan_evidence": {
-          "location": [],
+          "location": [
+            "vwap"
+          ],
           "momentum": [
             "completed_5m_direction"
           ],
@@ -4811,7 +4805,7 @@
             "micro_rvol_5m=0.63"
           ],
           "relative_strength": [
-            "directional_rs=0.40",
+            "directional_rs=0.30",
             "family_breadth=0.33"
           ],
           "trend": [
@@ -4826,14 +4820,14 @@
         "contract": "MNQU6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 41.1,
+        "directional_alignment": 40.2,
         "guidance": null,
         "root": "MNQ",
         "scan_components": {
           "location": 0.0,
           "momentum": 0.5,
           "participation": 0.6023339317773788,
-          "relative_strength": 0.675,
+          "relative_strength": 0.61,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -4845,7 +4839,7 @@
             "micro_rvol_5m=1.10"
           ],
           "relative_strength": [
-            "directional_rs=0.50",
+            "directional_rs=0.40",
             "family_breadth=1.00"
           ],
           "trend": [
@@ -4860,14 +4854,14 @@
         "contract": "MNQU6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 60.9,
+        "directional_alignment": 61.9,
         "guidance": null,
         "root": "MNQ",
         "scan_components": {
           "location": 1.0,
           "momentum": 0.5,
           "participation": 0.6023339317773788,
-          "relative_strength": 0.325,
+          "relative_strength": 0.39,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -4883,7 +4877,7 @@
             "micro_rvol_5m=1.10"
           ],
           "relative_strength": [
-            "directional_rs=0.50",
+            "directional_rs=0.60",
             "family_breadth=0.00"
           ],
           "trend": [
@@ -4895,10 +4889,7 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s",
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
+          "completed_5m_age_over_600s"
         ],
         "contract": "M2KU6",
         "deep_analysis_eligible": false,
@@ -4939,10 +4930,7 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s",
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
+          "completed_5m_age_over_600s"
         ],
         "contract": "M2KU6",
         "deep_analysis_eligible": false,
@@ -4976,7 +4964,10 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s"
+          "completed_5m_age_over_600s",
+          "quote_age_over_30s",
+          "quote_not_live",
+          "quote_source_not_databento_live"
         ],
         "contract": "MYMU6",
         "deep_analysis_eligible": false,
@@ -5017,7 +5008,10 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s"
+          "completed_5m_age_over_600s",
+          "quote_age_over_30s",
+          "quote_not_live",
+          "quote_source_not_databento_live"
         ],
         "contract": "MYMU6",
         "deep_analysis_eligible": false,
@@ -5196,14 +5190,14 @@
         "contract": "SILZ6",
         "deep_analysis_eligible": true,
         "direction": "long",
-        "directional_alignment": 29.4,
+        "directional_alignment": 30.4,
         "guidance": null,
         "root": "SIL",
         "scan_components": {
           "location": 0.0,
           "momentum": 0.5,
           "participation": 0.050000000000000044,
-          "relative_strength": 0.26,
+          "relative_strength": 0.325,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -5215,7 +5209,7 @@
             "micro_rvol_5m=0.55"
           ],
           "relative_strength": [
-            "directional_rs=0.40",
+            "directional_rs=0.50",
             "family_breadth=0.00"
           ],
           "trend": [
@@ -5230,14 +5224,14 @@
         "contract": "SILZ6",
         "deep_analysis_eligible": true,
         "direction": "short",
-        "directional_alignment": 46.6,
+        "directional_alignment": 45.6,
         "guidance": null,
         "root": "SIL",
         "scan_components": {
           "location": 1.0,
           "momentum": 0.0,
           "participation": 0.050000000000000044,
-          "relative_strength": 0.74,
+          "relative_strength": 0.675,
           "trend": 0.5
         },
         "scan_evidence": {
@@ -5251,7 +5245,7 @@
             "micro_rvol_5m=0.55"
           ],
           "relative_strength": [
-            "directional_rs=0.60",
+            "directional_rs=0.50",
             "family_breadth=1.00"
           ],
           "trend": [
@@ -5343,16 +5337,14 @@
         "guidance": null,
         "root": "MNG",
         "scan_components": {
-          "location": 0.3333333333333333,
+          "location": 0.0,
           "momentum": 0.5,
           "participation": 0.0,
-          "relative_strength": 0.6299999999999999,
+          "relative_strength": 0.565,
           "trend": 1.0
         },
         "scan_evidence": {
-          "location": [
-            "session_open"
-          ],
+          "location": [],
           "momentum": [
             "rsi_level_and_direction"
           ],
@@ -5360,7 +5352,7 @@
             "micro_rvol_5m=0.41"
           ],
           "relative_strength": [
-            "directional_rs=0.70",
+            "directional_rs=0.60",
             "family_breadth=0.50"
           ],
           "trend": [
@@ -5385,7 +5377,7 @@
           "location": 0.6666666666666666,
           "momentum": 0.0,
           "participation": 0.0,
-          "relative_strength": 0.37,
+          "relative_strength": 0.435,
           "trend": 0.0
         },
         "scan_evidence": {
@@ -5398,7 +5390,7 @@
             "micro_rvol_5m=0.41"
           ],
           "relative_strength": [
-            "directional_rs=0.30",
+            "directional_rs=0.40",
             "family_breadth=0.50"
           ],
           "trend": []
@@ -5408,10 +5400,7 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s",
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
+          "completed_5m_age_over_600s"
         ],
         "contract": "MHGZ6",
         "deep_analysis_eligible": false,
@@ -5445,10 +5434,7 @@
       },
       {
         "blockers": [
-          "completed_5m_age_over_600s",
-          "quote_age_over_30s",
-          "quote_not_live",
-          "quote_source_not_databento_live"
+          "completed_5m_age_over_600s"
         ],
         "contract": "MHGZ6",
         "deep_analysis_eligible": false,
@@ -5593,19 +5579,18 @@
       "contract": "MESU6",
       "deep_analysis_eligible": true,
       "direction": "long",
-      "directional_alignment": 60.7,
+      "directional_alignment": 53.3,
       "guidance": null,
       "root": "MES",
       "scan_components": {
-        "location": 1.0,
+        "location": 0.6666666666666666,
         "momentum": 0.5,
         "participation": 0.13030303030303025,
-        "relative_strength": 0.6233333333333333,
+        "relative_strength": 0.6883333333333332,
         "trend": 0.5
       },
       "scan_evidence": {
         "location": [
-          "vwap",
           "session_open",
           "prior_close"
         ],
@@ -5616,7 +5601,7 @@
           "micro_rvol_5m=0.63"
         ],
         "relative_strength": [
-          "directional_rs=0.60",
+          "directional_rs=0.70",
           "family_breadth=0.67"
         ],
         "trend": [
@@ -5631,14 +5616,14 @@
       "contract": "MNQU6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 60.9,
+      "directional_alignment": 61.9,
       "guidance": null,
       "root": "MNQ",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.5,
         "participation": 0.6023339317773788,
-        "relative_strength": 0.325,
+        "relative_strength": 0.39,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -5654,7 +5639,7 @@
           "micro_rvol_5m=1.10"
         ],
         "relative_strength": [
-          "directional_rs=0.50",
+          "directional_rs=0.60",
           "family_breadth=0.00"
         ],
         "trend": [
@@ -5745,14 +5730,14 @@
       "contract": "SILZ6",
       "deep_analysis_eligible": true,
       "direction": "short",
-      "directional_alignment": 46.6,
+      "directional_alignment": 45.6,
       "guidance": null,
       "root": "SIL",
       "scan_components": {
         "location": 1.0,
         "momentum": 0.0,
         "participation": 0.050000000000000044,
-        "relative_strength": 0.74,
+        "relative_strength": 0.675,
         "trend": 0.5
       },
       "scan_evidence": {
@@ -5766,7 +5751,7 @@
           "micro_rvol_5m=0.55"
         ],
         "relative_strength": [
-          "directional_rs=0.60",
+          "directional_rs=0.50",
           "family_breadth=1.00"
         ],
         "trend": [
@@ -5816,7 +5801,7 @@
       "stage": "HIGH_LEVEL_SCAN"
     }
   ],
-  "snapshot_generated_at": "2026-09-16T00:45:28.787725+00:00",
+  "snapshot_generated_at": "2026-09-16T00:47:48.573787+00:00",
   "top_ranked_opportunity": {
     "TRANSMITTED": false,
     "blockers": [],
@@ -5825,7 +5810,7 @@
       "parent_rvol": 1.0,
       "relative_strength_breadth": 0.935,
       "stop_target_geometry": 0.36874999999996294,
-      "structure": 0.5610211993781361,
+      "structure": 0.5722211993781418,
       "tbbo_order_flow": 0.0,
       "trend_regime": 0.9335351089588352
     },
@@ -5835,7 +5820,7 @@
       "parent_rvol": 10.0,
       "relative_strength_breadth": 14.025,
       "stop_target_geometry": 3.687,
-      "structure": 16.831,
+      "structure": 17.167,
       "tbbo_order_flow": 0.0,
       "trend_regime": 18.671
     },
@@ -5915,7 +5900,7 @@
         "prior_close_aligned",
         "bar_close_location=0.23",
         "rsi_level_and_direction_aligned",
-        "vwap_extension_atr=1.58"
+        "vwap_extension_atr=1.44"
       ],
       "tbbo_order_flow": [
         "directional_tbbo=0.00"
@@ -5959,10 +5944,10 @@
     "guidance": null,
     "live_execution": false,
     "market": {
-      "ask": 104.96,
-      "bid": 104.95,
+      "ask": 105.01,
+      "bid": 104.99,
       "completed_5m": {
-        "age_seconds": 19.509,
+        "age_seconds": 161.467,
         "close": 104.95,
         "complete": true,
         "end": "2026-09-16T00:45:00+00:00",
@@ -5973,9 +5958,9 @@
         "open": 104.89,
         "source": "databento_live_ohlcv_1m",
         "start": "2026-09-16T00:40:00+00:00",
-        "volume": 263.0
+        "volume": 258.0
       },
-      "last": 104.99,
+      "last": 105.01,
       "maintenance_close": 105.52,
       "opening_range_high": null,
       "opening_range_low": null,
@@ -5984,8 +5969,8 @@
       "prior_high": 106.75,
       "prior_low": 101.2,
       "prior_vwap": 103.93829046250966,
-      "quote_age_seconds": 1.188,
-      "quote_timestamp_utc": "2026-09-16T00:44:56.594909+00:00",
+      "quote_age_seconds": 5.257,
+      "quote_timestamp_utc": "2026-09-16T00:47:22.639451+00:00",
       "relative_strength_rank": 10,
       "session_open": 105.47,
       "session_vwap": 105.21544915695462,
@@ -6005,7 +5990,7 @@
         "rsi_5m_14": 28.253974704582404,
         "rsi_5m_delta": -3.588007163018517,
         "rsi_divergence_5m": "none",
-        "tbbo_age_seconds": 343.654973,
+        "tbbo_age_seconds": 483.441205,
         "tbbo_aggressor_delta": 0.08582834331337326,
         "tbbo_pressure": 0.009092668070366065,
         "tbbo_source": "databento_tbbo",
@@ -6061,7 +6046,7 @@
         "direction": "short"
       }
     },
-    "score": 63.2,
+    "score": 63.6,
     "sentiment": {
       "near_term": "BEARISH",
       "near_term_flip": "reassess above 105.231 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -6075,7 +6060,7 @@
     "status": "BELOW PUBLICATION GATE",
     "tactical_horizon": "INTRADAY",
     "watch_map": {
-      "last": 104.99,
+      "last": 105.01,
       "near_term_bearish_below": 105.22,
       "near_term_bias": "BEARISH",
       "near_term_bullish_above": 105.47,
@@ -6101,7 +6086,7 @@
         "parent_rvol": 1.0,
         "relative_strength_breadth": 0.935,
         "stop_target_geometry": 0.36874999999996294,
-        "structure": 0.5610211993781361,
+        "structure": 0.5722211993781418,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.9335351089588352
       },
@@ -6111,7 +6096,7 @@
         "parent_rvol": 10.0,
         "relative_strength_breadth": 14.025,
         "stop_target_geometry": 3.687,
-        "structure": 16.831,
+        "structure": 17.167,
         "tbbo_order_flow": 0.0,
         "trend_regime": 18.671
       },
@@ -6191,7 +6176,7 @@
           "prior_close_aligned",
           "bar_close_location=0.23",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.58"
+          "vwap_extension_atr=1.44"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -6235,10 +6220,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 104.96,
-        "bid": 104.95,
+        "ask": 105.01,
+        "bid": 104.99,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 104.95,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -6249,9 +6234,9 @@
           "open": 104.89,
           "source": "databento_live_ohlcv_1m",
           "start": "2026-09-16T00:40:00+00:00",
-          "volume": 263.0
+          "volume": 258.0
         },
-        "last": 104.99,
+        "last": 105.01,
         "maintenance_close": 105.52,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -6260,8 +6245,8 @@
         "prior_high": 106.75,
         "prior_low": 101.2,
         "prior_vwap": 103.93829046250966,
-        "quote_age_seconds": 1.188,
-        "quote_timestamp_utc": "2026-09-16T00:44:56.594909+00:00",
+        "quote_age_seconds": 5.257,
+        "quote_timestamp_utc": "2026-09-16T00:47:22.639451+00:00",
         "relative_strength_rank": 10,
         "session_open": 105.47,
         "session_vwap": 105.21544915695462,
@@ -6281,7 +6266,7 @@
           "rsi_5m_14": 28.253974704582404,
           "rsi_5m_delta": -3.588007163018517,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 343.654973,
+          "tbbo_age_seconds": 483.441205,
           "tbbo_aggressor_delta": 0.08582834331337326,
           "tbbo_pressure": 0.009092668070366065,
           "tbbo_source": "databento_tbbo",
@@ -6337,7 +6322,7 @@
           "direction": "short"
         }
       },
-      "score": 63.2,
+      "score": 63.6,
       "sentiment": {
         "near_term": "BEARISH",
         "near_term_flip": "reassess above 105.231 on completed 5m close; RSI must reclaim 50 and turn up",
@@ -6351,7 +6336,7 @@
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 104.99,
+        "last": 105.01,
         "near_term_bearish_below": 105.22,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 105.47,
@@ -6376,7 +6361,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 0.87,
         "stop_target_geometry": 0.3051470588233366,
-        "structure": 0.6096614568532845,
+        "structure": 0.6070261627356278,
         "tbbo_order_flow": 0.0,
         "trend_regime": 0.75
       },
@@ -6386,7 +6371,7 @@
         "parent_rvol": 0.0,
         "relative_strength_breadth": 13.05,
         "stop_target_geometry": 3.051,
-        "structure": 18.29,
+        "structure": 18.211,
         "tbbo_order_flow": 0.0,
         "trend_regime": 15.0
       },
@@ -6468,7 +6453,7 @@
           "prior_close_aligned",
           "bar_close_location=0.48",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=1.35"
+          "vwap_extension_atr=1.38"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.00"
@@ -6510,10 +6495,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 4291.0,
-        "bid": 4287.6,
+        "ask": 4291.9,
+        "bid": 4288.1,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 4289.8,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -6526,7 +6511,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 95.0
         },
-        "last": 4289.8,
+        "last": 4289.7,
         "maintenance_close": 4299.9,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -6535,8 +6520,8 @@
         "prior_high": 4324.1,
         "prior_low": 4268.0,
         "prior_vwap": 4296.970634196551,
-        "quote_age_seconds": 5.195,
-        "quote_timestamp_utc": "2026-09-16T00:44:52.587448+00:00",
+        "quote_age_seconds": 6.587,
+        "quote_timestamp_utc": "2026-09-16T00:47:21.309610+00:00",
         "relative_strength_rank": 9,
         "session_open": 4299.9,
         "session_vwap": 4293.887962962963,
@@ -6556,7 +6541,7 @@
           "rsi_5m_14": 42.289139691373734,
           "rsi_5m_delta": -3.435306688085035,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 330.71468,
+          "tbbo_age_seconds": 470.119674,
           "tbbo_aggressor_delta": -0.0125,
           "tbbo_pressure": 0.03005464480874318,
           "tbbo_source": "databento_tbbo",
@@ -6626,7 +6611,7 @@
       "status": "BELOW PUBLICATION GATE",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 4289.8,
+        "last": 4289.7,
         "near_term_bearish_below": 4292.2,
         "near_term_bias": "BEARISH",
         "near_term_bullish_above": 4299.9,
@@ -6645,25 +6630,27 @@
     },
     {
       "TRANSMITTED": false,
-      "blockers": [],
+      "blockers": [
+        "structure_below_0.55"
+      ],
       "components": {
         "macro_catalyst": 0.1,
         "parent_rvol": 0.23949579831932777,
-        "relative_strength_breadth": 0.6233333333333333,
+        "relative_strength_breadth": 0.6883333333333332,
         "stop_target_geometry": 0.8588983050847459,
-        "structure": 0.62,
+        "structure": 0.5,
         "tbbo_order_flow": 0.02732550442756862,
-        "trend_regime": 0.6
+        "trend_regime": 0.48
       },
       "contract": "MESU6",
       "contributions": {
         "macro_catalyst": 0.5,
         "parent_rvol": 2.395,
-        "relative_strength_breadth": 9.35,
+        "relative_strength_breadth": 10.325,
         "stop_target_geometry": 8.589,
-        "structure": 18.6,
+        "structure": 15.0,
         "tbbo_order_flow": 0.273,
-        "trend_regime": 12.0
+        "trend_regime": 9.6
       },
       "deep_coverage": {
         "missing_required": [],
@@ -6678,7 +6665,7 @@
         "supplemental_missing_zero_credit": []
       },
       "direction": "long",
-      "directional_alignment": 60.7,
+      "directional_alignment": 53.3,
       "display_classification": "BELOW GATE \u2014 WATCH ONLY",
       "display_guidance": {
         "action": "BUY",
@@ -6728,7 +6715,7 @@
           "parent_rvol_5m=0.74"
         ],
         "relative_strength_breadth": [
-          "directional_rs=0.60",
+          "directional_rs=0.70",
           "family_breadth=0.67"
         ],
         "stop_target_geometry": [
@@ -6736,12 +6723,11 @@
           "volume_factor=0.55"
         ],
         "structure": [
-          "vwap_aligned",
           "session_open_aligned",
           "prior_close_aligned",
           "bar_close_location=0.00",
           "rsi_level_and_direction_aligned",
-          "vwap_extension_atr=0.05"
+          "vwap_extension_atr=0.19"
         ],
         "tbbo_order_flow": [
           "directional_tbbo=0.03"
@@ -6749,7 +6735,6 @@
         "trend_regime": [
           "ema20_slope_aligned",
           "ema50_slope_aligned",
-          "vwap_path_aligned",
           "rsi_trend_aligned",
           "60m_return_aligned=0.0004",
           "4h_return_aligned=0.0015"
@@ -6783,10 +6768,10 @@
       "guidance": null,
       "live_execution": false,
       "market": {
-        "ask": 7597.75,
-        "bid": 7597.5,
+        "ask": 7597.25,
+        "bid": 7597.0,
         "completed_5m": {
-          "age_seconds": 19.509,
+          "age_seconds": 161.467,
           "close": 7597.750000000001,
           "complete": true,
           "end": "2026-09-16T00:45:00+00:00",
@@ -6799,7 +6784,7 @@
           "start": "2026-09-16T00:40:00+00:00",
           "volume": 104.0
         },
-        "last": 7597.75,
+        "last": 7597.25,
         "maintenance_close": 7596.5,
         "opening_range_high": null,
         "opening_range_low": null,
@@ -6808,9 +6793,9 @@
         "prior_high": 7633.25,
         "prior_low": 7576.75,
         "prior_vwap": 7599.416319635381,
-        "quote_age_seconds": 0.529,
-        "quote_timestamp_utc": "2026-09-16T00:44:57.253596+00:00",
-        "relative_strength_rank": 5,
+        "quote_age_seconds": 14.223,
+        "quote_timestamp_utc": "2026-09-16T00:47:13.673303+00:00",
+        "relative_strength_rank": 4,
         "session_open": 7596.75,
         "session_vwap": 7597.646123645211,
         "technical": {
@@ -6829,7 +6814,7 @@
           "rsi_5m_14": 57.3713558322038,
           "rsi_5m_delta": 3.9155203893652555,
           "rsi_divergence_5m": "none",
-          "tbbo_age_seconds": 328.981193,
+          "tbbo_age_seconds": 471.381259,
           "tbbo_aggressor_delta": 0.1659919028340081,
           "tbbo_pressure": -0.11134089397887087,
           "tbbo_source": "databento_tbbo",
@@ -6885,7 +6870,7 @@
           "direction": "long"
         }
       },
-      "score": 51.7,
+      "score": 46.7,
       "sentiment": {
         "near_term": "NEUTRAL",
         "near_term_flip": "bullish above 7597.94 with RSI >50/rising; bearish below 7596.75 with RSI <50/falling",
@@ -6896,10 +6881,10 @@
       },
       "setup_type": "TREND CONTINUATION RETEST",
       "stage": "DEEP_ANALYSIS",
-      "status": "BELOW PUBLICATION GATE",
+      "status": "DISQUALIFIED",
       "tactical_horizon": "INTRADAY",
       "watch_map": {
-        "last": 7597.75,
+        "last": 7597.25,
         "near_term_bearish_below": 7596.75,
         "near_term_bias": "NEUTRAL",
         "near_term_bullish_above": 7598.0,
