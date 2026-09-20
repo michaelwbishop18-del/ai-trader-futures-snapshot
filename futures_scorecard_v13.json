@@ -30,10 +30,9 @@
       "quote_source_not_databento_live"
     ],
     "MBT": [
-      "completed_5m_missing",
+      "completed_5m_age_over_600s",
       "missing_ask",
       "missing_bid",
-      "missing_last",
       "quote_age_over_30s",
       "quote_not_live",
       "quote_source_not_databento_live"
@@ -249,7 +248,7 @@
         "leverage": {
           "as_of_utc": "1970-01-01T00:00:00Z",
           "broker": "Robinhood",
-          "contract_notional_dollars": null,
+          "contract_notional_dollars": 8167.0,
           "formula": "contract_notional / broker_initial_margin",
           "initial_margin_dollars": null,
           "multiplier": null,
@@ -257,10 +256,9 @@
           "status": "N/R"
         },
         "reasons": [
-          "completed_5m_missing",
+          "completed_5m_age_over_600s",
           "missing_ask",
           "missing_bid",
-          "missing_last",
           "quote_age_over_30s",
           "quote_not_live",
           "quote_source_not_databento_live"
@@ -553,10 +551,9 @@
     {
       "activation": null,
       "blockers": [
-        "completed_5m_missing",
+        "completed_5m_age_over_600s",
         "missing_ask",
         "missing_bid",
-        "missing_last",
         "quote_age_over_30s",
         "quote_not_live",
         "quote_source_not_databento_live"
@@ -1071,10 +1068,9 @@
       },
       {
         "blockers": [
-          "completed_5m_missing",
+          "completed_5m_age_over_600s",
           "missing_ask",
           "missing_bid",
-          "missing_last",
           "quote_age_over_30s",
           "quote_not_live",
           "quote_source_not_databento_live"
@@ -1086,30 +1082,36 @@
         "guidance": null,
         "root": "MBT",
         "scan_components": {
-          "exhaustion": 0.0,
+          "exhaustion": 0.3,
           "inflection_location": 0.0,
           "participation": 0.0,
-          "regime_fit": 0.0,
+          "regime_fit": 1.0,
           "rejection": 0.0
         },
         "scan_evidence": {
-          "exhaustion": [],
+          "exhaustion": [
+            "opposing_60m_impulse=-0.0004"
+          ],
           "inflection_location": [],
           "participation": [
-            "micro_rvol_unavailable"
+            "micro_rvol_5m=0.17"
           ],
-          "regime_fit": [],
-          "rejection": []
+          "regime_fit": [
+            "short_term_trend_supports_reversal",
+            "four_hour_regime_supports_reversal"
+          ],
+          "rejection": [
+            "rejection_wick=0.00"
+          ]
         },
         "setup_score": null,
         "stage": "HIGH_LEVEL_SCAN"
       },
       {
         "blockers": [
-          "completed_5m_missing",
+          "completed_5m_age_over_600s",
           "missing_ask",
           "missing_bid",
-          "missing_last",
           "quote_age_over_30s",
           "quote_not_live",
           "quote_source_not_databento_live"
@@ -1121,20 +1123,25 @@
         "guidance": null,
         "root": "MBT",
         "scan_components": {
-          "exhaustion": 0.0,
+          "exhaustion": 0.3,
           "inflection_location": 0.0,
           "participation": 0.0,
           "regime_fit": 0.0,
-          "rejection": 0.0
+          "rejection": 0.7
         },
         "scan_evidence": {
-          "exhaustion": [],
+          "exhaustion": [
+            "price_stretched_past_ema20"
+          ],
           "inflection_location": [],
           "participation": [
-            "micro_rvol_unavailable"
+            "micro_rvol_5m=0.17"
           ],
           "regime_fit": [],
-          "rejection": []
+          "rejection": [
+            "completed_5m_reversal_body",
+            "rejection_wick=0.71"
+          ]
         },
         "setup_score": null,
         "stage": "HIGH_LEVEL_SCAN"
@@ -1580,7 +1587,7 @@
   },
   "selected": [],
   "shortlist": [],
-  "snapshot_generated_at": "2026-09-19T12:44:50.048086+00:00",
+  "snapshot_generated_at": "2026-09-20T21:41:23.035342+00:00",
   "top_ranked_opportunity": null,
   "watch_context": []
 }
