@@ -2,41 +2,41 @@
   "artifacts": {
     "decision": {
       "filename": "futures_scorecard_v13.json",
-      "sha256": "381ef02e95b88ef7d5e4ce77a5c007b42a2cda74f649419f2f403682798d3223"
+      "sha256": "743dca1d187f203b4fce583277ddc75293d893ed648d83edc7a362f332bf8bda"
     },
     "disqualifications": {
       "filename": "futures_scorecard_v13_disqualifications.png",
-      "sha256": "925977496717aacd49df0e385b8ea20eee701927874275f9ee1b09a1127e37e7"
+      "sha256": "65732d3165059f9248fbcbbebc4fffc72927f409f847d33d9c0fd9596691d3b0"
     },
     "execution_companion": {
       "filename": "futures_execution_market_check.png",
-      "sha256": "dfcac9a99288bcd6a3623cf0673307ed4b188ec1ee5f82e18f3cec5957fd64db"
+      "sha256": "b47fa363e18cf8400fe876a6e5cde9563c670d023a758ace37ed484ae846ca77"
     },
     "executive": {
       "filename": "futures_scorecard_v13.png",
-      "sha256": "f88836ca0a92772ac261a98f70d08221a1b97402ed80e0c1089f1430b9037db0"
+      "sha256": "06c97aedb9a125257c5ad62edb3dc26058ebb4be996a562ea52cd347f7e680d4"
     },
     "range_card": {
       "filename": "futures_range_card.png",
-      "sha256": "139622453e72a867c600dbf6408afdb33bea8863639d5330eab113a218f4525d"
+      "sha256": "9d92bd443fb6532d76a8a25a474ea7b35638e4f6f26b315a8ab69c3a8b346330"
     },
     "snapshot": {
       "filename": "futures_snapshot.json",
-      "sha256": "965b6980e97bf25d250febaec6ace31a1dd7ad6da0f9805cb6287fb5e8c61e8a"
+      "sha256": "1d7925477bee689acd41a43f3ac0c3d1279d5dd231901318e990bfcefd4adb76"
     }
   },
-  "created_at": "2026-10-08T04:54:28.843328+00:00",
-  "decision_sha256": "9d3812e9c0788bcfe1d29a58847ee8bd5764373db824916923cbc3ea86059367",
+  "created_at": "2026-10-08T11:00:46.894842+00:00",
+  "decision_sha256": "f51c1b6aa51d71c775b600215a6205da87320aa67b99669980817721fa8f178b",
   "kind": "captured_scorecard_publication",
   "publication": {
-    "captured_at": "2026-10-08T04:54:18.695234+00:00",
+    "captured_at": "2026-10-08T11:00:37.528636+00:00",
     "current_entry_authority": false,
     "kind": "captured_snapshot",
     "notice": "Historical capture only. Refresh and recheck live entry evidence before any entry.",
     "refresh_required": true,
     "schema_version": 1,
-    "snapshot_generated_at": "2026-10-08T04:54:15.335882+00:00",
-    "valid_until": "2026-10-08T04:54:32.541017+00:00"
+    "snapshot_generated_at": "2026-10-08T11:00:34.095662+00:00",
+    "valid_until": null
   },
   "schema_version": 1
 }
